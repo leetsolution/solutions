@@ -1,33 +1,50 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public int minSwaps(int[] nums) {
         int n = nums.length;
-        int evenStart = 0, oddStart = 0;
-        int evenCount = 0, oddCount = 0;
-        for (int num : nums) {
-            if (num % 2 == 0) evenCount++;
-            else oddCount++;
-        }
-        if (Math.abs(evenCount - oddCount) > 1) return -1;
-        // Try starting with even
-        int swapsEven = 0, swapsOdd = 0;
+        List<Integer> evenIndices = new ArrayList<>();
+        List<Integer> oddIndices = new ArrayList<>();
+
         for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                if (nums[i] % 2 != 0) swapsEven++;
+            if (nums[i] % 2 == 0) {
+                evenIndices.add(i);
             } else {
-                if (nums[i] % 2 == 0) swapsEven++;
+                oddIndices.add(i);
             }
         }
-        // Try starting with odd
-        for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                if (nums[i] % 2 == 0) swapsOdd++;
-            } else {
-                if (nums[i] % 2 != 0) swapsOdd++;
+
+        int evenCount = evenIndices.size();
+        int oddCount = oddIndices.size();
+
+        if (Math.abs(evenCount - oddCount) > 1) {
+            return -1;
+        }
+
+        // Case 1: Target starts with Even (E, O, E, O...)
+        long swaps1 = Long.MAX_VALUE;
+        if (evenCount >= oddCount) { // This pattern is possible
+            swaps1 = 0;
+            // Calculate moves for odd numbers to get to odd positions
+            for (int i = 0; i < oddCount; i++) {
+                int targetIndex = 2 * i + 1;
+                swaps1 += Math.abs(oddIndices.get(i) - targetIndex);
             }
         }
-        int res = Integer.MAX_VALUE;
-        if (evenCount >= oddCount) res = Math.min(res, swapsEven / 2);
-        if (oddCount >= evenCount) res = Math.min(res, swapsOdd / 2);
-        return res == Integer.MAX_VALUE ? -1 : res;
+
+        // Case 2: Target starts with Odd (O, E, O, E...)
+        long swaps2 = Long.MAX_VALUE;
+        if (oddCount >= evenCount) { // This pattern is possible
+            swaps2 = 0;
+            // Calculate moves for even numbers to get to odd positions
+            for (int i = 0; i < evenCount; i++) {
+                int targetIndex = 2 * i + 1;
+                swaps2 += Math.abs(evenIndices.get(i) - targetIndex);
+            }
+        }
+
+        long result = Math.min(swaps1, swaps2);
+        return result == Long.MAX_VALUE ? -1 : (int) result;
     }
 }
