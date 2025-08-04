@@ -1,46 +1,32 @@
+import java.util.TreeSet;
+
 class Solution {
     public int minTime(String s, int[] order, int k) {
-    class Solution {
-        public int minTimeToActivateString(String s, int[] order, long k) {
-            int n = s.length();
-            char[] chars = s.toCharArray();
-            long maxValidSubstrings = (long) n * (n + 1) / 2;
-
-            if (k > maxValidSubstrings) return -1;
-
-            for (int t = 0; t < n; t++) {
-                chars[order[t]] = '*';
-                long validSubstrings = countValidSubstrings(chars);
-                if (validSubstrings >= k) return t;
-            }
-            return -1;
+        int n = s.length();
+        long total = (long) n * (n + 1) / 2;
+        if (k > total) return -1;
+        // TreeSet to keep track of removed positions (with sentinels)
+        TreeSet<Integer> removed = new TreeSet<>();
+        removed.add(-1);
+        removed.add(n);
+        long substringsWithoutStar = total;
+        for (int t = 0; t < n; t++) {
+            int idx = order[t];
+            // Find the left and right boundaries of the current segment
+            int left = removed.lower(idx);
+            int right = removed.higher(idx);
+            // Remove the old segment's contribution
+            long len = right - left - 1;
+            substringsWithoutStar -= len * (len + 1) / 2;
+            // Add the two new segments' contributions
+            long leftLen = idx - left - 1;
+            long rightLen = right - idx - 1;
+            substringsWithoutStar += leftLen * (leftLen + 1) / 2;
+            substringsWithoutStar += rightLen * (rightLen + 1) / 2;
+            removed.add(idx);
+            long substringsWithStar = total - substringsWithoutStar;
+            if (substringsWithStar >= k) return t;
         }
-
-        private long countValidSubstrings(char[] chars) {
-            long count = 0;
-            for (int i = 0; i < chars.length; i++) {
-                if (chars[i] == '*') {
-                    for (int j = i; j < chars.length; j++) {
-                        count++;
-                    }
-                    break;
-                }
-            }
-
-            long validCount = 0;
-            for (int i = 0; i < chars.length; i++) {
-                for (int j = i; j < chars.length; j++) {
-                    boolean hasStar = false;
-                    for (int l = i; l <= j; l++) {
-                        if (chars[l] == '*') {
-                            hasStar = true;
-                            break;
-                        }
-                    }
-                    if (hasStar) validCount++;
-                }
-            }
-            return validCount;
-        }
+        return -1;
     }
 }
