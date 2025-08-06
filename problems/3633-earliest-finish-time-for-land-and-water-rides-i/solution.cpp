@@ -1,22 +1,30 @@
 class Solution {
 public:
     int earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
-    int earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
-        int minFinishTime = INT_MAX;
-        int n = landStartTime.size();
-        int m = waterStartTime.size();
+    #include <iostream>
+    #include <vector>
+    #include <algorithm>
 
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < m; ++j) {
+    using namespace std;
+
+    int earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
+        int minFinishTime = -1;
+
+        for (int i = 0; i < landStartTime.size(); ++i) {
+            for (int j = 0; j < waterStartTime.size(); ++j) {
                 // Land then Water
-                long long landFinishTime = (long long)landStartTime[i] + landDuration[i];
-                long long waterFinishTime = max((long long)waterStartTime[j], landFinishTime) + waterDuration[j];
-                minFinishTime = min(minFinishTime, (int)waterFinishTime);
+                int landFinishTime = landStartTime[i] + landDuration[i];
+                int waterFinishTime = max(landFinishTime, waterStartTime[j]) + waterDuration[j];
+                if (minFinishTime == -1 || waterFinishTime < minFinishTime) {
+                    minFinishTime = waterFinishTime;
+                }
 
                 // Water then Land
-                long long waterFinishTime2 = (long long)waterStartTime[j] + waterDuration[j];
-                long long landFinishTime2 = max((long long)landStartTime[i], waterFinishTime2) + landDuration[i];
-                minFinishTime = min(minFinishTime, (int)landFinishTime2);
+                int waterFinishTime2 = waterStartTime[j] + waterDuration[j];
+                int landFinishTime2 = max(waterFinishTime2, landStartTime[i]) + landDuration[i];
+                if (minFinishTime == -1 || landFinishTime2 < minFinishTime) {
+                    minFinishTime = landFinishTime2;
+                }
             }
         }
         return minFinishTime;

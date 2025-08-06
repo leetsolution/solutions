@@ -209,28 +209,10 @@ def main():
         difficulty = meta['difficulty']
         topics = meta['topics']
         folder_name = f"problems/{str(number).zfill(3)}-{slugify_title(title)}"
-        os.makedirs(folder_name, exist_ok=True)
-        print(f"Processing {number}. {title} -> {folder_name}")
-        # Save README.md
-        with open(os.path.join(folder_name, "README.md"), "w", encoding="utf-8") as f:
-            f.write(f"# {number}. {title}\n\n## Problem Statement\n{content}\n\n## Difficulty\n{difficulty}\n\n## Topics\n{', '.join([t['name'] for t in topics])}\n")
-        print(f"  Wrote README.md")
-        # Save problem.json with all metadata
+        created_folder = False
+        written_code = False
         import json
         from datetime import datetime, timezone
-        problem_data = {
-            "number": number,
-            "title": title,
-            "description": content,
-            "difficulty": difficulty,
-            "topics": [t['name'] for t in topics],
-            "slug": slug,
-            "url": f"https://leetcode.com/problems/{slug}/",
-            "timestamp": datetime.now(timezone.utc).isoformat()
-        }
-        with open(os.path.join(folder_name, "problem.json"), "w", encoding="utf-8") as f:
-            json.dump(problem_data, f, indent=2)
-        print(f"  Wrote problem.json")
         for lang, filename in LANGUAGES.items():
             if lang not in available_langs:
                 print(f"  Skipping {filename}: not available for this problem.")
@@ -241,31 +223,59 @@ def main():
                 # Always ask Gemini for a solution body
                 gemini_body = generate_solution_with_gemini(title, content, lang)
                 print(f"    Gemini code for {lang}:\n{gemini_body}\n---")
-                # Insert Gemini's code into the starter code
-                completed_code = merge_starter_and_gemini(starter_code, gemini_body, lang)
-                if completed_code and completed_code.strip() != '':
-                    with open(os.path.join(folder_name, filename), "w", encoding="utf-8") as f:
-                        f.write(completed_code)
-                    print(f"  Wrote {filename}")
+                # Only proceed if Gemini returned a valid response
+                if gemini_body and gemini_body.strip() != '' and not gemini_body.strip().startswith('# Gemini did not return'):
+                    if not created_folder:
+                        os.makedirs(folder_name, exist_ok=True)
+                        print(f"Processing {number}. {title} -> {folder_name}")
+                        # Save README.md
+                        with open(os.path.join(folder_name, "README.md"), "w", encoding="utf-8") as f:
+                            f.write(f"# {number}. {title}\n\n## Problem Statement\n{content}\n\n## Difficulty\n{difficulty}\n\n## Topics\n{', '.join([t['name'] for t in topics])}\n")
+                        print(f"  Wrote README.md")
+                        # Save problem.json with all metadata
+                        problem_data = {
+                            "number": number,
+                            "title": title,
+                            "description": content,
+                            "difficulty": difficulty,
+                            "topics": [t['name'] for t in topics],
+                            "slug": slug,
+                            "url": f"https://leetcode.com/problems/{slug}/",
+                            "timestamp": datetime.now(timezone.utc).isoformat()
+                        }
+                        with open(os.path.join(folder_name, "problem.json"), "w", encoding="utf-8") as f:
+                            json.dump(problem_data, f, indent=2)
+                        print(f"  Wrote problem.json")
+                        created_folder = True
+                    # Insert Gemini's code into the starter code
+                    completed_code = merge_starter_and_gemini(starter_code, gemini_body, lang)
+                    if completed_code and completed_code.strip() != '':
+                        with open(os.path.join(folder_name, filename), "w", encoding="utf-8") as f:
+                            f.write(completed_code)
+                        print(f"  Wrote {filename}")
+                        written_code = True
+                    else:
+                        print(f"  No code generated for {filename}.")
                 else:
-                    print(f"  No code generated for {filename}.")
+                    print(f"  No valid Gemini response for {filename}.")
                 # Sleep 10-30 seconds to avoid Gemini API rate limits
                 sleep_time = random.randint(10, 30)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
                 time.sleep(sleep_time)
             except requests.exceptions.HTTPError as e:
                 print(f"  Gemini API error for {lang}: {e}")
-        # Add to topic map for sorting
-        for t in topics:
-            tslug = t['slug']
-            if tslug not in topic_map:
-                topic_map[tslug] = []
-            topic_map[tslug].append({
-                'number': number,
-                'title': title,
-                'slug': slug,
-                'difficulty': difficulty
-            })
+        # Add to topic map for sorting only if folder was created and code written
+        if created_folder and written_code:
+            for t in topics:
+                tslug = t['slug']
+                if tslug not in topic_map:
+                    topic_map[tslug] = []
+                topic_map[tslug].append({
+                    'number': number,
+                    'title': title,
+                    'slug': slug,
+                    'difficulty': difficulty
+                })
         time.sleep(1)  # Be polite to LeetCode and Gemini
 
     # Create topic folders and problems.json

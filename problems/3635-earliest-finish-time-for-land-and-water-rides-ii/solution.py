@@ -4,14 +4,12 @@ class Solution:
         for i in range(len(landStartTime)):
             for j in range(len(waterStartTime)):
                 # Land then Water
-                finish_time_lw = landStartTime[i] + landDuration[i]
-                start_time_w = max(finish_time_lw, waterStartTime[j])
-                finish_time_lw = start_time_w + waterDuration[j]
-                ans = min(ans, finish_time_lw)
+                land_finish = landStartTime[i] + landDuration[i]
+                water_finish = max(land_finish, waterStartTime[j]) + waterDuration[j]
+                ans = min(ans, water_finish)
 
                 # Water then Land
-                finish_time_wl = waterStartTime[j] + waterDuration[j]
-                start_time_l = max(finish_time_wl, landStartTime[i])
-                finish_time_wl = start_time_l + landDuration[i]
-                ans = min(ans, finish_time_wl)
+                water_finish = waterStartTime[j] + waterDuration[j]
+                land_finish = max(water_finish, landStartTime[i]) + landDuration[i]
+                ans = min(ans, land_finish)
         return ans

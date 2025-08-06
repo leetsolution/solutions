@@ -25,6 +25,11 @@ def submit_to_leetcode(driver, problem_slug, code, language="Java"):
     # Go to LeetCode problem page
     driver.get(f"https://leetcode.com/problems/{problem_slug}/")
     time.sleep(3)
+    # Check for 'Page Not Found' or 404
+    page_source = driver.page_source
+    if ("Page Not Found" in page_source) or ("404" in page_source):
+        print(f"[WARN] Problem page not found for slug: {problem_slug}. Skipping.")
+        return "__PAGE_NOT_FOUND__"
     # Helper to dismiss overlays
     from selenium.webdriver.common.action_chains import ActionChains
     def dismiss_overlays():
@@ -113,10 +118,8 @@ def submit_to_leetcode(driver, problem_slug, code, language="Java"):
     # Dismiss overlays before pasting code
     dismiss_overlays()
     # Now paste code
-    # Remove the last closing bracket if present
+    # Paste code as-is
     code_to_paste = code.rstrip()
-    if code_to_paste.endswith('}'): 
-        code_to_paste = code_to_paste[:-1].rstrip()
     try:
         textarea = driver.find_element(By.XPATH, "//textarea[@role='textbox' and contains(@class, 'inputarea')]")
         textarea.click()
@@ -182,6 +185,23 @@ if __name__ == "__main__":
     except Exception:
         print("Warning: Not logged in. Check your LEETCODE_SESSION cookie value.")
 
+    # Load accepted_solutions.json if it exists
+    import json
+    accepted_json = "accepted_solutions.json"
+    if os.path.exists(accepted_json):
+        with open(accepted_json, "r", encoding="utf-8") as jf:
+            accepted_data = json.load(jf)
+    else:
+        accepted_data = {}
+
+    # Load visited_problems.json if it exists
+    visited_json = "visited_problems.json"
+    if os.path.exists(visited_json):
+        with open(visited_json, "r", encoding="utf-8") as vf:
+            visited_data = set(json.load(vf))
+    else:
+        visited_data = set()
+
     for folder in os.listdir(problems_dir):
         folder_path = os.path.join(problems_dir, folder)
         if not os.path.isdir(folder_path):
@@ -190,6 +210,10 @@ if __name__ == "__main__":
         if not os.path.exists(solution_path):
             continue
         problem_slug = "-".join(folder.split("-")[1:])
+        # Skip if already accepted
+        if problem_slug in accepted_data:
+            print(f"[INFO] Skipping {problem_slug} (already accepted)")
+            continue
         while True:
             with open(solution_path, "r", encoding="utf-8") as f:
                 code = f.read()
@@ -197,23 +221,22 @@ if __name__ == "__main__":
             try:
                 result = submit_to_leetcode(driver, problem_slug, code, language="Java")
                 print(f"Result for {problem_slug}: {result}")
-                if result == "__SAVE_CODE__" or ("Accepted" in result):
+                if result == "__PAGE_NOT_FOUND__":
+                    print(f"[INFO] Skipping {problem_slug} due to missing page.")
+                    break
+                # Mark as visited only after a submission attempt (not before skipping)
+                visited_data.add(problem_slug)
+                with open(visited_json, "w", encoding="utf-8") as vf:
+                    json.dump(sorted(list(visited_data)), vf, indent=2)
+                if result == "__SAVE_CODE__" or (result and "Accepted" in result):
                     # Save the code from local file to accepted_solutions.json
                     try:
-                        import json
-                        accepted_json = "accepted_solutions.json"
                         # Read code from local file
                         with open(solution_path, "r", encoding="utf-8") as f:
                             correct_code = f.read()
-                        # Load or create JSON
-                        if os.path.exists(accepted_json):
-                            with open(accepted_json, "r", encoding="utf-8") as jf:
-                                data = json.load(jf)
-                        else:
-                            data = {}
-                        data[problem_slug] = correct_code
+                        accepted_data[problem_slug] = correct_code
                         with open(accepted_json, "w", encoding="utf-8") as jf:
-                            json.dump(data, jf, indent=2)
+                            json.dump(accepted_data, jf, indent=2)
                         print(f"[INFO] Saved accepted solution for {problem_slug} to {accepted_json}")
                     except Exception as e:
                         print("[WARN] Could not save accepted solution to JSON:", e)

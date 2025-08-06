@@ -6,29 +6,20 @@ public:
 
     using namespace std;
 
-    long long earliestFinishTime(vector<long long>& landStartTime, vector<long long>& landDuration, vector<long long>& waterStartTime, vector<long long>& waterDuration) {
+    long long earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
         long long minFinishTime = -1;
 
         for (int i = 0; i < landStartTime.size(); ++i) {
             for (int j = 0; j < waterStartTime.size(); ++j) {
                 long long finishTime1 = landStartTime[i] + landDuration[i];
-                long long startTime2 = max(finishTime1, waterStartTime[j]);
-                long long finishTime2 = startTime2 + waterDuration[j];
+                finishTime1 = max(finishTime1, (long long)waterStartTime[j]) + waterDuration[j];
 
-                if (minFinishTime == -1 || finishTime2 < minFinishTime) {
-                    minFinishTime = finishTime2;
-                }
-            }
-        }
+                long long finishTime2 = waterStartTime[j] + waterDuration[j];
+                finishTime2 = max(finishTime2, (long long)landStartTime[i]) + landDuration[i];
 
-        for (int i = 0; i < waterStartTime.size(); ++i) {
-            for (int j = 0; j < landStartTime.size(); ++j) {
-                long long finishTime1 = waterStartTime[i] + waterDuration[i];
-                long long startTime2 = max(finishTime1, landStartTime[j]);
-                long long finishTime2 = startTime2 + landDuration[j];
-
-                if (minFinishTime == -1 || finishTime2 < minFinishTime) {
-                    minFinishTime = finishTime2;
+                long long curFinishTime = min(finishTime1, finishTime2);
+                if (minFinishTime == -1 || curFinishTime < minFinishTime) {
+                    minFinishTime = curFinishTime;
                 }
             }
         }
