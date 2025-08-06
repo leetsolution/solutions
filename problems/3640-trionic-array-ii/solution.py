@@ -1,5 +1,5 @@
 class Solution:
-    def maximum_trionic_subarray(nums):
+    def solve(nums):
         n = len(nums)
         max_sum = float('-inf')
 
@@ -7,9 +7,9 @@ class Solution:
             for r in range(l + 3, n):
                 for p in range(l + 1, r - 1):
                     for q in range(p + 1, r):
-                        increasing1 = all(nums[l + i] < nums[l + i + 1] for i in range(p - l))
-                        decreasing = all(nums[p + i] > nums[p + i + 1] for i in range(q - p))
-                        increasing2 = all(nums[q + i] < nums[q + i + 1] for i in range(r - q))
+                        increasing1 = all(nums[i] < nums[i + 1] for i in range(l, p))
+                        decreasing = all(nums[i] > nums[i + 1] for i in range(p, q))
+                        increasing2 = all(nums[i] < nums[i + 1] for i in range(q, r))
 
                         if increasing1 and decreasing and increasing2:
                             current_sum = sum(nums[l:r])

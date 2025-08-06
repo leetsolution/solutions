@@ -8,19 +8,29 @@ public:
     using namespace std;
 
     int minimumRemovals(vector<int>& nums, int k) {
-        sort(nums.begin(), nums.end());
         int n = nums.size();
-        int minRemovals = n - 1; 
+        if (n == 0) return 0;
+        if (n == 1) return 0;
+
+        sort(nums.begin(), nums.end());
+        int min_removed = n - 1;
 
         for (int i = 0; i < n; ++i) {
             for (int j = i; j < n; ++j) {
-                if (nums[j] <= nums[i] * k) {
-                    minRemovals = min(minRemovals, n - (j - i + 1));
-                } else {
-                    break;
+                vector<int> subarray;
+                for (int l = i; l <= j; ++l) {
+                    subarray.push_back(nums[l]);
+                }
+                if (subarray.empty()) continue;
+
+                int min_val = subarray[0];
+                int max_val = subarray[subarray.size() - 1];
+
+                if (max_val <= (long long)min_val * k) {
+                    min_removed = min(min_removed, n - (j - i + 1));
                 }
             }
         }
-        return minRemovals;
+        return min_removed;
     }
 };

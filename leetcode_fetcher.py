@@ -238,7 +238,7 @@ def main():
                             "title": title,
                             "description": content,
                             "difficulty": difficulty,
-                            "topics": [t['name'] for t in topics],
+                            "topics": [t["name"] for t in topics],
                             "slug": slug,
                             "url": f"https://leetcode.com/problems/{slug}/",
                             "timestamp": datetime.now(timezone.utc).isoformat()
