@@ -1439,5 +1439,74 @@
     "python3",
     "java",
     "cpp"
+  ],
+  "minimum-number-of-operations-to-convert-time": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-prefixes-of-a-given-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-digit-from-number-to-maximize-result": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "intersection-of-multiple-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-number-after-digit-swaps-by-parity": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-bit-flips-to-convert-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-all-k-distant-indices-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-hills-and-valleys-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "most-frequent-number-following-key-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "divide-array-into-equal-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "cells-in-a-range-on-an-excel-sheet": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-integers-with-even-digit-sum": [
+    "python3"
   ]
 }
