@@ -13,5 +13,10 @@
     "java",
     "cpp",
     "c"
+  ],
+  "coupon-code-validator": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
