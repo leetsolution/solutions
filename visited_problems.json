@@ -451,5 +451,218 @@
     "java",
     "cpp",
     "c"
+  ],
+  "find-the-xor-of-numbers-which-appear-twice": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-number-of-chairs-in-a-waiting-room": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-pairs-that-form-a-complete-day-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-grid-satisfies-conditions": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "permutation-difference-between-two-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-the-number-of-special-characters-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-a-square-with-the-same-color": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-integer-added-to-array-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shortest-subarray-with-or-at-least-k-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "score-of-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-strictly-increasing-or-strictly-decreasing-subarray": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "harshad-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-sum-of-encrypted-integers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "latest-time-you-can-obtain-after-replacing-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "existence-of-a-substring-in-a-string-and-its-reverse": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-length-substring-with-two-occurrences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distribute-elements-into-two-arrays-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "apple-redistribution-into-boxes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-operations-to-exceed-threshold-value-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "modify-the-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "split-the-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "type-of-triangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-operations-with-the-same-score-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-changing-keys": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "ant-on-the-boundary": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-prefix-and-suffix-pairs-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-number-of-pushes-to-type-word-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "divide-an-array-into-subarrays-with-minimum-cost-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-the-number-of-incremovable-subarrays-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-area-of-longest-diagonal-rectangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-bitwise-or-has-trailing-zeros": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-elements-with-maximum-frequency": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-missing-integer-greater-than-sequential-prefix-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-missing-and-repeated-values": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-number-game": [
+    "python3"
   ]
 }
