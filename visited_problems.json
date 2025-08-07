@@ -208,6 +208,36 @@
   ],
   "count-subarrays-of-length-three-with-a-condition": [
     "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "substring-matching-pattern": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-number-with-all-set-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-number-of-operations-to-make-elements-in-array-distinct": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "transformed-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-positive-sum-subarray": [
+    "python3",
     "java"
   ]
 }
