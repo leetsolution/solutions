@@ -2481,6 +2481,210 @@
   "find-n-unique-integers-sum-up-to-zero": [
     "python3",
     "java",
+    "cpp",
+    "c"
+  ],
+  "find-numbers-with-even-number-of-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-binary-number-in-a-linked-list-to-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "subtract-the-product-and-sum-of-digits-of-an-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-winner-on-a-tic-tac-toe-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-time-visiting-all-points": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-difference-of-two-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shift-2d-grid": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "calculate-amount-paid-in-taxes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "cells-with-odd-values-in-a-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "greatest-english-letter-in-upper-and-lower-case": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-resultant-array-after-removing-anagrams": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-it-is-a-straight-line": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "split-a-string-in-balanced-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-cost-to-move-chips-to-the-same-position": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "unique-number-of-occurrences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-absolute-difference": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "delete-characters-to-make-fancy-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-balloons": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "three-consecutive-odds": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "day-of-the-week": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distance-between-bus-stops": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reformat-date": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "prime-arrangements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-days-between-two-dates": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-words-you-can-type": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "day-of-the-year": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "rank-transform-of-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "decompress-run-length-encoded-list": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "n-th-tribonacci-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "replace-elements-with-greatest-element-on-right-side": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-equivalent-domino-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "element-appearing-more-than-25-in-sorted-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "relative-sort-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "mean-of-array-after-removing-some-elements": [
+    "python3",
+    "java",
     "cpp"
   ]
 }
