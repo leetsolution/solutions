@@ -169,5 +169,45 @@
     "java",
     "cpp",
     "c"
+  ],
+  "find-special-substring-of-length-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "zigzag-grid-traversal-with-skip": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-largest-almost-missing-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-partitions-with-even-sum-difference": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-subarray-with-equal-products": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-operations-to-make-columns-strictly-increasing": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-subarrays-of-length-three-with-a-condition": [
+    "python3",
+    "java"
   ]
 }
