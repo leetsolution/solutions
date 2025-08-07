@@ -22,6 +22,24 @@
   ],
   "check-divisibility-by-digit-sum-and-product": [
     "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-any-element-has-prime-frequency": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "hexadecimal-and-hexatrigesimal-conversion": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "generate-tag-for-video-caption": [
+    "python3",
     "java"
   ]
 }
