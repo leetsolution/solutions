@@ -2925,6 +2925,108 @@
   "x-of-a-kind-in-a-deck-of-cards": [
     "python3",
     "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-range-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-array-by-parity": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "increasing-order-search-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "monotonic-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "surface-area-of-3d-shapes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "fair-candy-swap": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "uncommon-words-from-two-sentences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "projection-area-of-3d-shapes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "middle-of-the-linked-list": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "leaf-similar-trees": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-gap": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "transpose-matrix": [
+    "python3"
+  ],
+  "lemonade-change": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "buddy-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "backspace-string-compare": [
+    "python3",
+    "java",
     "cpp"
+  ],
+  "rectangle-overlap": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "flipping-an-image": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "positions-of-large-groups": [
+    "python3"
   ]
 }
