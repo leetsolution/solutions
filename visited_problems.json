@@ -703,5 +703,40 @@
     "java",
     "cpp",
     "c"
+  ],
+  "find-words-containing-character": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-strong-pair-xor-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-champion-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-k-or-of-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-sum-of-mountain-triplets-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "divisible-and-non-divisible-sums-difference": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
