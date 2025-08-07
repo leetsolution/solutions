@@ -354,5 +354,9 @@
     "python3",
     "java",
     "cpp"
+  ],
+  "snake-in-matrix": [
+    "java",
+    "cpp"
   ]
 }
