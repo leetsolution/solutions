@@ -2295,5 +2295,192 @@
   ],
   "final-prices-with-a-special-discount-in-a-shop": [
     "python3"
+  ],
+  "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-students-doing-homework-at-a-given-time": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-two-arrays-equal-by-reversing-subarrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-all-1s-are-at-least-length-k-places-away": [
+    "python3"
+  ],
+  "destination-city": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "consecutive-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-score-after-splitting-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reformat-the-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "kids-with-the-greatest-number-of-candies": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "string-matching-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-subsequence-in-non-increasing-order": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-value-to-get-positive-step-by-step-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-lucky-integer-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "create-target-array-in-the-given-order": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-largest-group": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": [
+    "python3",
+    "java",
+    "cpp"
+  ],
+  "lucky-numbers-in-a-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "generate-a-string-with-characters-that-have-odd-counts": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-distance-value-between-two-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "how-many-numbers-are-smaller-than-the-current-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-negative-numbers-in-a-sorted-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "increasing-decreasing-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-n-and-its-double-exist": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "the-k-weakest-rows-in-a-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-integers-by-the-number-of-1-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-palindromic-subsequences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-69-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-steps-to-reduce-a-number-to-zero": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-integer-to-the-sum-of-two-no-zero-integers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "decrypt-string-from-alphabet-to-integer-mapping": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-k-beauty-of-a-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-n-unique-integers-sum-up-to-zero": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
