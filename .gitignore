@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# Data
+*.sqlite3
+*.db
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LeetCode solutions
+visited_problems.json
+
+# Ignore folders
+problems/*/solution.*
+topics/*/problems.json
