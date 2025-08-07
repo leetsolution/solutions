@@ -255,6 +255,21 @@
     "c"
   ],
   "smallest-divisible-digit-product-i": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "stone-removal-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-operations-to-make-array-values-equal-to-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
