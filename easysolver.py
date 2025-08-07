@@ -127,7 +127,7 @@ def generate_solution_with_gemini(starter_code, problem_title, problem_content, 
     """
     # Select model based on difficulty
     if difficulty and difficulty.lower() == "easy":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent"
+        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
     elif difficulty and difficulty.lower() == "medium":
         model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
     else:

@@ -271,5 +271,29 @@
     "java",
     "cpp",
     "c"
+  ],
+  "find-the-original-typed-string-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-array-elements-equal-to-zero": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "adjacent-increasing-subarrays-detection-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-element-after-replacement-with-digit-sum": [
+    "cpp"
+  ],
+  "find-indices-of-stable-mountains": [
+    "python3"
   ]
 }
