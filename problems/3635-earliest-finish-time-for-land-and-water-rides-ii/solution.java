@@ -1,5 +1,3 @@
-class Solution {
-    public int earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
     class Solution {
         public long earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
             long minFinishTime = Long.MAX_VALUE;
@@ -23,4 +21,3 @@ class Solution {
             return minFinishTime;
         }
     }
-}
