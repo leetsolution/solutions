@@ -748,6 +748,41 @@
   ],
   "last-visited-integers": [
     "python3",
-    "java"
+    "java",
+    "cpp",
+    "c"
+  ],
+  "subarrays-distinct-element-sum-of-squares-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-value-of-an-ordered-triplet-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-unequal-adjacent-groups-subsequence-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-values-at-indices-with-k-set-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-odd-binary-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-right-shifts-to-sort-the-array": [
+    "python3"
   ]
 }
