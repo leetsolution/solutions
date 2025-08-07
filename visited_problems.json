@@ -2278,5 +2278,22 @@
   ],
   "running-sum-of-1d-array": [
     "python3"
+  ],
+  "average-salary-excluding-the-minimum-and-maximum-salary": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shuffle-the-array": [
+    "python3",
+    "java",
+    "c"
+  ],
+  "maximum-product-of-two-elements-in-an-array": [
+    "java"
+  ],
+  "final-prices-with-a-special-discount-in-a-shop": [
+    "python3"
   ]
 }
