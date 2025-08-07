@@ -2234,6 +2234,49 @@
   ],
   "shuffle-string": [
     "python3",
-    "java"
+    "java",
+    "cpp",
+    "c"
+  ],
+  "kth-missing-positive-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "water-bottles": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-good-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-odd-numbers-in-an-interval-range": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "can-make-arithmetic-progression-from-sequence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "path-crossing": [
+    "python3",
+    "java",
+    "cpp"
+  ],
+  "xor-operation-in-an-array": [
+    "python3"
+  ],
+  "running-sum-of-1d-array": [
+    "python3"
   ]
 }
