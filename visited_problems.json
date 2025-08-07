@@ -1838,5 +1838,392 @@
     "java",
     "cpp",
     "c"
+  ],
+  "check-if-word-equals-summation-of-two-words": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-all-the-integers-in-a-range-are-covered": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longer-contiguous-segments-of-ones-than-zeros": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-all-subset-xor-totals": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "substrings-of-size-three-with-distinct-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-population-year": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-distance-to-the-target-element": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sorting-the-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-digits-in-base-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-the-sentence-is-pangram": [
+    "python3"
+  ],
+  "replace-all-digits-with-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sign-of-the-product-of-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "truncate-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-operations-to-make-the-array-increasing": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-different-integers-in-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-ascending-subarray-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "determine-color-of-a-chessboard-square": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-center-of-star-graph": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-one-string-swap-can-make-strings-equal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-binary-string-has-at-most-one-segment-of-ones": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "second-largest-digit-in-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-items-matching-a-rule": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-strings-alternately": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-nearest-point-that-has-the-same-x-or-y-coordinate": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-changes-to-make-alternating-binary-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-array-is-sorted-and-rotated": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-nice-substring": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "latest-time-by-replacing-hidden-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-unique-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-balls-in-a-box": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-rectangles-that-can-form-the-largest-square": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "decode-xored-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-highest-altitude": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-units-on-a-truck": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "determine-if-string-halves-are-alike": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "calculate-money-in-leetcode-bank": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reformat-phone-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-of-matches-in-tournament": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-students-unable-to-eat-lunch": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "goal-parser-interpretation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "richest-customer-wealth": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-the-number-of-consistent-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-two-string-arrays-are-equivalent": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "design-an-ordered-stream": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "get-maximum-in-generated-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-repeating-substring": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-array-formation-through-concatenation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "defuse-the-bomb": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "slowest-key": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-substring-between-two-equal-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "widest-vertical-area-between-two-points-containing-no-points": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-array-by-increasing-frequency": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-nesting-depth-of-the-parentheses": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "special-array-with-x-elements-greater-than-or-equal-x": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "crawler-log-folder": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "rearrange-spaces-between-words": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "design-parking-system": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "special-positions-in-a-binary-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "replace-all-s-to-avoid-consecutive-repeating-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-all-odd-length-subarrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "detect-pattern-of-length-m-repeated-k-or-more-times": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "most-visited-sector-in-a-circular-track": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "matrix-diagonal-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-the-string-great": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "thousand-separator": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
