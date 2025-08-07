@@ -2719,6 +2719,212 @@
     "c"
   ],
   "greatest-common-divisor-of-strings": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "height-checker": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-all-adjacent-duplicates-in-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "last-stone-weight": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-boomerang": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-words-that-can-be-formed-by-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "matrix-cells-in-distance-order": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "divisor-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-root-to-leaf-binary-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-outermost-parentheses": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-prefix-divisible-by-5": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "partition-array-into-three-parts-with-equal-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "complement-of-base-10-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximize-sum-of-array-after-k-negations": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-common-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "available-captures-for-rook": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-town-judge": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "cousins-in-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "add-to-array-form-of-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "squares-of-a-sorted-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-perimeter-triangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "fibonacci-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "univalued-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "n-repeated-element-in-size-2n-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "verifying-an-alien-dictionary": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "delete-columns-to-make-sorted": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "di-string-match": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-mountain-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "range-sum-of-bst": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-recent-calls": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "unique-email-addresses": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "long-pressed-name": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-array-by-parity-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-only-letters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "x-of-a-kind-in-a-deck-of-cards": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
