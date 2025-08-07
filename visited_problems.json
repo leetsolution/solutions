@@ -737,6 +737,17 @@
   "divisible-and-non-divisible-sums-difference": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
+  ],
+  "find-indices-with-index-and-value-difference-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "last-visited-integers": [
+    "python3",
+    "java"
   ]
 }
