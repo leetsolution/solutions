@@ -663,6 +663,45 @@
     "c"
   ],
   "minimum-number-game": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-peaks": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-tested-devices-after-test-operations": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "matrix-similarity-after-cyclic-shifts": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-three-strings-equal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-common-elements-between-two-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distribute-candies-among-children-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }

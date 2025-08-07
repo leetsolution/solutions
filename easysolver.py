@@ -135,16 +135,19 @@ def generate_solution_with_gemini(starter_code, problem_title, problem_content, 
     """
     Generate solution using Gemini model selected by difficulty, with API key/model rotation on rate limit errors.
     """
-    # For easy problems, use gemini-2.0-flash first, then gemini-1.5-flash as fallback
+    # For easy problems, use only gemini-2.0-flash and gemini-1.5-flash
     if difficulty and difficulty.lower() == "easy":
-        model_idx = 2  # gemini-2.0-flash
+        model_urls = [
+            "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent",
+            "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+        ]
     elif difficulty and difficulty.lower() == "medium":
-        model_idx = 1  # gemini-1.5-pro
+        model_urls = ["https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"]
     else:
-        model_idx = 3  # gemini-2.5-pro
+        model_urls = ["https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"]
 
     api_key_idx = 0
-    max_retries = 3 * len(GEMINI_API_KEYS) * len(GEMINI_MODELS)
+    max_retries = 3 * len(GEMINI_API_KEYS) * len(model_urls)
 
     prompt = f"""Solve the following LeetCode problem in {language}:
 
@@ -169,8 +172,9 @@ Starter Code:
         "contents": [{"parts": [{"text": prompt}]}]
     }
 
+    model_idx = 0
     for attempt in range(1, max_retries + 1):
-        url = GEMINI_MODELS[model_idx]
+        url = model_urls[model_idx]
         params = {"key": GEMINI_API_KEYS[api_key_idx]}
         try:
             response = requests.post(url, params=params, json=payload, timeout=1000)
@@ -184,10 +188,10 @@ Starter Code:
             print(f"[Attempt {attempt}] Gemini API returned empty or invalid response.")
         except Exception as e:
             print(f"[Attempt {attempt}] Gemini API error: {e}")
-            # If rate limit error, rotate API key/model
+            # If rate limit error, rotate both API key and model
             if hasattr(e, 'response') and e.response is not None and e.response.status_code == 429:
                 api_key_idx = (api_key_idx + 1) % len(GEMINI_API_KEYS)
-                model_idx = (model_idx + 1) % len(GEMINI_MODELS)
+                model_idx = (model_idx + 1) % len(model_urls)
                 print(f"Switching to API key {api_key_idx} and model {model_idx} due to rate limit.")
             if attempt < max_retries:
                 wait_time = 5 * attempt
@@ -283,7 +287,14 @@ def main():
     slugs = get_problem_slugs()
     topic_map = {}
     import random
-    for slug in slugs:
+    # Find the first unvisited problem index
+    start_idx = 0
+    for i, slug in enumerate(slugs):
+        if slug not in visited:
+            start_idx = i
+            break
+    # Start processing from the first unvisited problem
+    for slug in slugs[start_idx:]:
         available_langs = get_available_languages(slug)
         # Skip if only SQL or unsupported languages are available
         if not any(lang in available_langs for lang in LANGUAGES.keys()):
