@@ -297,7 +297,10 @@
     "c"
   ],
   "find-indices-of-stable-mountains": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ],
   "find-x-sum-of-all-k-long-subarrays-i": [
     "python3",
@@ -312,6 +315,12 @@
     "c"
   ],
   "find-the-k-th-character-in-string-game-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "the-two-sneaky-numbers-of-digitville": [
     "python3",
     "java",
     "cpp",
