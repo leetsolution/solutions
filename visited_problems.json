@@ -2225,5 +2225,15 @@
     "java",
     "cpp",
     "c"
+  ],
+  "count-good-triplets": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shuffle-string": [
+    "python3",
+    "java"
   ]
 }
