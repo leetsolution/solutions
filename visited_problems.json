@@ -87,6 +87,38 @@
     "c"
   ],
   "find-closest-person": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-containers-on-a-ship": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-degree-of-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "unique-3-digit-even-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "fruits-into-baskets-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-unique-subarray-sum-after-deletion": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
