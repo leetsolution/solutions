@@ -1,5 +1,9 @@
-[
-  "count-primegap-balanced-subarrays",
-  "minimum-adjacent-swaps-to-alternate-parity",
-  "search-in-rotated-sorted-array"
-]
+{
+  "earliest-finish-time-for-land-and-water-rides-ii": [
+    "python3"
+  ],
+  "earliest-finish-time-for-land-and-water-rides-i": [
+    "python3",
+    "java"
+  ]
+}
