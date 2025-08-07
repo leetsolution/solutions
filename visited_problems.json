@@ -40,6 +40,53 @@
   ],
   "generate-tag-for-video-caption": [
     "python3",
-    "java"
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-minimum-log-transportation-cost": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-most-frequent-vowel-and-consonant": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-deletions-for-at-most-k-distinct-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-index-with-digit-sum-equal-to-index": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-product-of-two-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-operations-to-make-array-sum-divisible-by-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-cost-to-reach-every-position": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-closest-person": [
+    "python3"
   ]
 }

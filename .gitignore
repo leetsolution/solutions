@@ -25,9 +25,4 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# LeetCode solutions
-visited_problems.json
 
-# Ignore folders
-problems/*/solution.*
-topics/*/problems.json
