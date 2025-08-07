@@ -1,57 +1,66 @@
-from collections import deque
-from typing import List
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
 
-class Solution:
-    def generatePrimes(self, max_val: int) -> List[bool]:
-        N = 5 * max_val + 1
-        is_prime = [True] * N
-        is_prime[0] = is_prime[1] = False
+#define MAX_NUM 10000
+#define MAX_LEN 100005
 
-        for i in range(2, int(N ** 0.5) + 1):
-            if is_prime[i]:
-                for j in range(i * i, N, i):
-                    is_prime[j] = False
+bool* generatePrimes(int max_val) {
+    int N = 5 * max_val + 1;
+    bool* isPrime = (bool*)malloc(sizeof(bool) * N);
+    memset(isPrime, true, sizeof(bool) * N);
+    isPrime[0] = isPrime[1] = false;
 
-        return is_prime
+    for (int i = 2; i * i < N; i++) {
+        if (isPrime[i]) {
+            for (int j = i * i; j < N; j += i) {
+                isPrime[j] = false;
+            }
+        }
+    }
+    return isPrime;
+}
 
-    def insertPrimeDQ(self, min_dq: deque, max_dq: deque, nums: List[int], idx: int):
-        while min_dq and nums[min_dq[-1]] > nums[idx]:
-            min_dq.pop()
-        min_dq.append(idx)
+void insertPrimeDQ(int* minDQ, int* maxDQ, int* minFront, int* minBack, int* maxFront, int* maxBack, int* nums, int idx) {
+    while (*minBack > *minFront && nums[minDQ[(*minBack) - 1]] > nums[idx]) (*minBack)--;
+    minDQ[(*minBack)++] = idx;
 
-        while max_dq and nums[max_dq[-1]] < nums[idx]:
-            max_dq.pop()
-        max_dq.append(idx)
+    while (*maxBack > *maxFront && nums[maxDQ[(*maxBack) - 1]] < nums[idx]) (*maxBack)--;
+    maxDQ[(*maxBack)++] = idx;
+}
 
-    def primeSubarray(self, nums: List[int], k: int) -> int:
-        max_num = max(nums)
-        is_prime = self.generatePrimes(max_num)
+int primeSubarray(int* nums, int numsSize, int k) {
+    bool* isPrime = generatePrimes(MAX_NUM);
 
-        min_dq = deque()
-        max_dq = deque()
-        prime_dq = deque()
+    int minDQ[MAX_LEN], maxDQ[MAX_LEN], primeDQ[MAX_LEN];
+    int minFront = 0, minBack = 0, maxFront = 0, maxBack = 0, primeFront = 0, primeBack = 0;
 
-        left = 0
-        prev_prime = 0
-        result = 0
+    int left = 0, prevPrime = 0, result = 0;
 
-        for i, num in enumerate(nums):
-            if is_prime[num]:
-                self.insertPrimeDQ(min_dq, max_dq, nums, i)
-                if prime_dq:
-                    prev_prime = prime_dq[-1]
-                prime_dq.append(i)
+    for (int i = 0; i < numsSize; i++) {
+        int ele = nums[i];
+        if (isPrime[ele]) {
+            insertPrimeDQ(minDQ, maxDQ, &minFront, &minBack, &maxFront, &maxBack, nums, i);
 
-                while nums[max_dq[0]] - nums[min_dq[0]] > k:
-                    remove_idx = prime_dq.popleft()
-                    left = remove_idx + 1
+            if (primeBack > primeFront) {
+                prevPrime = primeDQ[primeBack - 1];
+            }
+            primeDQ[primeBack++] = i;
 
-                    if min_dq and min_dq[0] <= remove_idx:
-                        min_dq.popleft()
-                    if max_dq and max_dq[0] <= remove_idx:
-                        max_dq.popleft()
+            while (nums[maxDQ[maxFront]] - nums[minDQ[minFront]] > k) {
+                int tempIdx = primeDQ[primeFront++];
+                left = tempIdx + 1;
 
-            if len(prime_dq) >= 2:
-                result += prev_prime - left + 1
+                if (minFront < minBack && minDQ[minFront] <= tempIdx) minFront++;
+                if (maxFront < maxBack && maxDQ[maxFront] <= tempIdx) maxFront++;
+            }
+        }
 
-        return result
+        if (primeBack - primeFront >= 2) {
+            result += prevPrime - left + 1;
+        }
+    }
+
+    free(isPrime);
+    return result;
+}
