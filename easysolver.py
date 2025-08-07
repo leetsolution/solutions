@@ -103,8 +103,17 @@ def get_problem_metadata(slug):
 # Gemini API integration
 
 # Load environment variables from .env
+
+# Load environment variables from .env
 load_dotenv()
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+# Support multiple Gemini API keys and models
+GEMINI_API_KEYS = os.environ.get("GEMINI_API_KEYS", "").split(",") if os.environ.get("GEMINI_API_KEYS") else [os.environ.get("GEMINI_API_KEY")]
+GEMINI_MODELS = [
+    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent",
+    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent",
+    "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent",
+    "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"
+]
 
 def get_problem_content(slug):
     query = """
@@ -121,17 +130,21 @@ def get_problem_content(slug):
     q = data['data']['question']
     return q['title'], q['content']
 
+
 def generate_solution_with_gemini(starter_code, problem_title, problem_content, language, difficulty):
     """
-    Generate solution using Gemini model selected by difficulty.
+    Generate solution using Gemini model selected by difficulty, with API key/model rotation on rate limit errors.
     """
-    # Select model based on difficulty
+    # For easy problems, use gemini-2.0-flash first, then gemini-1.5-flash as fallback
     if difficulty and difficulty.lower() == "easy":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+        model_idx = 2  # gemini-2.0-flash
     elif difficulty and difficulty.lower() == "medium":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
+        model_idx = 1  # gemini-1.5-pro
     else:
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"
+        model_idx = 3  # gemini-2.5-pro
+
+    api_key_idx = 0
+    max_retries = 3 * len(GEMINI_API_KEYS) * len(GEMINI_MODELS)
 
     prompt = f"""Solve the following LeetCode problem in {language}:
 
@@ -155,11 +168,10 @@ Starter Code:
     payload = {
         "contents": [{"parts": [{"text": prompt}]}]
     }
-    params = {"key": GEMINI_API_KEY}
-    url = model_url
 
-    max_retries = 3
     for attempt in range(1, max_retries + 1):
+        url = GEMINI_MODELS[model_idx]
+        params = {"key": GEMINI_API_KEYS[api_key_idx]}
         try:
             response = requests.post(url, params=params, json=payload, timeout=1000)
             response.raise_for_status()
@@ -172,6 +184,11 @@ Starter Code:
             print(f"[Attempt {attempt}] Gemini API returned empty or invalid response.")
         except Exception as e:
             print(f"[Attempt {attempt}] Gemini API error: {e}")
+            # If rate limit error, rotate API key/model
+            if hasattr(e, 'response') and e.response is not None and e.response.status_code == 429:
+                api_key_idx = (api_key_idx + 1) % len(GEMINI_API_KEYS)
+                model_idx = (model_idx + 1) % len(GEMINI_MODELS)
+                print(f"Switching to API key {api_key_idx} and model {model_idx} due to rate limit.")
             if attempt < max_retries:
                 wait_time = 5 * attempt
                 print(f"Retrying in {wait_time} seconds...")
@@ -345,8 +362,8 @@ def main():
                         print(f"  No code generated for {filename}.")
                 else:
                     print(f"  No valid Gemini response for {filename}. Skipping this question.")
-                # Sleep 0-10 seconds to avoid Gemini API rate limits
-                sleep_time = random.randint(0, 10)
+                # Sleep 0-5 seconds to avoid Gemini API rate limits
+                sleep_time = random.randint(0, 5)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
                 time.sleep(sleep_time)
             except requests.exceptions.HTTPError as e:

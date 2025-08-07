@@ -353,10 +353,103 @@
   "count-substrings-that-satisfy-k-constraint-i": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
   ],
   "snake-in-matrix": [
     "java",
-    "cpp"
+    "cpp",
+    "python3",
+    "c"
+  ],
+  "find-the-number-of-winning-players": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "design-neighbor-sum-service": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-if-digit-game-can-be-won": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-winning-player-in-coin-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-bit-changes-to-make-two-integers-equal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "lexicographically-smallest-string-after-a-swap": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-minimum-operations-to-make-all-elements-divisible-by-three": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-average-of-smallest-and-largest-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-height-of-a-triangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-encrypted-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "alternating-groups-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-child-who-has-the-ball-after-k-seconds": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "clear-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-number-of-good-pairs-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "special-array-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
