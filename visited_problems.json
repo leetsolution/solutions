@@ -325,5 +325,34 @@
     "java",
     "cpp",
     "c"
+  ],
+  "find-the-key-of-the-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-date-to-binary": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "final-array-state-after-k-multiplication-operations-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-two-chessboard-squares-have-the-same-color": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-substrings-that-satisfy-k-constraint-i": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
