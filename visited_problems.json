@@ -1507,6 +1507,336 @@
     "c"
   ],
   "count-integers-with-even-digit-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "counting-words-with-a-given-prefix": [
     "python3"
+  ],
+  "count-operations-to-obtain-zero": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-even-and-odd-indices-independently": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-equal-and-divisible-pairs-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "keep-multiplying-found-values-by-two": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-elements-with-strictly-smaller-and-greater-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-sum-of-four-digit-number-after-splitting-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "divide-a-string-into-groups-of-size-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-every-row-and-column-contains-all-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-cost-of-buying-candies-with-discount": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-all-as-appears-before-all-bs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "a-number-after-a-double-reversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "capitalize-the-title": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-first-palindromic-string-in-the-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "rings-and-rods": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-words-found-in-sentences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "finding-3-digit-even-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-target-indices-after-sorting-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-subsequence-of-length-k-with-the-largest-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "two-furthest-houses-with-different-colors": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "time-needed-to-buy-tickets": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-common-words-with-one-occurrence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-vowel-substrings-of-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-index-with-equal-value": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-whether-two-strings-are-almost-equivalent": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-valid-words-in-a-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-numbers-are-ascending-in-a-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "kth-distinct-string-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "two-out-of-three": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-moves-to-convert-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-number-of-moves-to-seat-everyone": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-difference-between-increasing-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "final-value-of-variable-after-performing-operations": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-1d-array-into-2d-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-prefix-of-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-special-quadruplets": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-if-path-exists-in-graph": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-number-of-pairs-with-absolute-difference-k": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-difference-between-highest-and-lowest-of-k-scores": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-greatest-common-divisor-of-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-middle-index-in-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-strings-that-appear-as-substrings-in-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-string-is-a-prefix-of-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-time-to-type-word-using-special-typewriter": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "three-divisors": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-digits-of-string-after-convert": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "concatenation-of-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-all-characters-have-equal-number-of-occurrences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "build-array-from-permutation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-product-difference-between-two-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-square-sum-triples": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-odd-number-in-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "redistribute-characters-to-make-all-strings-equal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-one-element-to-make-the-array-strictly-increasing": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "determine-whether-matrix-can-be-obtained-by-rotation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
