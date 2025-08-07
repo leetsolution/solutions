@@ -1116,5 +1116,328 @@
   ],
   "difference-between-element-sum-and-digit-sum-of-an-array": [
     "java"
+  ],
+  "categorize-box-according-to-criteria": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-count-of-positive-integer-and-negative-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-the-digits-that-divide-a-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-enemy-forts-that-can-be-captured": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shortest-distance-to-target-string-in-a-circular-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-pairs-of-similar-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-value-of-a-string-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "delete-greatest-value-in-each-row": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "circular-sentence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-cuts-to-divide-a-circle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-pivot-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-unequal-triplets-in-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-distinct-averages": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-the-temperature": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "apply-operations-to-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "odd-string-difference": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "average-value-of-even-numbers-that-are-divisible-by-three": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "determine-if-two-events-have-conflict": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-letter-to-equalize-frequency": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-valid-clock-times": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-positive-integer-that-exists-with-its-negative": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "the-employee-that-worked-on-the-longest-task": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-common-factors": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sort-the-people": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-days-spent-together": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-even-multiple": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "most-frequent-even-element": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-subarrays-with-equal-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-distances-between-same-letters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-subsequence-with-limited-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-recolors-to-get-k-consecutive-black-blocks": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-hours-of-training-to-win-a-competition": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-local-values-in-a-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-similar-items": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-arithmetic-triplets": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "make-array-zero-by-subtracting-equal-amounts": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "best-poker-hand": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "first-letter-to-appear-twice": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-number-of-pairs-in-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "evaluate-boolean-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-amount-of-time-to-fill-cups": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "decode-the-message": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-asterisks": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-matrix-is-x-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "strong-password-checker-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "min-max-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "root-equals-sum-of-children": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "add-two-integers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-number-has-equal-digit-count-and-digit-value": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "rearrange-characters-to-make-target-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "percentage-of-letter-in-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "calculate-digit-sum-of-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-closest-number-to-zero": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-3-same-digit-number-in-string": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
