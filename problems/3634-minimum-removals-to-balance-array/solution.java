@@ -1,9 +1,7 @@
-class Solution {
-    public int minRemoval(int[] nums, int k) {
-    import java.util.Arrays;
+import java.util.Arrays;
 
-    class Solution {
-        public int minimumRemovals(int[] nums, int k) {
+class Solution {
+        public int minRemoval(int[] nums, int k) {
             Arrays.sort(nums);
             int n = nums.length;
             int minRemovals = n - 1;
@@ -26,4 +24,3 @@ class Solution {
             return minRemovals;
         }
     }
-}

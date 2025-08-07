@@ -1,7 +1,6 @@
-class Solution {
-    public int maxBalancedShipments(int[] weight) {
+
     class Solution {
-        public int balancedShipments(int[] weight) {
+        public int maxBalancedShipments(int[] weight) {
             int n = weight.length;
             int count = 0;
             int i = 0;
@@ -26,4 +25,3 @@ class Solution {
             return count;
         }
     }
-}

@@ -1,7 +1,6 @@
-class Solution {
-    public long maxSumTrionic(int[] nums) {
+
     class Solution {
-        public long maximumTrionicSubarraySum(int[] nums) {
+        public long maxSumTrionic(int[] nums) {
             long maxSum = Long.MIN_VALUE;
             int n = nums.length;
 
@@ -47,4 +46,3 @@ class Solution {
             return maxSum;
         }
     }
-}

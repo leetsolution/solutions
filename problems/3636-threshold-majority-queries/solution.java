@@ -1,10 +1,9 @@
-class Solution {
-    public int[] subarrayMajority(int[] nums, int[][] queries) {
+
     import java.util.HashMap;
     import java.util.Map;
 
     class Solution {
-        public int[] majorityElementQueries(int[] nums, int[][] queries) {
+        public int[] subarrayMajority(int[] nums, int[][] queries) {
             int n = nums.length;
             int q = queries.length;
             int[] ans = new int[q];
@@ -36,4 +35,3 @@ class Solution {
             return ans;
         }
     }
-}

@@ -1,30 +1,41 @@
 int earliestFinishTime(int* landStartTime, int landStartTimeSize, int* landDuration, int landDurationSize, int* waterStartTime, int waterStartTimeSize, int* waterDuration, int waterDurationSize) {
-    #include <stdio.h>
-    #include <stdlib.h>
-    #include <limits.h>
+    int minFinishTime = 1000000000;
 
-    int min(int a, int b) {
-        return a < b ? a : b;
-    }
+    for (int i = 0; i < landStartTimeSize; i++) {
+        for (int j = 0; j < waterStartTimeSize; j++) {
+            int landStart = landStartTime[i];
+            int landEnd = landStart + landDuration[i];
+            int waterStart = waterStartTime[j];
+            int waterEnd;
 
-    int earliestFinishTime(int* landStartTime, int landStartTimeSize, int* landDuration, int waterStartTime[], int waterStartTimeSize, int* waterDuration) {
-        int minFinishTime = INT_MAX;
-
-        for (int i = 0; i < landStartTimeSize; i++) {
-            for (int j = 0; j < waterStartTimeSize; j++) {
-                // Land then Water
-                int landFinishTime = landStartTime[i] + landDuration[i];
-                int waterStartTime_ = (landFinishTime > waterStartTime[j]) ? landFinishTime : waterStartTime[j];
-                int finishTime = waterStartTime_ + waterDuration[j];
-                minFinishTime = min(minFinishTime, finishTime);
-
-                //Water then Land
-                int waterFinishTime = waterStartTime[j] + waterDuration[j];
-                int landStartTime_ = (waterFinishTime > landStartTime[i]) ? waterFinishTime : landStartTime[i];
-                finishTime = landStartTime_ + landDuration[i];
-                minFinishTime = min(minFinishTime, finishTime);
+            if (landEnd <= waterStart) {
+                waterEnd = waterStart + waterDuration[j];
+            } else {
+                waterEnd = landEnd + waterDuration[j];
+            }
+            if (waterEnd < minFinishTime) {
+                minFinishTime = waterEnd;
             }
         }
-        return minFinishTime;
     }
+
+    for (int i = 0; i < waterStartTimeSize; i++) {
+        for (int j = 0; j < landStartTimeSize; j++) {
+            int waterStart = waterStartTime[i];
+            int waterEnd = waterStart + waterDuration[i];
+            int landStart = landStartTime[j];
+            int landEnd;
+            if (waterEnd <= landStart) {
+                landEnd = landStart + landDuration[j];
+            } else {
+                landEnd = waterEnd + landDuration[j];
+            }
+
+            if (landEnd < minFinishTime) {
+                minFinishTime = landEnd;
+            }
+        }
+    }
+
+    return minFinishTime;
 }
