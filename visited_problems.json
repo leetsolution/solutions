@@ -291,9 +291,30 @@
     "c"
   ],
   "minimum-element-after-replacement-with-digit-sum": [
-    "cpp"
+    "cpp",
+    "python3",
+    "java",
+    "c"
   ],
   "find-indices-of-stable-mountains": [
     "python3"
+  ],
+  "find-x-sum-of-all-k-long-subarrays-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "construct-the-minimum-bitwise-array-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-k-th-character-in-string-game-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
