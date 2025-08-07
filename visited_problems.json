@@ -119,6 +119,55 @@
   "maximum-unique-subarray-sum-after-deletion": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
+  ],
+  "transform-array-by-parity": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-pair-removal-to-sort-array-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-digits-are-equal-in-string-after-operations-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-difference-between-even-and-odd-frequency-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-difference-between-adjacent-elements-in-a-circular-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-valid-pair-of-adjacent-digits-in-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-variable-length-subarrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-good-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }
