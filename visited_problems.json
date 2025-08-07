@@ -3027,6 +3027,44 @@
     "c"
   ],
   "positions-of-large-groups": [
-    "python3"
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "goat-latin": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shortest-distance-to-a-character": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "most-common-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-triangle-area": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-lines-to-write-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "unique-morse-code-words": [
+    "python3",
+    "java",
+    "cpp"
   ]
 }
