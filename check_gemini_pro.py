@@ -122,7 +122,18 @@ def get_problem_content(slug):
     q = data['data']['question']
     return q['title'], q['content']
 
-def generate_solution_with_gemini(starter_code, problem_title, problem_content, language):
+def generate_solution_with_gemini(starter_code, problem_title, problem_content, language, difficulty):
+    """
+    Generate solution using Gemini model selected by difficulty.
+    """
+    # Select model based on difficulty
+    if difficulty and difficulty.lower() == "easy":
+        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent"
+    elif difficulty and difficulty.lower() == "medium":
+        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
+    else:
+        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"
+
     prompt = f"""Solve the following LeetCode problem in {language}:
 
 Title: {problem_title}
@@ -146,7 +157,7 @@ Starter Code:
         "contents": [{"parts": [{"text": prompt}]}]
     }
     params = {"key": GEMINI_API_KEY}
-    url = GEMINI_API_URL
+    url = model_url
 
     max_retries = 3
     for attempt in range(1, max_retries + 1):
@@ -286,11 +297,16 @@ def main():
                 print(type(starter_code))
                 print(type(title))
                 print(type(content))
-                print(f"Title: {title}, Cleaned Content: {cleaned_content}, Language: {lang}")
-                # Always ask Gemini for a solution body
-                gemini_body = generate_solution_with_gemini(starter_code,title, cleaned_content, lang)
+                print(f"Title: {title}, Cleaned Content: {cleaned_content}, Language: {lang}, Difficulty: {difficulty}")
+                # Always ask Gemini for a solution body, passing difficulty
+                gemini_body = generate_solution_with_gemini(starter_code, title, cleaned_content, lang, difficulty)
                 print(f"    Gemini code for {lang}:\n{gemini_body}\n---")
-                # Only proceed if Gemini returned a valid response
+                # If Gemini did not return valid code, retry once more
+                if not (gemini_body and gemini_body.strip() != '' and not gemini_body.strip().startswith('# Gemini did not return')):
+                    print(f"  Gemini did not return valid code for {filename}, retrying once...")
+                    gemini_body = generate_solution_with_gemini(starter_code, title, cleaned_content, lang, difficulty)
+                    print(f"    Gemini code (retry) for {lang}:\n{gemini_body}\n---")
+                # Only proceed if Gemini returned a valid response after retry
                 if gemini_body and gemini_body.strip() != '' and not gemini_body.strip().startswith('# Gemini did not return'):
                     if not created_folder:
                         os.makedirs(folder_name, exist_ok=True)
@@ -331,7 +347,7 @@ def main():
                     else:
                         print(f"  No code generated for {filename}.")
                 else:
-                    print(f"  No valid Gemini response for {filename}.")
+                    print(f"  No valid Gemini response for {filename} after retry. Skipping this question.")
                 # Sleep 60-120 seconds to avoid Gemini API rate limits
                 sleep_time = random.randint(60, 120)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
