@@ -345,8 +345,8 @@ def main():
                         print(f"  No code generated for {filename}.")
                 else:
                     print(f"  No valid Gemini response for {filename}. Skipping this question.")
-                # Sleep 60-120 seconds to avoid Gemini API rate limits
-                sleep_time = random.randint(60, 120)
+                # Sleep 30-60 seconds to avoid Gemini API rate limits
+                sleep_time = random.randint(30, 60)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
                 time.sleep(sleep_time)
             except requests.exceptions.HTTPError as e:

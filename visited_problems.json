@@ -17,6 +17,11 @@
   "coupon-code-validator": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
+  ],
+  "check-divisibility-by-digit-sum-and-product": [
+    "python3",
+    "java"
   ]
 }
