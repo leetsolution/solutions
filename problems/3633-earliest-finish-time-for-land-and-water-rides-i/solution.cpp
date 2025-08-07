@@ -1,30 +1,19 @@
 class Solution {
 public:
     int earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
-    #include <iostream>
-    #include <vector>
-    #include <algorithm>
-
-    using namespace std;
-
-    int earliestFinishTime(vector<int>& landStartTime, vector<int>& landDuration, vector<int>& waterStartTime, vector<int>& waterDuration) {
-        int minFinishTime = -1;
-
+        int minFinishTime = INT_MAX;
         for (int i = 0; i < landStartTime.size(); ++i) {
             for (int j = 0; j < waterStartTime.size(); ++j) {
-                // Land then Water
                 int landFinishTime = landStartTime[i] + landDuration[i];
-                int waterFinishTime = max(landFinishTime, waterStartTime[j]) + waterDuration[j];
-                if (minFinishTime == -1 || waterFinishTime < minFinishTime) {
-                    minFinishTime = waterFinishTime;
-                }
+                int waterFinishTime = waterStartTime[j] + waterDuration[j];
 
-                // Water then Land
-                int waterFinishTime2 = waterStartTime[j] + waterDuration[j];
-                int landFinishTime2 = max(waterFinishTime2, landStartTime[i]) + landDuration[i];
-                if (minFinishTime == -1 || landFinishTime2 < minFinishTime) {
-                    minFinishTime = landFinishTime2;
-                }
+                int finishTimeLandWater = max(landFinishTime, waterStartTime[j]);
+                finishTimeLandWater += waterDuration[j];
+
+                int finishTimeWaterLand = max(waterFinishTime, landStartTime[i]);
+                finishTimeWaterLand += landDuration[i];
+                
+                minFinishTime = min(minFinishTime, min(finishTimeLandWater, finishTimeWaterLand));
             }
         }
         return minFinishTime;

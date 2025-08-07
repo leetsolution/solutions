@@ -105,7 +105,6 @@ def get_problem_metadata(slug):
 # Load environment variables from .env
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
 
 def get_problem_content(slug):
     query = """
@@ -274,11 +273,14 @@ def main():
             print(f"Skipping {slug}: only SQL or unsupported languages.")
             continue
         meta = get_problem_metadata(slug)
+        difficulty = meta['difficulty']
+        if not difficulty or difficulty.lower() != "easy":
+            print(f"Skipping {slug}: not an easy problem.")
+            continue
         number = meta['number']
         title = meta['title']
         content = meta['content']
         cleaned_content = clean_html_to_text(content)
-        difficulty = meta['difficulty']
         topics = meta['topics']
         folder_name = f"problems/{str(number).zfill(3)}-{slugify_title(title)}"
         created_folder = False

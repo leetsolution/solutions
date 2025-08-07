@@ -4,6 +4,7 @@
   ],
   "earliest-finish-time-for-land-and-water-rides-i": [
     "python3",
-    "java"
+    "java",
+    "cpp"
   ]
 }
