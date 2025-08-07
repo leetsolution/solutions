@@ -784,5 +784,337 @@
   ],
   "minimum-right-shifts-to-sort-the-array": [
     "python3"
+  ],
+  "minimum-operations-to-collect-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "points-that-intersect-with-cars": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "furthest-point-from-origin": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-strings-can-be-made-equal-with-operations-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-symmetric-integers": [
+    "python3",
+    "java",
+    "cpp"
+  ],
+  "check-if-a-string-is-an-acronym-of-words": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "account-balance-after-rounded-purchase": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-pairs-whose-sum-is-less-than-target": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "max-pair-sum-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-array-is-good": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "faulty-keyboard": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "split-strings-by-separator": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-employees-who-met-the-target": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-alternating-subarray": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-even-odd-subarray-with-threshold": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "total-distance-traveled": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-maximum-number-of-string-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-squares-of-special-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "neither-minimum-nor-maximum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-beautiful-pairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimize-string-length": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-if-the-number-is-fascinating": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-trailing-zeros-from-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "lexicographically-smallest-palindrome": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-maximum-achievable-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-string-length-after-removing-substrings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-losers-of-the-circular-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "semi-ordered-permutation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-distinct-difference-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-sum-with-exactly-k-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "buy-two-chocolates": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-multiples": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "calculate-delayed-arrival-time": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "row-with-maximum-ones": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-senior-citizens": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-longest-balanced-substring-of-a-binary-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "prime-in-diagonal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "k-items-with-the-maximum-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "left-and-right-sum-differences": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-two-2d-arrays-by-summing-values": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-difference-by-remapping-a-digit": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-array-concatenation-value": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-maximum-divisibility-score": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "take-gifts-from-the-richest-pile": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "determine-the-winner-of-a-bowling-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-distinct-numbers-on-board": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-width-of-columns-of-a-grid": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "form-smallest-number-from-two-digit-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distribute-money-to-maximum-children": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-even-and-odd-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-the-number-of-vowel-strings-in-range": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "split-with-minimum-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "pass-the-pillow": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "separate-the-digits-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-common-value": [
+    "python3"
+  ],
+  "alternating-digit-sum": [
+    "python3"
+  ],
+  "difference-between-element-sum-and-digit-sum-of-an-array": [
+    "java"
   ]
 }

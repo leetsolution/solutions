@@ -287,14 +287,13 @@ def main():
     slugs = get_problem_slugs()
     topic_map = {}
     import random
-    # Find the first unvisited problem index
-    start_idx = 0
+    # Find the last visited problem index
+    last_visited_idx = -1
     for i, slug in enumerate(slugs):
-        if slug not in visited:
-            start_idx = i
-            break
-    # Start processing from the first unvisited problem
-    for slug in slugs[start_idx:]:
+        if slug in visited:
+            last_visited_idx = i
+    # Start processing from the next problem after the last visited
+    for slug in slugs[last_visited_idx+1:]:
         available_langs = get_available_languages(slug)
         # Skip if only SQL or unsupported languages are available
         if not any(lang in available_langs for lang in LANGUAGES.keys()):
@@ -373,8 +372,8 @@ def main():
                         print(f"  No code generated for {filename}.")
                 else:
                     print(f"  No valid Gemini response for {filename}. Skipping this question.")
-                # Sleep 0-5 seconds to avoid Gemini API rate limits
-                sleep_time = random.randint(0, 5)
+                # Sleep 0-1 seconds to avoid Gemini API rate limits
+                sleep_time = random.randint(0, 1)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
                 time.sleep(sleep_time)
             except requests.exceptions.HTTPError as e:
