@@ -2685,6 +2685,40 @@
   "mean-of-array-after-removing-some-elements": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
+  ],
+  "defanging-an-ip-address": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "print-in-order": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distribute-candies-to-people": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "duplicate-zeros": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "occurrences-after-bigram": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "greatest-common-divisor-of-strings": [
+    "python3"
   ]
 }
