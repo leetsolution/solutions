@@ -238,6 +238,23 @@
   ],
   "minimum-positive-sum-subarray": [
     "python3",
-    "java"
+    "java",
+    "cpp",
+    "c"
+  ],
+  "check-balanced-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "button-with-longest-push-time": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "smallest-divisible-digit-product-i": [
+    "python3"
   ]
 }
