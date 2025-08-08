@@ -3065,6 +3065,10 @@
   "unique-morse-code-words": [
     "python3",
     "java",
-    "cpp"
+    "cpp",
+    "c"
+  ],
+  "design-hashmap": [
+    "python3"
   ]
 }
