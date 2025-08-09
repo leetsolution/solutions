@@ -1,46 +1,3 @@
-from bs4 import BeautifulSoup
-import re
-import os
-from dotenv import load_dotenv
-import requests
-import time
-import json
-from datetime import datetime, timezone
-
-def clean_html_to_text(html: str) -> str:
-    """
-    Converts HTML content into a single plain-text paragraph.
-    Preserves key inline formatting like <code> as backticks.
-    Removes all tags, excessive whitespace, and line breaks.
-    """
-    soup = BeautifulSoup(html, 'html.parser')
-
-    # Replace <code> tags with inline backtick text
-    for code in soup.find_all("code"):
-        code.replace_with(f"`{code.get_text(strip=True)}`")
-
-    # Unwrap <sup> tags
-    for sup in soup.find_all("sup"):
-        sup.unwrap()
-
-    # Add bullet or numbered prefix to list items
-    for ul in soup.find_all("ul"):
-        for li in ul.find_all("li"):
-            li.insert_before("- ")
-
-    for ol in soup.find_all("ol"):
-        for idx, li in enumerate(ol.find_all("li"), 1):
-            li.insert_before(f"{idx}. ")
-
-    # Get the full text
-    text = soup.get_text(separator=' ', strip=True)
-
-    # Replace multiple spaces and remove newlines
-    text = re.sub(r'\s+', ' ', text)
-
-    return text.strip()
-
-
 def get_available_languages(slug):
     query = """
     query getQuestionDetail($titleSlug: String!) {
@@ -101,20 +58,8 @@ def get_problem_metadata(slug):
             'number': '', 'title': '', 'content': '', 'difficulty': '', 'topics': []
         }
 # Gemini API integration
-
-# Load environment variables from .env
-
-# Load environment variables from .env
-load_dotenv()
-# Support multiple Gemini API keys and models
-GEMINI_API_KEYS = os.environ.get("GEMINI_API_KEYS", "").split(",") if os.environ.get("GEMINI_API_KEYS") else [os.environ.get("GEMINI_API_KEY")]
-api_key_idx = 0  # Global API key index
-GEMINI_MODELS = [
-    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent",
-    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent",
-    "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent",
-    "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"
-]
+GEMINI_API_KEY = "AIzaSyBiUOhqwzZ_SG1hmB5FAFN-AEC_if4IIrE"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
 
 def get_problem_content(slug):
     query = """
@@ -131,76 +76,27 @@ def get_problem_content(slug):
     q = data['data']['question']
     return q['title'], q['content']
 
-
-def generate_solution_with_gemini(starter_code, problem_title, problem_content, language, difficulty):
-    """
-    Generate solution using Gemini model selected by difficulty, with API key/model rotation on rate limit errors.
-    """
-    global api_key_idx
-    # For easy problems, use only gemini-1.5-flash
-    if difficulty and difficulty.lower() == "easy":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
-    elif difficulty and difficulty.lower() == "medium":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
-    else:
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent"
-
-    max_retries = 3 * len(GEMINI_API_KEYS)
-    key_rotations = 0
-
+def generate_solution_with_gemini(problem_title, problem_content, language):
     prompt = f"""Solve the following LeetCode problem in {language}:
-
-Title: {problem_title}
-
-Description:
-{problem_content}
-
-Requirements:
-- Use the correct LeetCode problem number and title.
-- Should Start with the given starter code no modification on it.
-- Ensure the solution is optimal and passes all test cases.
-- Do not include any comments or explanations in the code or before the code.
-- Respond with only the complete code in {language}, no explanation ONLY CODE.
-
-Starter Code:
-```{language}
-{starter_code.strip()}
-```"""
-
+\nTitle: {problem_title}\n\nDescription:\n{problem_content}\n\nProvide only the code."""
     payload = {
         "contents": [{"parts": [{"text": prompt}]}]
     }
+    params = {"key": GEMINI_API_KEY}
+    try:
+        response = requests.post(GEMINI_API_URL, params=params, json=payload, timeout=30)
+        response.raise_for_status()
+        result = response.json()
+        return result['candidates'][0]['content']['parts'][0]['text']
+    except Exception as e:
+        print(f"  Gemini API error for {language}: {e}")
+        return f"# Gemini did not return a valid solution for {problem_title} in {language}."
+import os
+import requests
+import time
 
-    for attempt in range(1, max_retries + 1):
-        params = {"key": GEMINI_API_KEYS[api_key_idx]}
-        print(f"Using API key {api_key_idx} for this attempt.")
-        try:
-            response = requests.post(model_url, params=params, json=payload, timeout=1000)
-            response.raise_for_status()
-            result = response.json()
 
-            if 'candidates' in result and result['candidates']:
-                text = result['candidates'][0]['content']['parts'][0]['text'].strip()
-                if text:
-                    return text
-            print(f"[Attempt {attempt}] Gemini API returned empty or invalid response.")
-        except Exception as e:
-            print(f"[Attempt {attempt}] Gemini API error: {e}")
-            # If rate limit error, rotate API key, do not reset until all keys are tried
-            if hasattr(e, 'response') and e.response is not None and e.response.status_code == 429:
-                api_key_idx += 1
-                key_rotations += 1
-                if api_key_idx >= len(GEMINI_API_KEYS):
-                    api_key_idx = 0
-                print(f"Switching to API key {api_key_idx} due to rate limit.")
-            if attempt < max_retries:
-                wait_time = 5 * attempt
-                print(f"Retrying in {wait_time} seconds...")
-                time.sleep(wait_time)
-
-    print("\n--- Gemini Prompt Debug ---\n", prompt, "\n--- End Prompt ---")
-    return f"# Gemini did not return a valid solution for '{problem_title}' in {language} after {max_retries} attempts."
-
+# LeetCode session cookie (provided by user)
 LEETCODE_SESSION = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X3ZlcmlmaWVkX2VtYWlsIjpudWxsLCJfYXV0aF91c2VyX2lkIjoiMTg2NTg1MzAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhbGxhdXRoLmFjY291bnQuYXV0aF9iYWNrZW5kcy5BdXRoZW50aWNhdGlvbkJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYzAxMTNmMjYyZjdkNTJhYjMwNmVhM2ZkYjhkOGVlNzMxYzYyYTQ1ZjYyZGU1MDk5ZWE3MmI2YjIwY2E0NGY2Iiwic2Vzc2lvbl91dWlkIjoiYTg5MDc3NjkiLCJpZCI6MTg2NTg1MzAsImVtYWlsIjoibXNhc3dhdGExNWdkc2NAZ21haWwuY29tIiwidXNlcm5hbWUiOiJLREY3SlFldFhBIiwidXNlcl9zbHVnIjoiS0RGN0pRZXRYQSIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9kZWZhdWx0X2F2YXRhci5qcGciLCJyZWZyZXNoZWRfYXQiOjE3NTQyMzY2NDIsImlwIjoiMjQwNToyMDE6OTAwZjoxOGU1Ojk1NGY6MmEyZTpiYzo4MGNhIiwiaWRlbnRpdHkiOiI3ZGRlZGE4OGQwYzU5OWNjNDk0ZGEwZGVjZTY1NTRkNSIsImRldmljZV93aXRoX2lwIjpbIjUyMjg5MDFlYjAyOGFmZWQ3ODE5MWYyNjg4NGMyMTQ1IiwiMjQwNToyMDE6OTAwZjoxOGU1Ojk1NGY6MmEyZTpiYzo4MGNhIl19.3oPWKwIr-QfrPXq6O5ZynELtJ4eWoWTt4dbA_KXqMYY"
 
 HEADERS = {
@@ -250,85 +146,82 @@ def get_starter_code(slug, lang):
 
 def merge_starter_and_gemini(starter_code, gemini_body, lang):
     """
-    Clean Gemini's output and return it directly, ignoring starter code and language merging.
+    Insert Gemini's generated function/method body into the starter code.
+    For Python, Java, C++, C: replace the method body with Gemini's code.
+    Also removes markdown code block artifacts from Gemini output.
     """
-    if not gemini_body:
-        return ''
+    if not starter_code or not gemini_body:
+        return starter_code or gemini_body or ''
     import re
-    # Extract only the code block from Gemini output
-    code_blocks = re.findall(r'```[a-zA-Z0-9]*\n([\s\S]*?)```', gemini_body)
-    if code_blocks:
-        code = code_blocks[0].strip()
-        return code
-    # Fallback: try to remove markdown artifacts and return remaining text
-    gemini_body = re.sub(r'^```.*$', '', gemini_body, flags=re.MULTILINE)
-    gemini_body = re.sub(r'^```$', '', gemini_body, flags=re.MULTILINE)
-    return gemini_body.strip()
+    # Remove markdown code block artifacts
+    gemini_body = re.sub(r'^```[a-zA-Z]*', '', gemini_body, flags=re.MULTILINE)
+    gemini_body = re.sub(r'```$', '', gemini_body, flags=re.MULTILINE)
+    gemini_body = gemini_body.strip()
+    if lang == 'python3':
+        lines = starter_code.splitlines()
+        for i, line in enumerate(lines):
+            if line.strip().endswith(':'):
+                indent = len(line) - len(line.lstrip()) + 4
+                gemini_lines = [" " * indent + l if l.strip() else '' for l in gemini_body.splitlines()]
+                return '\n'.join(lines[:i+1] + gemini_lines)
+        return starter_code + '\n' + gemini_body
+    elif lang == 'java':
+        m = re.search(r'(public .*\{)([\s\S]*)(\})', starter_code)
+        if m:
+            before = m.group(1)
+            after = m.group(3)
+            gemini_lines = ['    ' + l if l.strip() else '' for l in gemini_body.splitlines()]
+            return starter_code[:m.start(1)] + before + '\n' + '\n'.join(gemini_lines) + '\n' + after + starter_code[m.end(3):]
+        return starter_code + '\n' + gemini_body
+    elif lang == 'cpp':
+        m = re.search(r'(\)\s*\{)([\s\S]*)(\})', starter_code)
+        if m:
+            before = m.group(1)
+            after = m.group(3)
+            gemini_lines = ['    ' + l if l.strip() else '' for l in gemini_body.splitlines()]
+            return starter_code[:m.start(1)] + before + '\n' + '\n'.join(gemini_lines) + '\n' + after + starter_code[m.end(3):]
+        return starter_code + '\n' + gemini_body
+    elif lang == 'c':
+        m = re.search(r'(\)\s*\{)([\s\S]*)(\})', starter_code)
+        if m:
+            before = m.group(1)
+            after = m.group(3)
+            gemini_lines = ['    ' + l if l.strip() else '' for l in gemini_body.splitlines()]
+            return starter_code[:m.start(1)] + before + '\n' + '\n'.join(gemini_lines) + '\n' + after + starter_code[m.end(3):]
+        return starter_code + '\n' + gemini_body
+    else:
+        return starter_code + '\n' + gemini_body
 
 def main():
-    visited_json_path = "visited_problems.json"
-    # Load existing visited problems as {slug: [languages]}
-    if os.path.exists(visited_json_path):
-        with open(visited_json_path, "r", encoding="utf-8") as f:
-            try:
-                loaded = json.load(f)
-                # If loaded is a list, convert to dict
-                if isinstance(loaded, list):
-                    visited = {slug: [] for slug in loaded}
-                elif isinstance(loaded, dict):
-                    visited = loaded
-                else:
-                    visited = {}
-            except Exception:
-                visited = {}
-    else:
-        visited = {}
-
     slugs = get_problem_slugs()
     topic_map = {}
     import random
-    # Find the last visited problem index
-    last_visited_idx = -1
-    for i, slug in enumerate(slugs):
-        if slug in visited:
-            last_visited_idx = i
-    # Start processing from the next problem after the last visited
-    for slug in slugs[last_visited_idx+1:]:
+    for slug in slugs:
         available_langs = get_available_languages(slug)
         # Skip if only SQL or unsupported languages are available
         if not any(lang in available_langs for lang in LANGUAGES.keys()):
             print(f"Skipping {slug}: only SQL or unsupported languages.")
             continue
         meta = get_problem_metadata(slug)
-        difficulty = meta['difficulty']
-        if not difficulty or difficulty.lower() != "easy":
-            print(f"Skipping {slug}: not an easy problem.")
-            continue
         number = meta['number']
         title = meta['title']
         content = meta['content']
-        cleaned_content = clean_html_to_text(content)
+        difficulty = meta['difficulty']
         topics = meta['topics']
         folder_name = f"problems/{str(number).zfill(3)}-{slugify_title(title)}"
         created_folder = False
         written_code = False
+        import json
+        from datetime import datetime, timezone
         for lang, filename in LANGUAGES.items():
             if lang not in available_langs:
                 print(f"  Skipping {filename}: not available for this problem.")
                 continue
-            # Skip this language if already present for the slug
-            if slug in visited and lang in visited[slug]:
-                print(f"  Skipping {slug} for {lang}: already visited.")
-                continue
             try:
                 starter_code = get_starter_code(slug, lang)
                 print(f"    Starter code for {lang}:\n{starter_code}\n---")
-                print(type(starter_code))
-                print(type(title))
-                print(type(content))
-                print(f"Title: {title}, Cleaned Content: {cleaned_content}, Language: {lang}, Difficulty: {difficulty}")
-                # Always ask Gemini for a solution body, passing difficulty
-                gemini_body = generate_solution_with_gemini(starter_code, title, cleaned_content, lang, difficulty)
+                # Always ask Gemini for a solution body
+                gemini_body = generate_solution_with_gemini(title, content, lang)
                 print(f"    Gemini code for {lang}:\n{gemini_body}\n---")
                 # Only proceed if Gemini returned a valid response
                 if gemini_body and gemini_body.strip() != '' and not gemini_body.strip().startswith('# Gemini did not return'):
@@ -361,19 +254,12 @@ def main():
                             f.write(completed_code)
                         print(f"  Wrote {filename}")
                         written_code = True
-                        # Update visited: add slug and lang and save immediately
-                        if slug not in visited:
-                            visited[slug] = []
-                        if lang not in visited[slug]:
-                            visited[slug].append(lang)
-                        with open(visited_json_path, "w", encoding="utf-8") as vf:
-                            json.dump(visited, vf, indent=2)
                     else:
                         print(f"  No code generated for {filename}.")
                 else:
-                    print(f"  No valid Gemini response for {filename}. Skipping this question.")
-                # Sleep 0-1 seconds to avoid Gemini API rate limits
-                sleep_time = 0
+                    print(f"  No valid Gemini response for {filename}.")
+                # Sleep 10-30 seconds to avoid Gemini API rate limits
+                sleep_time = random.randint(10, 30)
                 print(f"  Sleeping {sleep_time} seconds to avoid Gemini rate limit...")
                 time.sleep(sleep_time)
             except requests.exceptions.HTTPError as e:
@@ -392,16 +278,13 @@ def main():
                 })
         time.sleep(1)  # Be polite to LeetCode and Gemini
 
-    # Save visited problems to visited_problems.json as {slug: [languages]}
-    with open(visited_json_path, "w", encoding="utf-8") as f:
-        json.dump(visited, f, indent=2)
-
     # Create topic folders and problems.json
     for tslug, problems in topic_map.items():
         topic_folder = f"topics/{tslug}"
         os.makedirs(topic_folder, exist_ok=True)
         # Sort problems by number
         problems_sorted = sorted(problems, key=lambda x: int(x['number']))
+        import json
         with open(os.path.join(topic_folder, "problems.json"), "w", encoding="utf-8") as f:
             json.dump(problems_sorted, f, indent=2)
         print(f"Created topic: {topic_folder} with {len(problems_sorted)} problems")

@@ -3070,5 +3070,315 @@
   ],
   "design-hashmap": [
     "python3"
+  ],
+  "design-hashset": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "rotate-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-distance-between-bst-nodes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-search": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "kth-largest-element-in-a-stream": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "search-in-a-binary-search-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "jewels-and-stones": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "toeplitz-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "n-ary-tree-postorder-traversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "n-ary-tree-preorder-traversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-depth-of-n-ary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "prime-number-of-set-bits-in-binary-representation": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "shortest-completing-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "largest-number-at-least-twice-of-others": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "min-cost-climbing-stairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-smallest-letter-greater-than-target": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "to-lower-case": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "flood-fill": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "self-dividing-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-pivot-index": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "1-bit-and-2-bit-characters": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "degree-of-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-binary-substrings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-number-with-alternating-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "baseball-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-palindrome-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-continuous-increasing-subsequence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "second-minimum-node-in-a-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "image-smoother": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "robot-return-to-origin": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "two-sum-iv-input-is-a-bst": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "set-mismatch": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-average-subarray-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "average-of-levels-in-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-product-of-three-numbers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-two-binary-trees": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "can-place-flowers": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-index-sum-of-two-lists": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "range-addition-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-harmonious-subsequence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "distribute-candies": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "subtree-of-another-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reshape-the-matrix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-tree-tilt": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "array-partition": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-words-in-a-string-iii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "student-attendance-record-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "diameter-of-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-string-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-absolute-difference-in-bst": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-uncommon-subsequence-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "detect-capital": [
+    "python3",
+    "java"
   ]
 }
