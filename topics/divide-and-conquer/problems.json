@@ -1,0 +1,26 @@
+[
+  {
+    "number": "108",
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "169",
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "190",
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "191",
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy"
+  }
+]

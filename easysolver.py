@@ -137,9 +137,9 @@ def generate_solution_with_gemini(starter_code, problem_title, problem_content, 
     Generate solution using Gemini model selected by difficulty, with API key/model rotation on rate limit errors.
     """
     global api_key_idx
-    # For easy problems, use only gemini-1.5-flash
+    # For easy problems, use only gemini-2.0-flash
     if difficulty and difficulty.lower() == "easy":
-        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+        model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent"
     elif difficulty and difficulty.lower() == "medium":
         model_url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
     else:

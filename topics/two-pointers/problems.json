@@ -1,0 +1,50 @@
+[
+  {
+    "number": "26",
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "27",
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "28",
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "88",
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "125",
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "141",
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "160",
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "202",
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy"
+  }
+]

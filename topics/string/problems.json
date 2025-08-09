@@ -1,0 +1,62 @@
+[
+  {
+    "number": "13",
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "14",
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "20",
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "28",
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "58",
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "67",
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "125",
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "168",
+    "title": "Excel Sheet Column Title",
+    "slug": "excel-sheet-column-title",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "171",
+    "title": "Excel Sheet Column Number",
+    "slug": "excel-sheet-column-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "205",
+    "title": "Isomorphic Strings",
+    "slug": "isomorphic-strings",
+    "difficulty": "Easy"
+  }
+]

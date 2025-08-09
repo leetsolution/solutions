@@ -1,0 +1,56 @@
+[
+  {
+    "number": "94",
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "100",
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "101",
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "104",
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "110",
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "111",
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "112",
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "144",
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "145",
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy"
+  }
+]

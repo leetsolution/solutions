@@ -1,0 +1,44 @@
+[
+  {
+    "number": "1",
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "13",
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "141",
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "160",
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "169",
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "202",
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "205",
+    "title": "Isomorphic Strings",
+    "slug": "isomorphic-strings",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "number": "1",
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "14",
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "26",
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "27",
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "35",
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "66",
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "88",
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "108",
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "118",
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "119",
+    "title": "Pascal's Triangle II",
+    "slug": "pascals-triangle-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "121",
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "136",
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "169",
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy"
+  }
+]

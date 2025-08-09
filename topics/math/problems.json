@@ -1,0 +1,56 @@
+[
+  {
+    "number": "9",
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "13",
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "66",
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "67",
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "69",
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "70",
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "168",
+    "title": "Excel Sheet Column Title",
+    "slug": "excel-sheet-column-title",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "171",
+    "title": "Excel Sheet Column Number",
+    "slug": "excel-sheet-column-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "202",
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy"
+  }
+]

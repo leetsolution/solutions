@@ -1,0 +1,26 @@
+[
+  {
+    "number": "70",
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "118",
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "119",
+    "title": "Pascal's Triangle II",
+    "slug": "pascals-triangle-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "121",
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy"
+  }
+]

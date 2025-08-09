@@ -1,0 +1,32 @@
+[
+  {
+    "number": "100",
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "101",
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "104",
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "111",
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "112",
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy"
+  }
+]

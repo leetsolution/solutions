@@ -3716,5 +3716,266 @@
   "contains-duplicate-ii": [
     "python3",
     "java"
+  ],
+  "contains-duplicate": [
+    "python3"
+  ],
+  "reverse-linked-list": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "isomorphic-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-linked-list-elements": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "happy-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-1-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-bits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "excel-sheet-column-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "majority-element": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "excel-sheet-column-title": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "intersection-of-two-linked-lists": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-tree-postorder-traversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-tree-preorder-traversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "linked-list-cycle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "single-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-palindrome": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "best-time-to-buy-and-sell-stock": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "pascals-triangle-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "pascals-triangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "path-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "minimum-depth-of-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "balanced-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-sorted-array-to-binary-search-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "maximum-depth-of-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "symmetric-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "same-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-tree-inorder-traversal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-sorted-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-duplicates-from-sorted-list": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "climbing-stairs": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sqrtx": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "add-binary": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "plus-one": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "length-of-last-word": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "search-insert-position": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-index-of-the-first-occurrence-in-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-element": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "remove-duplicates-from-sorted-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "merge-two-sorted-lists": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-parentheses": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-common-prefix": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "roman-to-integer": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "palindrome-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "two-sum": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
   ]
 }

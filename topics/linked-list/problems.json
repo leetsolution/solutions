@@ -1,0 +1,38 @@
+[
+  {
+    "number": "21",
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "83",
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "141",
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "160",
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "203",
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "206",
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy"
+  }
+]
