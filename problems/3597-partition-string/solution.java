@@ -1,21 +1,35 @@
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public List<String> partitionString(String s) {
-        List<String> result = new ArrayList<>();
-        HashSet<Character> seen = new HashSet<>();
-        StringBuilder current = new StringBuilder();
-        for (char c : s.toCharArray()) {
-            if (seen.contains(c)) {
-                result.add(current.toString());
-                current.setLength(0);
-                seen.clear();
+        List<String> segments = new ArrayList<>();
+        Set<String> seen = new HashSet<>();
+        int n = s.length();
+        int start = 0;
+        while (start < n) {
+            StringBuilder currentSegment = new StringBuilder();
+            int current = start;
+            while (current < n) {
+                currentSegment.append(s.charAt(current));
+                String segment = currentSegment.toString();
+                if (!seen.contains(segment)) {
+                    segments.add(segment);
+                    seen.add(segment);
+                    start = current + 1;
+                    break;
+                } else {
+                    current++;
+                }
             }
-            current.append(c);
-            seen.add(c);
+            if (current == n && start != current) {
+                start = current;
+            } else if (current == n && start == current) {
+                break;
+            }
         }
-        if (current.length() > 0) {
-            result.add(current.toString());
-        }
-        return result;
+        return segments;
     }
 }

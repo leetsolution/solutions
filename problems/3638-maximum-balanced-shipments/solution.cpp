@@ -1,28 +1,21 @@
 class Solution {
 public:
     int maxBalancedShipments(vector<int>& weight) {
-    class Solution {
-    public:
-        int balancedShipments(vector<int>& weight) {
-            int n = weight.size();
-            int count = 0;
-            int i = 0;
-            while (i < n) {
-                int max_weight = 0;
-                int j = i;
-                while (j < n) {
-                    max_weight = max(max_weight, weight[j]);
-                    if (weight[j] < max_weight) {
-                        count++;
-                        i = j + 1;
-                        break;
-                    }
-                    j++;
-                }
-                if (j == n) break;
+        int n = weight.size();
+        vector<int> dp(n + 1, 0);
 
+        for (int i = 1; i <= n; ++i) {
+            dp[i] = dp[i - 1];
+            for (int j = 1; j <= i; ++j) {
+                int max_weight = 0;
+                for (int k = i - j; k < i; ++k) {
+                    max_weight = max(max_weight, weight[k]);
+                }
+                if (weight[i - 1] < max_weight) {
+                    dp[i] = max(dp[i], dp[i - j] + 1);
+                }
             }
-            return count;
         }
-    };
+        return dp[n];
+    }
 };

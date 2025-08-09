@@ -1,20 +1,27 @@
 class Solution:
-    def max_lct_subsequences(s):
-        def count_subsequences(string):
-            count = 0
-            for i in range(len(string)):
-                if string[i] == 'L':
-                    for j in range(i + 1, len(string)):
-                        if string[j] == 'C':
-                            for k in range(j + 1, len(string)):
-                                if string[k] == 'T':
-                                    count += 1
-            return count
+    def numOfSubsequences(self, s: str) -> int:
+        def count_subsequences(text):
+            l_count = 0
+            lc_count = 0
+            lct_count = 0
+            for char in text:
+                if char == 'L':
+                    l_count += 1
+                elif char == 'C':
+                    lc_count += l_count
+                elif char == 'T':
+                    lct_count += lc_count
+            return lct_count
 
-        max_count = count_subsequences(s)
-        for char in "LCT":
-            for i in range(len(s) + 1):
-                new_s = list(s)
-                new_s.insert(i, char)
-                max_count = max(max_count, count_subsequences("".join(new_s)))
+        max_count = 0
+        for i in range(len(s) + 1):
+            temp_s = s[:i] + 'L' + s[i:]
+            max_count = max(max_count, count_subsequences(temp_s))
+            
+            temp_s = s[:i] + 'C' + s[i:]
+            max_count = max(max_count, count_subsequences(temp_s))
+            
+            temp_s = s[:i] + 'T' + s[i:]
+            max_count = max(max_count, count_subsequences(temp_s))
+
         return max_count

@@ -1,26 +1,30 @@
 class Solution {
 public:
     long long splitArray(vector<int>& nums) {
-    class Solution {
-    public:
-        bool isPrime(int n) {
-            if (n <= 1) return false;
-            for (int i = 2; i * i <= n; ++i) {
-                if (n % i == 0) return false;
+        long long sumA = 0;
+        long long sumB = 0;
+        int n = nums.size();
+
+        if (n == 0) return 0;
+
+        vector<bool> isPrime(n, true);
+        isPrime[0] = isPrime[1] = false;
+
+        for (int p = 2; p * p < n; p++) {
+            if (isPrime[p]) {
+                for (int i = p * p; i < n; i += p)
+                    isPrime[i] = false;
             }
-            return true;
         }
-        int sumDifference(vector<int>& nums) {
-            long long sumA = 0;
-            long long sumB = 0;
-            for (int i = 0; i < nums.size(); ++i) {
-                if (isPrime(i + 1)) {
-                    sumA += nums[i];
-                } else {
-                    sumB += nums[i];
-                }
+
+        for (int i = 0; i < n; i++) {
+            if (isPrime[i]) {
+                sumA += nums[i];
+            } else {
+                sumB += nums[i];
             }
-            return abs(sumA - sumB);
         }
-    };
+
+        return abs(sumA - sumB);
+    }
 };

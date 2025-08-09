@@ -1,5 +1,5 @@
 class Solution:
-    def process_string(s):
+    def processStr(self, s: str) -> str:
         result = ""
         for char in s:
             if 'a' <= char <= 'z':

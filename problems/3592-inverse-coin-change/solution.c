@@ -1,32 +1,83 @@
-#include <stdlib.h>
-#include <string.h>
-
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
 int* findCoins(int* numWays, int numWaysSize, int* returnSize) {
-    int* dp = (int*)calloc(numWaysSize + 1, sizeof(int));
-    int* coins = (int*)malloc(sizeof(int) * numWaysSize);
-    int coinCount = 0;
-    dp[0] = 1;
-
-    for (int i = 0; i < numWaysSize; ++i) {
-        int amount = i + 1;
-        int expected = numWays[i];
-
-        if (expected > 0 && dp[amount] == expected - 1) {
-            coins[coinCount++] = amount;
-            for (int j = amount; j <= numWaysSize; ++j) {
-                dp[j] += dp[j - amount];
+    int* result = (int*)malloc(numWaysSize * sizeof(int));
+    int resultIndex = 0;
+    
+    for (int i = 1; i <= numWaysSize; i++) {
+        if (i == 1) {
+            if (numWays[1] != 1) {
+                *returnSize = 0;
+                return (int*)malloc(0);
             }
-        }
+            result[resultIndex++] = 1;
+        } else if (numWays[i] > 0) {
+            
+            int tempWays[101] = {0};
+            tempWays[0] = 1;
 
-        if (dp[amount] != expected) {
-            free(dp);
-            free(coins);
-            *returnSize = 0;
-            return NULL;
+            for(int coin = 0; coin < resultIndex; coin++) {
+                for(int amount = result[coin]; amount <= i; amount++) {
+                    tempWays[amount] += tempWays[amount - result[coin]];
+                }
+            }
+            
+            int foundNewCoin = 0;
+            if (tempWays[i] == 0 && numWays[i] == 1) {
+                foundNewCoin = 1;
+            }
+            
+            if(numWays[i] - tempWays[i] > 0) {
+                int currentWays = tempWays[i];
+                tempWays[0] = 1;
+
+                for(int coin = 0; coin < resultIndex; coin++) {
+                    for(int amount = result[coin]; amount <= i; amount++) {
+                        tempWays[amount] = tempWays[amount-result[coin]] + tempWays[amount];
+                    }
+                }
+                if (numWays[i] != tempWays[i])
+                {
+                    result[resultIndex++] = i;
+                }
+                else if(numWays[i] > tempWays[i]){
+                     result[resultIndex++] = i;
+                 }
+            }
+            
+            if (numWays[i] == 1 && foundNewCoin == 1)
+            {
+                
+                result[resultIndex++] = i;
+                
+            }
+            
+           
         }
     }
-
-    free(dp);
-    *returnSize = coinCount;
-    return coins;
+    
+    if (resultIndex == 0) {
+        *returnSize = 0;
+        return (int*)malloc(0);
+    }
+    
+    int* finalResult = (int*)malloc(resultIndex * sizeof(int));
+    for (int i = 0; i < resultIndex; i++) {
+        finalResult[i] = result[i];
+    }
+    
+    
+    for (int i = 0; i < resultIndex - 1; i++) {
+        for (int j = i + 1; j < resultIndex; j++) {
+            if (finalResult[i] > finalResult[j]) {
+                int temp = finalResult[i];
+                finalResult[i] = finalResult[j];
+                finalResult[j] = temp;
+            }
+        }
+    }
+    
+    *returnSize = resultIndex;
+    return finalResult;
 }

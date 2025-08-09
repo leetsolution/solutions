@@ -1,19 +1,23 @@
 class Solution:
-    def minimum_time(s, order, k):
+    def minTime(self, s: str, order: List[int], k: int) -> int:
         n = len(s)
-        s_list = list(s)
 
-        def count_valid_substrings(string):
+        def count_valid_substrings(temp_s):
             count = 0
-            for i in range(len(string)):
-                for j in range(i, len(string)):
-                    substring = string[i:j+1]
+            for i in range(n):
+                for j in range(i, n):
+                    substring = temp_s[i:j+1]
                     if '*' in substring:
                         count += 1
             return count
 
         for t in range(n):
-            s_list[order[t]] = '*'
-            if count_valid_substrings("".join(s_list)) >= k:
+            temp_s = list(s)
+            for i in range(t + 1):
+                temp_s[order[i]] = '*'
+            temp_s = "".join(temp_s)
+            
+            if count_valid_substrings(temp_s) >= k:
                 return t
+        
         return -1

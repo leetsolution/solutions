@@ -1,18 +1,11 @@
 class Solution:
-    def maximum_balanced_shipments(weight):
+    def maxBalancedShipments(self, weight: List[int]) -> int:
         n = len(weight)
-        count = 0
-        i = 0
-        while i < n:
-            max_weight = 0
-            j = i
-            while j < n:
-                max_weight = max(max_weight, weight[j])
-                if weight[j] < max_weight:
-                    count += 1
-                    i = j + 1
-                    break
-                j += 1
-            if j == n:
-                break
-        return count
+        dp = [0] * (n + 1)
+        for i in range(1, n + 1):
+            dp[i] = dp[i - 1]
+            for j in range(1, i + 1):
+                sub_array = weight[i - j:i]
+                if sub_array[-1] < max(sub_array):
+                    dp[i] = max(dp[i], dp[i - j] + 1)
+        return dp[n]

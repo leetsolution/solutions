@@ -1,45 +1,33 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
+int earliestFinishTime(int* landStartTime, int landStartTimeSize, int* landDuration, int landDurationSize, int* waterStartTime, int waterStartTimeSize, int* waterDuration, int waterDurationSize) {
+    int min_finish_time = -1;
 
-int min(int a, int b)
-{
-    return a < b ? a : b;
-}
+    for (int i = 0; i < landStartTimeSize; i++) {
+        for (int j = 0; j < waterStartTimeSize; j++) {
+            int land_start = landStartTime[i];
+            int land_end = land_start + landDuration[i];
+            int water_start = (land_end > waterStartTime[j]) ? land_end : waterStartTime[j];
+            int water_end = water_start + waterDuration[j];
 
-int main()
-{
-    // Sample test case
-    int landStartTime[] = {1, 5};
-    int landDuration[] = {4, 2};
-    int waterStartTime[] = {3, 6};
-    int waterDuration[] = {5, 1};
-    int landStartTimeSize = sizeof(landStartTime) / sizeof(landStartTime[0]);
-    int waterStartTimeSize = sizeof(waterStartTime) / sizeof(waterStartTime[0]);
-    int result = earliestFinishTime(landStartTime, landStartTimeSize, landDuration, waterStartTime, waterStartTimeSize, waterDuration);
-    printf("Earliest finish time: %d\n", result);
-    return 0;
-}
+            if (min_finish_time == -1 || water_end < min_finish_time) {
+                min_finish_time = water_end;
+            }
 
-int earliestFinishTime(int *landStartTime, int landStartTimeSize, int *landDuration, int *waterStartTime, int waterStartTimeSize, int *waterDuration)
-{
-    int minFinishTime = INT_MAX;
-    for (int i = 0; i < landStartTimeSize; i++)
-    {
-        for (int j = 0; j < waterStartTimeSize; j++)
-        {
-            // Land then Water
-            int landFinishTime = landStartTime[i] + landDuration[i];
-            int waterStartTime_ = waterStartTime[j];
-            int waterFinishTime = (landFinishTime > waterStartTime_) ? landFinishTime + waterDuration[j] : waterStartTime_ + waterDuration[j];
-            minFinishTime = min(minFinishTime, waterFinishTime);
+            land_start = (water_end > landStartTime[i]) ? water_end : landStartTime[i];
+            land_end = land_start + landDuration[i];
+             if (min_finish_time == -1 || land_end < min_finish_time) {
+                min_finish_time = land_end;
+            }
 
-            // Water then Land
-            int waterFinishTime_ = waterStartTime[j] + waterDuration[j];
-            int landStartTime_ = landStartTime[i];
-            int landFinishTime_ = (waterFinishTime_ > landStartTime_) ? waterFinishTime_ + landDuration[i] : landStartTime_ + landDuration[i];
-            minFinishTime = min(minFinishTime, landFinishTime_);
+            water_start = waterStartTime[j];
+            int water_end_first = water_start + waterDuration[j];
+            land_start = (water_end_first > landStartTime[i]) ? water_end_first : landStartTime[i];
+            land_end = land_start + landDuration[i];
+             if (min_finish_time == -1 || land_end < min_finish_time) {
+                min_finish_time = land_end;
+            }
+
         }
     }
-    return minFinishTime;
+
+    return min_finish_time;
 }

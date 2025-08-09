@@ -1,58 +1,52 @@
 class Solution {
 public:
     int minJumps(vector<int>& nums) {
-    #include <iostream>
-    #include <vector>
-    #include <queue>
-    #include <map>
-
-    using namespace std;
-
-    bool isPrime(int n) {
-        if (n <= 1) return false;
-        for (int i = 2; i * i <= n; ++i) {
-            if (n % i == 0) return false;
-        }
-        return true;
-    }
-
-    int minJumps(vector<int>& nums) {
         int n = nums.size();
-        if (n <= 1) return 0;
-
-        queue<pair<int, int>> q;
-        q.push({0, 0});
-
         vector<int> dist(n, -1);
         dist[0] = 0;
+        queue<int> q;
+        q.push(0);
+
+        vector<bool> visited_prime(1000001, false);
+        vector<int> primes;
+        vector<bool> is_prime(1000001, true);
+        is_prime[0] = is_prime[1] = false;
+        for (int p = 2; p <= 1000000; ++p) {
+            if (is_prime[p]) {
+                primes.push_back(p);
+                for (int i = p + p; i <= 1000000; i += p) {
+                    is_prime[i] = false;
+                }
+            }
+        }
 
         while (!q.empty()) {
-            int u = q.front().first;
-            int d = q.front().second;
+            int u = q.front();
             q.pop();
 
-            if (u == n - 1) return d;
+            if (u == n - 1) return dist[u];
 
-            // Adjacent step
-            if (u + 1 < n && dist[u + 1] == -1) {
-                dist[u + 1] = d + 1;
-                q.push({u + 1, d + 1});
-            }
-            if (u - 1 >= 0 && dist[u - 1] == -1) {
-                dist[u - 1] = d + 1;
-                q.push({u - 1, d + 1});
+            if (u > 0 && dist[u - 1] == -1) {
+                dist[u - 1] = dist[u] + 1;
+                q.push(u - 1);
             }
 
-            // Prime teleportation
-            if (isPrime(nums[u])) {
+            if (u < n - 1 && dist[u + 1] == -1) {
+                dist[u + 1] = dist[u] + 1;
+                q.push(u + 1);
+            }
+
+            if (is_prime[nums[u]] && !visited_prime[nums[u]]) {
+                visited_prime[nums[u]] = true;
                 for (int v = 0; v < n; ++v) {
                     if (u != v && nums[v] % nums[u] == 0 && dist[v] == -1) {
-                        dist[v] = d + 1;
-                        q.push({v, d + 1});
+                        dist[v] = dist[u] + 1;
+                        q.push(v);
                     }
                 }
             }
         }
-        return -1; // Should not reach here
+
+        return dist[n - 1];
     }
 };

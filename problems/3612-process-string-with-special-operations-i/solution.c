@@ -1,40 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 char* processStr(char* s) {
-    #include <stdio.h>
-    #include <stdlib.h>
-    #include <string.h>
+    int len = strlen(s);
+    char* result = (char*)malloc(sizeof(char) * (len * len + 1));
+    result[0] = '\0';
+    int result_len = 0;
 
-    char * processString(char * s){
-        char *result = (char *)malloc(sizeof(char));
-        result[0] = '\0';
-        int resultLen = 0;
-        int sLen = strlen(s);
-
-        for(int i = 0; i < sLen; i++){
-            if(s[i] >= 'a' && s[i] <= 'z'){
-                result = (char *)realloc(result, (resultLen + 2) * sizeof(char));
-                result[resultLen++] = s[i];
-                result[resultLen] = '\0';
-            } else if (s[i] == '*'){
-                if(resultLen > 0){
-                    result = (char *)realloc(result, (resultLen) * sizeof(char));
-                    result[--resultLen] = '\0';
-                }
-            } else if (s[i] == '#'){
-                result = (char *)realloc(result, (resultLen * 2 + 1) * sizeof(char));
-                strcat(result, result);
-                resultLen *= 2;
-            } else if (s[i] == '%'){
-                int left = 0;
-                int right = resultLen -1;
-                while(left < right){
-                    char temp = result[left];
-                    result[left] = result[right];
-                    result[right] = temp;
-                    left++;
-                    right--;
-                }
+    for (int i = 0; i < len; i++) {
+        if (s[i] >= 'a' && s[i] <= 'z') {
+            result[result_len++] = s[i];
+            result[result_len] = '\0';
+        } else if (s[i] == '*') {
+            if (result_len > 0) {
+                result_len--;
+                result[result_len] = '\0';
+            }
+        } else if (s[i] == '#') {
+            int temp_len = result_len;
+            for (int j = 0; j < temp_len; j++) {
+                result[result_len++] = result[j];
+            }
+            result[result_len] = '\0';
+        } else if (s[i] == '%') {
+            int left = 0;
+            int right = result_len - 1;
+            while (left < right) {
+                char temp = result[left];
+                result[left] = result[right];
+                result[right] = temp;
+                left++;
+                right--;
             }
         }
-        return result;
     }
+
+    char* final_result = (char*)malloc(sizeof(char) * (result_len + 1));
+    strcpy(final_result, result);
+    free(result);
+    return final_result;
 }

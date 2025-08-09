@@ -1,33 +1,100 @@
 class Solution {
-    public int maxSubsequences(String s) {
-        int n = s.length();
-        int lCount = 0, lcCount = 0, lctCount = 0;
-        for (char c : s.toCharArray()) {
-            if (c == 'T') {
-                lctCount += lcCount;
-                lcCount += lCount;
+    public long numOfSubsequences(String s) {
+        long ans = 0;
+        long lCount = 0;
+        long lcCount = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'L') {
+                lCount++;
             } else if (c == 'C') {
                 lcCount += lCount;
-            } else if (c == 'L') {
+            } else if (c == 'T') {
+                ans += lcCount;
+            }
+        }
+        long maxAns = ans;
+        lCount = 0;
+        lcCount = 0;
+        long cCount = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'L') {
+                long tempAns = ans + lcCount;
+                maxAns = Math.max(maxAns, tempAns);
                 lCount++;
+            } else if (c == 'C') {
+                long tempAns = ans + lCount * (getTCount(s, i + 1));
+                maxAns = Math.max(maxAns, tempAns);
+                lcCount += lCount;
+                cCount++;
+            } else if (c == 'T') {
+                long tempAns = ans + lcCount;
+                maxAns = Math.max(maxAns, tempAns);
             }
         }
-        int maxCount = lctCount;
-        for (int i = 0; i <= n; i++) {
-            int curLCount = 0, curLcCount = 0, curLctCount = 0;
-            String temp = s.substring(0, i) + "L" + s.substring(i);
-            for (char c : temp.toCharArray()) {
-                if (c == 'T') {
-                    curLctCount += curLcCount;
-                    curLcCount += curLCount;
-                } else if (c == 'C') {
-                    curLcCount += curLCount;
-                } else if (c == 'L') {
-                    curLCount++;
-                }
+        lCount = 0;
+        lcCount = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'L') {
+                lCount++;
+            } else if (c == 'C') {
+                lcCount += lCount;
+            } else if (c == 'T') {
+                ans += lcCount;
             }
-            maxCount = Math.max(maxCount, curLctCount);
         }
-        return maxCount;
+        lCount = 0;
+        lcCount = 0;
+        cCount = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+        }
+
+        long l_at_end = 0;
+        lCount = 0;
+        lcCount = 0;
+        long tempAns = 0;
+        for(int i = 0; i < s.length(); i++){
+            char ch = s.charAt(i);
+            if(ch == 'L'){
+                lCount++;
+            } else if (ch == 'C'){
+                lcCount += lCount;
+            } else if (ch == 'T'){
+                tempAns += lcCount;
+            }
+        }
+        l_at_end = tempAns + lcCount;
+        maxAns = Math.max(maxAns, l_at_end);
+
+        long c_at_end = 0;
+        lCount = 0;
+        lcCount = 0;
+        tempAns = 0;
+        for(int i = 0; i < s.length(); i++){
+            char ch = s.charAt(i);
+            if(ch == 'L'){
+                lCount++;
+            } else if (ch == 'C'){
+                lcCount += lCount;
+            } else if (ch == 'T'){
+                tempAns += lcCount;
+            }
+        }
+        c_at_end = tempAns + lCount * getTCount(s, 0);
+        maxAns = Math.max(maxAns, c_at_end);
+        return maxAns;
+    }
+
+    private long getTCount(String s, int start) {
+        long count = 0;
+        for (int i = start; i < s.length(); i++) {
+            if (s.charAt(i) == 'T') {
+                count++;
+            }
+        }
+        return count;
     }
 }

@@ -1,22 +1,46 @@
-from typing import List
-
 class Solution:
     def findCoins(self, numWays: List[int]) -> List[int]:
         n = len(numWays)
-        dp = [0] * (n + 1)
-        dp[0] = 1
         coins = []
+        
+        def calculate_ways(target, denominations):
+            dp = [0] * (target + 1)
+            dp[0] = 1
+            
+            for coin in denominations:
+                for i in range(coin, target + 1):
+                    dp[i] += dp[i - coin]
+            
+            return dp[target]
 
-        for i in range(n):
-            amount = i + 1
-            expected = numWays[i]
+        
+        for coin in range(1, n + 1):
+            if numWays[coin-1] > 0:
+                temp_coins = coins + [coin]
+                possible = True
+                for i in range(1, n+1):
+                    calculated_ways = calculate_ways(i, temp_coins)
+                    if numWays[i-1] != calculated_ways:
+                        possible = False
+                        break
+                if possible:
+                    coins.append(coin)
+        
+        temp_coins = coins
+        possible = True
+        for i in range(1, n+1):
+            calculated_ways = calculate_ways(i, temp_coins)
+            if numWays[i-1] != calculated_ways:
+                possible = False
+                break
+        
+        if not possible:
+            return []
 
-            if expected > 0 and dp[amount] == expected - 1:
-                coins.append(amount)
-                for j in range(amount, n + 1):
-                    dp[j] += dp[j - amount]
+        if len(coins) == 0 and numWays[0] != 1:
+           return []
 
-            if dp[amount] != expected:
-                return []
-
-        return coins
+        if len(coins) == 0 and numWays[0] == 1:
+            return []
+            
+        return sorted(coins)

@@ -1,5 +1,20 @@
 class Solution {
 public:
     string processStr(string s) {
-    # Gemini did not return a valid solution for Process String with Special Operations I in cpp.
+        string result = "";
+        for (char c : s) {
+            if (c >= 'a' && c <= 'z') {
+                result += c;
+            } else if (c == '*') {
+                if (!result.empty()) {
+                    result.pop_back();
+                }
+            } else if (c == '#') {
+                result += result;
+            } else if (c == '%') {
+                reverse(result.begin(), result.end());
+            }
+        }
+        return result;
+    }
 };

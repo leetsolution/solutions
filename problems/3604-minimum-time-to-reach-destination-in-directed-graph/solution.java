@@ -1,39 +1,47 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.PriorityQueue;
+
 class Solution {
     public int minTime(int n, int[][] edges) {
-        // Build adjacency list with edge time windows
-        List<int[]>[] graph = new List[n];
-        for (int i = 0; i < n; i++) graph[i] = new ArrayList<>();
-        for (int[] e : edges) {
-            int u = e[0], v = e[1], start = e[2], end = e[3];
-            graph[u].add(new int[]{v, start, end});
+        List<List<int[]>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            adj.add(new ArrayList<>());
+        }
+        for (int[] edge : edges) {
+            adj.get(edge[0]).add(new int[]{edge[1], edge[2], edge[3]});
         }
 
-        // BFS: queue holds {node, time}
-        Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{0, 0});
-        int[] visited = new int[n];
-        Arrays.fill(visited, Integer.MAX_VALUE);
-        visited[0] = 0;
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[0] = 0;
 
-        while (!q.isEmpty()) {
-            int[] curr = q.poll();
-            int node = curr[0], time = curr[1];
-            if (node == n - 1) return time;
-            // Wait at current node
-            if (time + 1 < visited[node]) {
-                visited[node] = time + 1;
-                q.offer(new int[]{node, time + 1});
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        pq.offer(new int[]{0, 0});
+
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int time = curr[0];
+            int u = curr[1];
+
+            if (time > dist[u]) {
+                continue;
             }
-            // Try all outgoing edges
-            for (int[] e : graph[node]) {
-                int v = e[0], start = e[1], end = e[2];
-                if (time >= start && time <= end && time < visited[v]) {
-                    visited[v] = time;
-                    q.offer(new int[]{v, time});
+
+            for (int[] edge : adj.get(u)) {
+                int v = edge[0];
+                int start = edge[1];
+                int end = edge[2];
+
+                int nextTime = Math.max(time, start) + 1;
+                if (nextTime <= end && dist[v] > nextTime) {
+                    dist[v] = nextTime;
+                    pq.offer(new int[]{nextTime, v});
                 }
             }
         }
-        return -1;
+
+        return dist[n - 1] == Integer.MAX_VALUE ? -1 : dist[n - 1];
     }
 }

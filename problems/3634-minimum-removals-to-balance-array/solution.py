@@ -1,15 +1,11 @@
 class Solution:
-    def minimum_removals(nums, k):
+    def minRemoval(self, nums: List[int], k: int) -> int:
         nums.sort()
         n = len(nums)
-        min_removals = n - 1
-        for i in range(n):
-            for j in range(i, n):
-                sub_array = nums[i:j+1]
-                if len(sub_array) > 0:
-                    max_val = max(sub_array)
-                    min_val = min(sub_array)
-                    if max_val <= k * min_val:
-                        removals = n - len(sub_array)
-                        min_removals = min(min_removals, removals)
-        return min_removals
+        max_len = 0
+        l = 0
+        for r in range(n):
+            while nums[r] > nums[l] * k:
+                l += 1
+            max_len = max(max_len, r - l + 1)
+        return n - max_len
