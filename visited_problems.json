@@ -3379,6 +3379,228 @@
   ],
   "detect-capital": [
     "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "perfect-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "relative-ranks": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "base-7": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-mode-in-binary-search-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "keyboard-row": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "next-greater-element-i": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "teemo-attacking": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "construct-the-rectangle": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "max-consecutive-ones": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "license-key-formatting": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-complement": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "island-perimeter": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "hamming-distance": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "repeated-substring-pattern": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "assign-cookies": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-all-numbers-disappeared-in-an-array": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "arranging-coins": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "number-of-segments-in-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "add-strings": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "third-maximum-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "fizz-buzz": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "longest-palindrome": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "convert-a-number-to-hexadecimal": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "sum-of-left-leaves": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-watch": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "is-subsequence": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "find-the-difference": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "first-unique-character-in-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "ransom-note": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "guess-number-higher-or-lower": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-perfect-square": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "intersection-of-two-arrays-ii": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "intersection-of-two-arrays": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-vowels-of-a-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "reverse-string": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "power-of-four": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "counting-bits": [
+    "python3",
     "java"
   ]
 }
