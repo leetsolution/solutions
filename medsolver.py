@@ -344,7 +344,7 @@ def main():
                         with open(os.path.join(folder_name, "README.md"), "w", encoding="utf-8") as f:
                             f.write(f"# {number}. {title}\n\n## Problem Statement\n{content}\n\n## Difficulty\n{difficulty}\n\n## Topics\n{', '.join([t['name'] for t in topics if isinstance(t.get('name', None), str)])}\n")
                         print(f"  Wrote README.md")
-                        # Save problem.json with all metadata
+                        # Save problem.json with metadata
                         problem_data = {
                             "number": number,
                             "title": title,
