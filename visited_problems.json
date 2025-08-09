@@ -3601,6 +3601,120 @@
   ],
   "counting-bits": [
     "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "power-of-three": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "range-sum-query-immutable": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "nim-game": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "word-pattern": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "move-zeroes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "first-bad-version": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "missing-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "ugly-number": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "add-digits": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "binary-tree-paths": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "valid-anagram": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "palindrome-linked-list": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "implement-queue-using-stacks": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "power-of-two": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "summary-ranges": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "invert-binary-tree": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "implement-stack-using-queues": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "count-complete-tree-nodes": [
+    "python3",
+    "java",
+    "cpp",
+    "c"
+  ],
+  "contains-duplicate-ii": [
+    "python3",
     "java"
   ]
 }
