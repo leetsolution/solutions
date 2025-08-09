@@ -11,5 +11,7 @@
   ],
   "slug": "minimum-number-game",
   "url": "https://leetcode.com/problems/minimum-number-game/",
-  "timestamp": "2025-08-07T17:13:59.448869+00:00"
+  "timestamp": "2025-08-07T17:13:59.448869+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

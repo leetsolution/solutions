@@ -12,5 +12,7 @@
   ],
   "slug": "maximum-subarray-with-equal-products",
   "url": "https://leetcode.com/problems/maximum-subarray-with-equal-products/",
-  "timestamp": "2025-08-07T15:26:23.818140+00:00"
+  "timestamp": "2025-08-07T15:26:23.818140+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(n)"
 }

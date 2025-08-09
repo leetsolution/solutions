@@ -10,5 +10,7 @@
   ],
   "slug": "sort-array-by-increasing-frequency",
   "url": "https://leetcode.com/problems/sort-array-by-increasing-frequency/",
-  "timestamp": "2025-08-07T20:19:45.595738+00:00"
+  "timestamp": "2025-08-07T20:19:45.595738+00:00",
+  "time_complexity": "O(nlogn)",
+  "space_complexity": "O(n)"
 }

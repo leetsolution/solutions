@@ -9,5 +9,7 @@
   ],
   "slug": "find-indices-with-index-and-value-difference-i",
   "url": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/",
-  "timestamp": "2025-08-07T17:47:54.341562+00:00"
+  "timestamp": "2025-08-07T17:47:54.341562+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

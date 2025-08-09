@@ -9,5 +9,7 @@
   ],
   "slug": "find-if-digit-game-can-be-won",
   "url": "https://leetcode.com/problems/find-if-digit-game-can-be-won/",
-  "timestamp": "2025-08-07T16:44:56.099949+00:00"
+  "timestamp": "2025-08-07T16:44:56.099949+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

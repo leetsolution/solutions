@@ -8,5 +8,7 @@
   ],
   "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
   "url": "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/",
-  "timestamp": "2025-08-07T20:11:28.934859+00:00"
+  "timestamp": "2025-08-07T20:11:28.934859+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

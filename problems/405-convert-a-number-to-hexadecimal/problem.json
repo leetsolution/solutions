@@ -10,5 +10,7 @@
   ],
   "slug": "convert-a-number-to-hexadecimal",
   "url": "https://leetcode.com/problems/convert-a-number-to-hexadecimal/",
-  "timestamp": "2025-08-09T03:02:53.173450+00:00"
+  "timestamp": "2025-08-09T03:02:53.173450+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "neither-minimum-nor-maximum",
   "url": "https://leetcode.com/problems/neither-minimum-nor-maximum/",
-  "timestamp": "2025-08-07T18:09:03.180353+00:00"
+  "timestamp": "2025-08-07T18:09:03.180353+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

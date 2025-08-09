@@ -58,5 +58,1271 @@
     "title": "Isomorphic Strings",
     "slug": "isomorphic-strings",
     "difficulty": "Easy"
+  },
+  {
+    "number": "242",
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "257",
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "290",
+    "title": "Word Pattern",
+    "slug": "word-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "344",
+    "title": "Reverse String",
+    "slug": "reverse-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "345",
+    "title": "Reverse Vowels of a String",
+    "slug": "reverse-vowels-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "383",
+    "title": "Ransom Note",
+    "slug": "ransom-note",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "387",
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "389",
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "392",
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "405",
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "409",
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "412",
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "415",
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "434",
+    "title": "Number of Segments in a String",
+    "slug": "number-of-segments-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "459",
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "482",
+    "title": "License Key Formatting",
+    "slug": "license-key-formatting",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "500",
+    "title": "Keyboard Row",
+    "slug": "keyboard-row",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "504",
+    "title": "Base 7",
+    "slug": "base-7",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "520",
+    "title": "Detect Capital",
+    "slug": "detect-capital",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "521",
+    "title": "Longest Uncommon Subsequence I",
+    "slug": "longest-uncommon-subsequence-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "541",
+    "title": "Reverse String II",
+    "slug": "reverse-string-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "551",
+    "title": "Student Attendance Record I",
+    "slug": "student-attendance-record-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "557",
+    "title": "Reverse Words in a String III",
+    "slug": "reverse-words-in-a-string-iii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "599",
+    "title": "Minimum Index Sum of Two Lists",
+    "slug": "minimum-index-sum-of-two-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "657",
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "680",
+    "title": "Valid Palindrome II",
+    "slug": "valid-palindrome-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "696",
+    "title": "Count Binary Substrings",
+    "slug": "count-binary-substrings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "709",
+    "title": "To Lower Case",
+    "slug": "to-lower-case",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "748",
+    "title": "Shortest Completing Word",
+    "slug": "shortest-completing-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "771",
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "796",
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "804",
+    "title": "Unique Morse Code Words",
+    "slug": "unique-morse-code-words",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "806",
+    "title": "Number of Lines To Write String",
+    "slug": "number-of-lines-to-write-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "819",
+    "title": "Most Common Word",
+    "slug": "most-common-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "821",
+    "title": "Shortest Distance to a Character",
+    "slug": "shortest-distance-to-a-character",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "824",
+    "title": "Goat Latin",
+    "slug": "goat-latin",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "830",
+    "title": "Positions of Large Groups",
+    "slug": "positions-of-large-groups",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "844",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "859",
+    "title": "Buddy Strings",
+    "slug": "buddy-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "884",
+    "title": "Uncommon Words from Two Sentences",
+    "slug": "uncommon-words-from-two-sentences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "917",
+    "title": "Reverse Only Letters",
+    "slug": "reverse-only-letters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "925",
+    "title": "Long Pressed Name",
+    "slug": "long-pressed-name",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "929",
+    "title": "Unique Email Addresses",
+    "slug": "unique-email-addresses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "942",
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "944",
+    "title": "Delete Columns to Make Sorted",
+    "slug": "delete-columns-to-make-sorted",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "953",
+    "title": "Verifying an Alien Dictionary",
+    "slug": "verifying-an-alien-dictionary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1002",
+    "title": "Find Common Characters",
+    "slug": "find-common-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1021",
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1047",
+    "title": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1071",
+    "title": "Greatest Common Divisor of Strings",
+    "slug": "greatest-common-divisor-of-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1078",
+    "title": "Occurrences After Bigram",
+    "slug": "occurrences-after-bigram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1108",
+    "title": "Defanging an IP Address",
+    "slug": "defanging-an-ip-address",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1154",
+    "title": "Day of the Year",
+    "slug": "day-of-the-year",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1160",
+    "title": "Find Words That Can Be Formed by Characters",
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1189",
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1221",
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1309",
+    "title": "Decrypt String from Alphabet to Integer Mapping",
+    "slug": "decrypt-string-from-alphabet-to-integer-mapping",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1332",
+    "title": "Remove Palindromic Subsequences",
+    "slug": "remove-palindromic-subsequences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1360",
+    "title": "Number of Days Between Two Dates",
+    "slug": "number-of-days-between-two-dates",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1370",
+    "title": "Increasing Decreasing String",
+    "slug": "increasing-decreasing-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1374",
+    "title": "Generate a String With Characters That Have Odd Counts",
+    "slug": "generate-a-string-with-characters-that-have-odd-counts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1408",
+    "title": "String Matching in an Array",
+    "slug": "string-matching-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1417",
+    "title": "Reformat The String",
+    "slug": "reformat-the-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1422",
+    "title": "Maximum Score After Splitting a String",
+    "slug": "maximum-score-after-splitting-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1436",
+    "title": "Destination City",
+    "slug": "destination-city",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1446",
+    "title": "Consecutive Characters",
+    "slug": "consecutive-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1455",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1496",
+    "title": "Path Crossing",
+    "slug": "path-crossing",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1507",
+    "title": "Reformat Date",
+    "slug": "reformat-date",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1528",
+    "title": "Shuffle String",
+    "slug": "shuffle-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1544",
+    "title": "Make The String Great",
+    "slug": "make-the-string-great",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1556",
+    "title": "Thousand Separator",
+    "slug": "thousand-separator",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1576",
+    "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+    "slug": "replace-all-s-to-avoid-consecutive-repeating-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1592",
+    "title": "Rearrange Spaces Between Words",
+    "slug": "rearrange-spaces-between-words",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1598",
+    "title": "Crawler Log Folder",
+    "slug": "crawler-log-folder",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1614",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1624",
+    "title": "Largest Substring Between Two Equal Characters",
+    "slug": "largest-substring-between-two-equal-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1629",
+    "title": "Slowest Key",
+    "slug": "slowest-key",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1662",
+    "title": "Check If Two String Arrays are Equivalent",
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1668",
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1678",
+    "title": "Goal Parser Interpretation",
+    "slug": "goal-parser-interpretation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1684",
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1694",
+    "title": "Reformat Phone Number",
+    "slug": "reformat-phone-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1704",
+    "title": "Determine if String Halves Are Alike",
+    "slug": "determine-if-string-halves-are-alike",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1736",
+    "title": "Latest Time by Replacing Hidden Digits",
+    "slug": "latest-time-by-replacing-hidden-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1758",
+    "title": "Minimum Changes To Make Alternating Binary String",
+    "slug": "minimum-changes-to-make-alternating-binary-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1763",
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1768",
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1773",
+    "title": "Count Items Matching a Rule",
+    "slug": "count-items-matching-a-rule",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1784",
+    "title": "Check if Binary String Has at Most One Segment of Ones",
+    "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1790",
+    "title": "Check if One String Swap Can Make Strings Equal",
+    "slug": "check-if-one-string-swap-can-make-strings-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1796",
+    "title": "Second Largest Digit in a String",
+    "slug": "second-largest-digit-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1805",
+    "title": "Number of Different Integers in a String",
+    "slug": "number-of-different-integers-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1812",
+    "title": "Determine Color of a Chessboard Square",
+    "slug": "determine-color-of-a-chessboard-square",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1816",
+    "title": "Truncate Sentence",
+    "slug": "truncate-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1832",
+    "title": "Check if the Sentence Is Pangram",
+    "slug": "check-if-the-sentence-is-pangram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1844",
+    "title": "Replace All Digits with Characters",
+    "slug": "replace-all-digits-with-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1859",
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1869",
+    "title": "Longer Contiguous Segments of Ones than Zeros",
+    "slug": "longer-contiguous-segments-of-ones-than-zeros",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1876",
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1880",
+    "title": "Check if Word Equals Summation of Two Words",
+    "slug": "check-if-word-equals-summation-of-two-words",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1897",
+    "title": "Redistribute Characters to Make All Strings Equal",
+    "slug": "redistribute-characters-to-make-all-strings-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1903",
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1935",
+    "title": "Maximum Number of Words You Can Type",
+    "slug": "maximum-number-of-words-you-can-type",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1941",
+    "title": "Check if All Characters Have Equal Number of Occurrences",
+    "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1945",
+    "title": "Sum of Digits of String After Convert",
+    "slug": "sum-of-digits-of-string-after-convert",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1957",
+    "title": "Delete Characters to Make Fancy String",
+    "slug": "delete-characters-to-make-fancy-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1961",
+    "title": "Check If String Is a Prefix of Array",
+    "slug": "check-if-string-is-a-prefix-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1967",
+    "title": "Number of Strings That Appear as Substrings in Word",
+    "slug": "number-of-strings-that-appear-as-substrings-in-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1974",
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "slug": "minimum-time-to-type-word-using-special-typewriter",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2000",
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2011",
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2027",
+    "title": "Minimum Moves to Convert String",
+    "slug": "minimum-moves-to-convert-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2042",
+    "title": "Check if Numbers Are Ascending in a Sentence",
+    "slug": "check-if-numbers-are-ascending-in-a-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2047",
+    "title": "Number of Valid Words in a Sentence",
+    "slug": "number-of-valid-words-in-a-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2053",
+    "title": "Kth Distinct String in an Array",
+    "slug": "kth-distinct-string-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2062",
+    "title": "Count Vowel Substrings of a String",
+    "slug": "count-vowel-substrings-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2068",
+    "title": "Check Whether Two Strings are Almost Equivalent",
+    "slug": "check-whether-two-strings-are-almost-equivalent",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2085",
+    "title": "Count Common Words With One Occurrence",
+    "slug": "count-common-words-with-one-occurrence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2103",
+    "title": "Rings and Rods",
+    "slug": "rings-and-rods",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2108",
+    "title": "Find First Palindromic String in the Array",
+    "slug": "find-first-palindromic-string-in-the-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2114",
+    "title": "Maximum Number of Words Found in Sentences",
+    "slug": "maximum-number-of-words-found-in-sentences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2124",
+    "title": "Check if All A's Appears Before All B's",
+    "slug": "check-if-all-as-appears-before-all-bs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2129",
+    "title": "Capitalize the Title",
+    "slug": "capitalize-the-title",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2138",
+    "title": "Divide a String Into Groups of Size k",
+    "slug": "divide-a-string-into-groups-of-size-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2185",
+    "title": "Counting Words With a Given Prefix",
+    "slug": "counting-words-with-a-given-prefix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2194",
+    "title": "Cells in a Range on an Excel Sheet",
+    "slug": "cells-in-a-range-on-an-excel-sheet",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2224",
+    "title": "Minimum Number of Operations to Convert Time",
+    "slug": "minimum-number-of-operations-to-convert-time",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2243",
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2255",
+    "title": "Count Prefixes of a Given String",
+    "slug": "count-prefixes-of-a-given-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2259",
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2264",
+    "title": "Largest 3-Same-Digit Number in String",
+    "slug": "largest-3-same-digit-number-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2269",
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2273",
+    "title": "Find Resultant Array After Removing Anagrams",
+    "slug": "find-resultant-array-after-removing-anagrams",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2278",
+    "title": "Percentage of Letter in String",
+    "slug": "percentage-of-letter-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2283",
+    "title": "Check if Number Has Equal Digit Count and Digit Value",
+    "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2287",
+    "title": "Rearrange Characters to Make Target String",
+    "slug": "rearrange-characters-to-make-target-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2299",
+    "title": "Strong Password Checker II",
+    "slug": "strong-password-checker-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2309",
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2315",
+    "title": "Count Asterisks",
+    "slug": "count-asterisks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2325",
+    "title": "Decode the Message",
+    "slug": "decode-the-message",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2351",
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2379",
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2399",
+    "title": "Check Distances Between Same Letters",
+    "slug": "check-distances-between-same-letters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2409",
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2418",
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2423",
+    "title": "Remove Letter To Equalize Frequency",
+    "slug": "remove-letter-to-equalize-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2437",
+    "title": "Number of Valid Clock Times",
+    "slug": "number-of-valid-clock-times",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2446",
+    "title": "Determine if Two Events Have Conflict",
+    "slug": "determine-if-two-events-have-conflict",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2451",
+    "title": "Odd String Difference",
+    "slug": "odd-string-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2490",
+    "title": "Circular Sentence",
+    "slug": "circular-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2496",
+    "title": "Maximum Value of a String in an Array",
+    "slug": "maximum-value-of-a-string-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2506",
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2515",
+    "title": "Shortest Distance to Target String in a Circular Array",
+    "slug": "shortest-distance-to-target-string-in-a-circular-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2586",
+    "title": "Count the Number of Vowel Strings in Range",
+    "slug": "count-the-number-of-vowel-strings-in-range",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2609",
+    "title": "Find the Longest Balanced Substring of a Binary String",
+    "slug": "find-the-longest-balanced-substring-of-a-binary-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2678",
+    "title": "Number of Senior Citizens",
+    "slug": "number-of-senior-citizens",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2696",
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2697",
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2710",
+    "title": "Remove Trailing Zeros From a String",
+    "slug": "remove-trailing-zeros-from-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2716",
+    "title": "Minimize String Length",
+    "slug": "minimize-string-length",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2744",
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2788",
+    "title": "Split Strings by Separator",
+    "slug": "split-strings-by-separator",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2810",
+    "title": "Faulty Keyboard",
+    "slug": "faulty-keyboard",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2828",
+    "title": "Check if a String Is an Acronym of Words",
+    "slug": "check-if-a-string-is-an-acronym-of-words",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2833",
+    "title": "Furthest Point From Origin",
+    "slug": "furthest-point-from-origin",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2839",
+    "title": "Check if Strings Can be Made Equal With Operations I",
+    "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2864",
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2900",
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "slug": "longest-unequal-adjacent-groups-subsequence-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2937",
+    "title": "Make Three Strings Equal",
+    "slug": "make-three-strings-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2942",
+    "title": "Find Words Containing Character",
+    "slug": "find-words-containing-character",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3014",
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3019",
+    "title": "Number of Changing Keys",
+    "slug": "number-of-changing-keys",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3042",
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3083",
+    "title": "Existence of a Substring in a String and Its Reverse",
+    "slug": "existence-of-a-substring-in-a-string-and-its-reverse",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3090",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3110",
+    "title": "Score of a String",
+    "slug": "score-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3114",
+    "title": "Latest Time You Can Obtain After Replacing Characters",
+    "slug": "latest-time-you-can-obtain-after-replacing-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3120",
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3136",
+    "title": "Valid Word",
+    "slug": "valid-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3146",
+    "title": "Permutation Difference between Two Strings",
+    "slug": "permutation-difference-between-two-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3168",
+    "title": "Minimum Number of Chairs in a Waiting Room",
+    "slug": "minimum-number-of-chairs-in-a-waiting-room",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3174",
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3210",
+    "title": "Find the Encrypted String",
+    "slug": "find-the-encrypted-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3216",
+    "title": "Lexicographically Smallest String After a Swap",
+    "slug": "lexicographically-smallest-string-after-a-swap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3248",
+    "title": "Snake in Matrix",
+    "slug": "snake-in-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3258",
+    "title": "Count Substrings That Satisfy K-Constraint I",
+    "slug": "count-substrings-that-satisfy-k-constraint-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3274",
+    "title": "Check if Two Chessboard Squares Have the Same Color",
+    "slug": "check-if-two-chessboard-squares-have-the-same-color",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3280",
+    "title": "Convert Date to Binary",
+    "slug": "convert-date-to-binary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3330",
+    "title": "Find the Original Typed String I",
+    "slug": "find-the-original-typed-string-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3340",
+    "title": "Check Balanced String",
+    "slug": "check-balanced-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3407",
+    "title": "Substring Matching Pattern",
+    "slug": "substring-matching-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3438",
+    "title": "Find Valid Pair of Adjacent Digits in String",
+    "slug": "find-valid-pair-of-adjacent-digits-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3442",
+    "title": "Maximum Difference Between Even and Odd Frequency I",
+    "slug": "maximum-difference-between-even-and-odd-frequency-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3456",
+    "title": "Find Special Substring of Length K",
+    "slug": "find-special-substring-of-length-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3498",
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3517",
+    "title": "Smallest Palindromic Rearrangement I",
+    "slug": "smallest-palindromic-rearrangement-i",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3529",
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3541",
+    "title": "Find Most Frequent Vowel and Consonant",
+    "slug": "find-most-frequent-vowel-and-consonant",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3545",
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3557",
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "slug": "find-maximum-number-of-non-intersecting-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3561",
+    "title": "Resulting String After Adjacent Removals",
+    "slug": "resulting-string-after-adjacent-removals",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3582",
+    "title": "Generate Tag for Video Caption",
+    "slug": "generate-tag-for-video-caption",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3597",
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3602",
+    "title": "Hexadecimal and Hexatrigesimal Conversion",
+    "slug": "hexadecimal-and-hexatrigesimal-conversion",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3606",
+    "title": "Coupon Code Validator",
+    "slug": "coupon-code-validator",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3612",
+    "title": "Process String with Special Operations I",
+    "slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3614",
+    "title": "Process String with Special Operations II",
+    "slug": "process-string-with-special-operations-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3615",
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard"
   }
 ]

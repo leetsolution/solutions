@@ -10,5 +10,7 @@
   ],
   "slug": "form-smallest-number-from-two-digit-arrays",
   "url": "https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/",
-  "timestamp": "2025-08-07T18:20:12.540232+00:00"
+  "timestamp": "2025-08-07T18:20:12.540232+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(n + m)"
 }

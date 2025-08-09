@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-number-of-balls-in-a-box",
   "url": "https://leetcode.com/problems/maximum-number-of-balls-in-a-box/",
-  "timestamp": "2025-08-07T20:13:19.865792+00:00"
+  "timestamp": "2025-08-07T20:13:19.865792+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

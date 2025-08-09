@@ -11,5 +11,7 @@
   ],
   "slug": "count-complete-tree-nodes",
   "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
-  "timestamp": "2025-08-09T03:29:04.120613+00:00"
+  "timestamp": "2025-08-09T03:29:04.120613+00:00",
+  "time_complexity": "O((log(n))^2)",
+  "space_complexity": "O(log(n))"
 }

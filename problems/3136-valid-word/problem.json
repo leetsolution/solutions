@@ -8,5 +8,7 @@
   ],
   "slug": "valid-word",
   "url": "https://leetcode.com/problems/valid-word/",
-  "timestamp": "2025-08-07T16:54:37.465083+00:00"
+  "timestamp": "2025-08-07T16:54:37.465083+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

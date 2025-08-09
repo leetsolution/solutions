@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-time-to-type-word-using-special-typewriter",
   "url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
-  "timestamp": "2025-08-07T19:50:21.282748+00:00"
+  "timestamp": "2025-08-07T19:50:21.282748+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

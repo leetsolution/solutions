@@ -10,5 +10,7 @@
   ],
   "slug": "find-most-frequent-vowel-and-consonant",
   "url": "https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/",
-  "timestamp": "2025-08-07T15:09:43.624713+00:00"
+  "timestamp": "2025-08-07T15:09:43.624713+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

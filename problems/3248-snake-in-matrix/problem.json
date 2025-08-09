@@ -10,5 +10,7 @@
   ],
   "slug": "snake-in-matrix",
   "url": "https://leetcode.com/problems/snake-in-matrix/",
-  "timestamp": "2025-08-07T16:42:02.725684+00:00"
+  "timestamp": "2025-08-07T16:42:02.725684+00:00",
+  "time_complexity": "O(m)",
+  "space_complexity": "O(1)"
 }

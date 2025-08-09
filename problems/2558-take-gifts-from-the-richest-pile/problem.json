@@ -10,5 +10,7 @@
   ],
   "slug": "take-gifts-from-the-richest-pile",
   "url": "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
-  "timestamp": "2025-08-07T18:17:26.953736+00:00"
+  "timestamp": "2025-08-07T18:17:26.953736+00:00",
+  "time_complexity": "O(k*log(n))",
+  "space_complexity": "O(n)"
 }

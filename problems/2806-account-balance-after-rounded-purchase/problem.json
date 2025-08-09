@@ -8,5 +8,7 @@
   ],
   "slug": "account-balance-after-rounded-purchase",
   "url": "https://leetcode.com/problems/account-balance-after-rounded-purchase/",
-  "timestamp": "2025-08-07T18:05:08.294137+00:00"
+  "timestamp": "2025-08-07T18:05:08.294137+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

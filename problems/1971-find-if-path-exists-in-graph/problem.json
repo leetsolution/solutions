@@ -11,5 +11,7 @@
   ],
   "slug": "find-if-path-exists-in-graph",
   "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
-  "timestamp": "2025-08-07T19:47:54.666121+00:00"
+  "timestamp": "2025-08-07T19:47:54.666121+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(n + m)"
 }

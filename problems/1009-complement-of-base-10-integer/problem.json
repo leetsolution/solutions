@@ -8,5 +8,7 @@
   ],
   "slug": "complement-of-base-10-integer",
   "url": "https://leetcode.com/problems/complement-of-base-10-integer/",
-  "timestamp": "2025-08-07T21:45:16.568794+00:00"
+  "timestamp": "2025-08-07T21:45:16.568794+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

@@ -22,5 +22,107 @@
     "title": "Best Time to Buy and Sell Stock",
     "slug": "best-time-to-buy-and-sell-stock",
     "difficulty": "Easy"
+  },
+  {
+    "number": "338",
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "392",
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "509",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "746",
+    "title": "Min Cost Climbing Stairs",
+    "slug": "min-cost-climbing-stairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1025",
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1137",
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1668",
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2900",
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "slug": "longest-unequal-adjacent-groups-subsequence-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3363",
+    "title": "Find the Maximum Number of Fruits Collected",
+    "slug": "find-the-maximum-number-of-fruits-collected",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3557",
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "slug": "find-maximum-number-of-non-intersecting-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3592",
+    "title": "Inverse Coin Change",
+    "slug": "inverse-coin-change",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3593",
+    "title": "Minimum Increments to Equalize Leaf Paths",
+    "slug": "minimum-increments-to-equalize-leaf-paths",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3599",
+    "title": "Partition Array to Minimize XOR",
+    "slug": "partition-array-to-minimize-xor",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3603",
+    "title": "Minimum Cost Path with Alternating Directions II",
+    "slug": "minimum-cost-path-with-alternating-directions-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3615",
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3620",
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3621",
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+    "difficulty": "Hard"
   }
 ]

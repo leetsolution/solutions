@@ -8,5 +8,7 @@
   ],
   "slug": "perfect-number",
   "url": "https://leetcode.com/problems/perfect-number/",
-  "timestamp": "2025-08-09T02:56:28.881567+00:00"
+  "timestamp": "2025-08-09T02:56:28.881567+00:00",
+  "time_complexity": "O(sqrt(n))",
+  "space_complexity": "O(1)"
 }

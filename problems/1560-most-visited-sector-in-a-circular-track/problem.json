@@ -9,5 +9,7 @@
   ],
   "slug": "most-visited-sector-in-a-circular-track",
   "url": "https://leetcode.com/problems/most-visited-sector-in-a-circular-track/",
-  "timestamp": "2025-08-07T20:23:06.850372+00:00"
+  "timestamp": "2025-08-07T20:23:06.850372+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

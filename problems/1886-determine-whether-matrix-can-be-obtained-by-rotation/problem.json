@@ -9,5 +9,7 @@
   ],
   "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
   "url": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
-  "timestamp": "2025-08-07T19:56:00.400327+00:00"
+  "timestamp": "2025-08-07T19:56:00.400327+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n^2)"
 }

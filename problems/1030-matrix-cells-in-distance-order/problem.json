@@ -12,5 +12,7 @@
   ],
   "slug": "matrix-cells-in-distance-order",
   "url": "https://leetcode.com/problems/matrix-cells-in-distance-order/",
-  "timestamp": "2025-08-07T21:43:05.570987+00:00"
+  "timestamp": "2025-08-07T21:43:05.570987+00:00",
+  "time_complexity": "O(rows * cols * log(rows * cols))",
+  "space_complexity": "O(rows * cols)"
 }

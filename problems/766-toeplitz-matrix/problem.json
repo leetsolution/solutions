@@ -9,5 +9,7 @@
   ],
   "slug": "toeplitz-matrix",
   "url": "https://leetcode.com/problems/toeplitz-matrix/",
-  "timestamp": "2025-08-09T02:41:59.916557+00:00"
+  "timestamp": "2025-08-09T02:41:59.916557+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

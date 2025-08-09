@@ -10,5 +10,7 @@
   ],
   "slug": "special-array-with-x-elements-greater-than-or-equal-x",
   "url": "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/",
-  "timestamp": "2025-08-07T20:20:27.378101+00:00"
+  "timestamp": "2025-08-07T20:20:27.378101+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

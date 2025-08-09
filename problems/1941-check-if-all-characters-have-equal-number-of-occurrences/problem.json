@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-all-characters-have-equal-number-of-occurrences",
   "url": "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/",
-  "timestamp": "2025-08-07T19:51:46.260774+00:00"
+  "timestamp": "2025-08-07T19:51:46.260774+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

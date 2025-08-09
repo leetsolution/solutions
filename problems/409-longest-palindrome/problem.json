@@ -10,5 +10,7 @@
   ],
   "slug": "longest-palindrome",
   "url": "https://leetcode.com/problems/longest-palindrome/",
-  "timestamp": "2025-08-09T03:02:36.890084+00:00"
+  "timestamp": "2025-08-09T03:02:36.890084+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-one-string-swap-can-make-strings-equal",
   "url": "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/",
-  "timestamp": "2025-08-07T20:09:37.449475+00:00"
+  "timestamp": "2025-08-07T20:09:37.449475+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

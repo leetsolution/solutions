@@ -1,0 +1,56 @@
+[
+  {
+    "number": "812",
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "836",
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "883",
+    "title": "Projection Area of 3D Shapes",
+    "slug": "projection-area-of-3d-shapes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "892",
+    "title": "Surface Area of 3D Shapes",
+    "slug": "surface-area-of-3d-shapes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1030",
+    "title": "Matrix Cells in Distance Order",
+    "slug": "matrix-cells-in-distance-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1037",
+    "title": "Valid Boomerang",
+    "slug": "valid-boomerang",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1232",
+    "title": "Check If It Is a Straight Line",
+    "slug": "check-if-it-is-a-straight-line",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1266",
+    "title": "Minimum Time Visiting All Points",
+    "slug": "minimum-time-visiting-all-points",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2481",
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "difficulty": "Easy"
+  }
+]

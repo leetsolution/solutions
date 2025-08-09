@@ -10,5 +10,7 @@
   ],
   "slug": "keyboard-row",
   "url": "https://leetcode.com/problems/keyboard-row/",
-  "timestamp": "2025-08-09T02:57:32.155040+00:00"
+  "timestamp": "2025-08-09T02:57:32.155040+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n)"
 }

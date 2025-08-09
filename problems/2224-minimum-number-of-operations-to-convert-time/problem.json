@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-number-of-operations-to-convert-time",
   "url": "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/",
-  "timestamp": "2025-08-07T19:16:54.323332+00:00"
+  "timestamp": "2025-08-07T19:16:54.323332+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

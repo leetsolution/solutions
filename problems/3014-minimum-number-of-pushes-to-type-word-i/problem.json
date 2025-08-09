@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-number-of-pushes-to-type-word-i",
   "url": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/",
-  "timestamp": "2025-08-07T17:03:53.155680+00:00"
+  "timestamp": "2025-08-07T17:03:53.155680+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

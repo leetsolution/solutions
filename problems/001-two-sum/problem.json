@@ -9,5 +9,7 @@
   ],
   "slug": "two-sum",
   "url": "https://leetcode.com/problems/two-sum/",
-  "timestamp": "2025-08-09T04:29:20.002968+00:00"
+  "timestamp": "2025-08-09T04:29:20.002968+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

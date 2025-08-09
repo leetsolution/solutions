@@ -9,5 +9,7 @@
   ],
   "slug": "reverse-degree-of-a-string",
   "url": "https://leetcode.com/problems/reverse-degree-of-a-string/",
-  "timestamp": "2025-08-07T15:15:25.716360+00:00"
+  "timestamp": "2025-08-07T15:15:25.716360+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

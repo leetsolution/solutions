@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-average-subarray-i",
   "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
-  "timestamp": "2025-08-09T02:50:04.716561+00:00"
+  "timestamp": "2025-08-09T02:50:04.716561+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -4,5 +4,23 @@
     "title": "Longest Common Prefix",
     "slug": "longest-common-prefix",
     "difficulty": "Easy"
+  },
+  {
+    "number": "2932",
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3042",
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3597",
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium"
   }
 ]

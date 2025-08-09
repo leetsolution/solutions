@@ -10,5 +10,7 @@
   ],
   "slug": "power-of-four",
   "url": "https://leetcode.com/problems/power-of-four/",
-  "timestamp": "2025-08-09T03:06:55.482881+00:00"
+  "timestamp": "2025-08-09T03:06:55.482881+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

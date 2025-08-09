@@ -8,5 +8,7 @@
   ],
   "slug": "find-the-original-typed-string-i",
   "url": "https://leetcode.com/problems/find-the-original-typed-string-i/",
-  "timestamp": "2025-08-07T15:35:43.140073+00:00"
+  "timestamp": "2025-08-07T15:35:43.140073+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

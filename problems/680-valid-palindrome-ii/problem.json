@@ -10,5 +10,7 @@
   ],
   "slug": "valid-palindrome-ii",
   "url": "https://leetcode.com/problems/valid-palindrome-ii/",
-  "timestamp": "2025-08-09T02:47:43.159170+00:00"
+  "timestamp": "2025-08-09T02:47:43.159170+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

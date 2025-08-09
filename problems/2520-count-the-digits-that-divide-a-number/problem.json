@@ -8,5 +8,7 @@
   ],
   "slug": "count-the-digits-that-divide-a-number",
   "url": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
-  "timestamp": "2025-08-07T18:49:05.739729+00:00"
+  "timestamp": "2025-08-07T18:49:05.739729+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(1)"
 }

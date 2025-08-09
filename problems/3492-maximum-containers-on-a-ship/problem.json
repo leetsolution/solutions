@@ -8,5 +8,7 @@
   ],
   "slug": "maximum-containers-on-a-ship",
   "url": "https://leetcode.com/problems/maximum-containers-on-a-ship/",
-  "timestamp": "2025-08-07T15:14:40.567591+00:00"
+  "timestamp": "2025-08-07T15:14:40.567591+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

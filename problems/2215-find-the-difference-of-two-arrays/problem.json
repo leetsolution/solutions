@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-difference-of-two-arrays",
   "url": "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
-  "timestamp": "2025-08-07T21:27:12.687901+00:00"
+  "timestamp": "2025-08-07T21:27:12.687901+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(n + m)"
 }

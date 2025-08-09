@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-number-of-operations-with-the-same-score-i",
   "url": "https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/",
-  "timestamp": "2025-08-07T17:01:39.252941+00:00"
+  "timestamp": "2025-08-07T17:01:39.252941+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

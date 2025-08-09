@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-employees-who-met-the-target",
   "url": "https://leetcode.com/problems/number-of-employees-who-met-the-target/",
-  "timestamp": "2025-08-07T18:07:03.944100+00:00"
+  "timestamp": "2025-08-07T18:07:03.944100+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

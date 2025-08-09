@@ -11,5 +11,7 @@
   ],
   "slug": "find-the-difference",
   "url": "https://leetcode.com/problems/find-the-difference/",
-  "timestamp": "2025-08-09T03:04:13.268473+00:00"
+  "timestamp": "2025-08-09T03:04:13.268473+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "1-bit-and-2-bit-characters",
   "url": "https://leetcode.com/problems/1-bit-and-2-bit-characters/",
-  "timestamp": "2025-08-09T02:46:17.285855+00:00"
+  "timestamp": "2025-08-09T02:46:17.285855+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

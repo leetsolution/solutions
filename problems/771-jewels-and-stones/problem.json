@@ -9,5 +9,7 @@
   ],
   "slug": "jewels-and-stones",
   "url": "https://leetcode.com/problems/jewels-and-stones/",
-  "timestamp": "2025-08-09T02:41:35.046834+00:00"
+  "timestamp": "2025-08-09T02:41:35.046834+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

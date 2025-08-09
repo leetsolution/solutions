@@ -16,5 +16,47 @@
     "title": "Reverse Linked List",
     "slug": "reverse-linked-list",
     "difficulty": "Easy"
+  },
+  {
+    "number": "231",
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "234",
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "326",
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "342",
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "509",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3304",
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3483",
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "difficulty": "Easy"
   }
 ]

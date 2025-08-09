@@ -10,5 +10,7 @@
   ],
   "slug": "shortest-distance-to-a-character",
   "url": "https://leetcode.com/problems/shortest-distance-to-a-character/",
-  "timestamp": "2025-08-07T22:08:10.269060+00:00"
+  "timestamp": "2025-08-07T22:08:10.269060+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n+m)"
 }

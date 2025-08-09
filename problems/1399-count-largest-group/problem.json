@@ -9,5 +9,7 @@
   ],
   "slug": "count-largest-group",
   "url": "https://leetcode.com/problems/count-largest-group/",
-  "timestamp": "2025-08-07T21:19:33.383180+00:00"
+  "timestamp": "2025-08-07T21:19:33.383180+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

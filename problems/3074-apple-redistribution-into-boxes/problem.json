@@ -10,5 +10,7 @@
   ],
   "slug": "apple-redistribution-into-boxes",
   "url": "https://leetcode.com/problems/apple-redistribution-into-boxes/",
-  "timestamp": "2025-08-07T16:59:25.826267+00:00"
+  "timestamp": "2025-08-07T16:59:25.826267+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

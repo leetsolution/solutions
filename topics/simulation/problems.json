@@ -4,5 +4,473 @@
     "title": "Add Binary",
     "slug": "add-binary",
     "difficulty": "Easy"
+  },
+  {
+    "number": "258",
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "412",
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "415",
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "495",
+    "title": "Teemo Attacking",
+    "slug": "teemo-attacking",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "566",
+    "title": "Reshape the Matrix",
+    "slug": "reshape-the-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "657",
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "682",
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "832",
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "844",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "867",
+    "title": "Transpose Matrix",
+    "slug": "transpose-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "999",
+    "title": "Available Captures for Rook",
+    "slug": "available-captures-for-rook",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1103",
+    "title": "Distribute Candies to People",
+    "slug": "distribute-candies-to-people",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1252",
+    "title": "Cells with Odd Values in a Matrix",
+    "slug": "cells-with-odd-values-in-a-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1260",
+    "title": "Shift 2D Grid",
+    "slug": "shift-2d-grid",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1275",
+    "title": "Find Winner on a Tic Tac Toe Game",
+    "slug": "find-winner-on-a-tic-tac-toe-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1389",
+    "title": "Create Target Array in the Given Order",
+    "slug": "create-target-array-in-the-given-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1518",
+    "title": "Water Bottles",
+    "slug": "water-bottles",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1560",
+    "title": "Most Visited Sector in  a Circular Track",
+    "slug": "most-visited-sector-in-a-circular-track",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1603",
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1646",
+    "title": "Get Maximum in Generated Array",
+    "slug": "get-maximum-in-generated-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1688",
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1700",
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1920",
+    "title": "Build Array from Permutation",
+    "slug": "build-array-from-permutation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1929",
+    "title": "Concatenation of Array",
+    "slug": "concatenation-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1945",
+    "title": "Sum of Digits of String After Convert",
+    "slug": "sum-of-digits-of-string-after-convert",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2011",
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2022",
+    "title": "Convert 1D Array Into 2D Array",
+    "slug": "convert-1d-array-into-2d-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2073",
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2138",
+    "title": "Divide a String Into Groups of Size k",
+    "slug": "divide-a-string-into-groups-of-size-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2154",
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2169",
+    "title": "Count Operations to Obtain Zero",
+    "slug": "count-operations-to-obtain-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2180",
+    "title": "Count Integers With Even Digit Sum",
+    "slug": "count-integers-with-even-digit-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2243",
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2293",
+    "title": "Min Max Game",
+    "slug": "min-max-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2303",
+    "title": "Calculate Amount Paid in Taxes",
+    "slug": "calculate-amount-paid-in-taxes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2460",
+    "title": "Apply Operations to an Array",
+    "slug": "apply-operations-to-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2500",
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2549",
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2553",
+    "title": "Separate the Digits in an Array",
+    "slug": "separate-the-digits-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2558",
+    "title": "Take Gifts From the Richest Pile",
+    "slug": "take-gifts-from-the-richest-pile",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2562",
+    "title": "Find the Array Concatenation Value",
+    "slug": "find-the-array-concatenation-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2582",
+    "title": "Pass the Pillow",
+    "slug": "pass-the-pillow",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2660",
+    "title": "Determine the Winner of a Bowling Game",
+    "slug": "determine-the-winner-of-a-bowling-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2682",
+    "title": "Find the Losers of the Circular Game",
+    "slug": "find-the-losers-of-the-circular-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2696",
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2717",
+    "title": "Semi-Ordered Permutation",
+    "slug": "semi-ordered-permutation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2739",
+    "title": "Total Distance Traveled",
+    "slug": "total-distance-traveled",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2744",
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2810",
+    "title": "Faulty Keyboard",
+    "slug": "faulty-keyboard",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2899",
+    "title": "Last Visited Integers",
+    "slug": "last-visited-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2946",
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "slug": "matrix-similarity-after-cyclic-shifts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2960",
+    "title": "Count Tested Devices After Test Operations",
+    "slug": "count-tested-devices-after-test-operations",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2974",
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3028",
+    "title": "Ant on the Boundary",
+    "slug": "ant-on-the-boundary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3038",
+    "title": "Maximum Number of Operations With the Same Score I",
+    "slug": "maximum-number-of-operations-with-the-same-score-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3069",
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "distribute-elements-into-two-arrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3168",
+    "title": "Minimum Number of Chairs in a Waiting Room",
+    "slug": "minimum-number-of-chairs-in-a-waiting-room",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3174",
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3178",
+    "title": "Find the Child Who Has the Ball After K Seconds",
+    "slug": "find-the-child-who-has-the-ball-after-k-seconds",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3222",
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3242",
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3248",
+    "title": "Snake in Matrix",
+    "slug": "snake-in-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3264",
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3304",
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3354",
+    "title": "Make Array Elements Equal to Zero",
+    "slug": "make-array-elements-equal-to-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3360",
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3379",
+    "title": "Transformed Array",
+    "slug": "transformed-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3417",
+    "title": "Zigzag Grid Traversal With Skip",
+    "slug": "zigzag-grid-traversal-with-skip",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3477",
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3498",
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3561",
+    "title": "Resulting String After Adjacent Removals",
+    "slug": "resulting-string-after-adjacent-removals",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3582",
+    "title": "Generate Tag for Video Caption",
+    "slug": "generate-tag-for-video-caption",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3597",
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3612",
+    "title": "Process String with Special Operations I",
+    "slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3614",
+    "title": "Process String with Special Operations II",
+    "slug": "process-string-with-special-operations-ii",
+    "difficulty": "Hard"
   }
 ]

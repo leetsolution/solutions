@@ -22,5 +22,263 @@
     "title": "Number of 1 Bits",
     "slug": "number-of-1-bits",
     "difficulty": "Easy"
+  },
+  {
+    "number": "222",
+    "title": "Count Complete Tree Nodes",
+    "slug": "count-complete-tree-nodes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "231",
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "268",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "338",
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "342",
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "389",
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "401",
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "405",
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "461",
+    "title": "Hamming Distance",
+    "slug": "hamming-distance",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "476",
+    "title": "Number Complement",
+    "slug": "number-complement",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "645",
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "693",
+    "title": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "762",
+    "title": "Prime Number of Set Bits in Binary Representation",
+    "slug": "prime-number-of-set-bits-in-binary-representation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "832",
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "868",
+    "title": "Binary Gap",
+    "slug": "binary-gap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1009",
+    "title": "Complement of Base 10 Integer",
+    "slug": "complement-of-base-10-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1018",
+    "title": "Binary Prefix Divisible By 5",
+    "slug": "binary-prefix-divisible-by-5",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1342",
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1356",
+    "title": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1486",
+    "title": "XOR Operation in an Array",
+    "slug": "xor-operation-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1684",
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1720",
+    "title": "Decode XORed Array",
+    "slug": "decode-xored-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1763",
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2032",
+    "title": "Two Out of Three",
+    "slug": "two-out-of-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2206",
+    "title": "Divide Array Into Equal Pairs",
+    "slug": "divide-array-into-equal-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2220",
+    "title": "Minimum Bit Flips to Convert Number",
+    "slug": "minimum-bit-flips-to-convert-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2351",
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2506",
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2595",
+    "title": "Number of Even and Odd Bits",
+    "slug": "number-of-even-and-odd-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2859",
+    "title": "Sum of Values at Indices With K Set Bits",
+    "slug": "sum-of-values-at-indices-with-k-set-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2869",
+    "title": "Minimum Operations to Collect Elements",
+    "slug": "minimum-operations-to-collect-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2917",
+    "title": "Find the K-or of an Array",
+    "slug": "find-the-k-or-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2932",
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2980",
+    "title": "Check if Bitwise OR Has Trailing Zeros",
+    "slug": "check-if-bitwise-or-has-trailing-zeros",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3095",
+    "title": "Shortest Subarray With OR at Least K I",
+    "slug": "shortest-subarray-with-or-at-least-k-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3158",
+    "title": "Find the XOR of Numbers Which Appear Twice",
+    "slug": "find-the-xor-of-numbers-which-appear-twice",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3226",
+    "title": "Number of Bit Changes to Make Two Integers Equal",
+    "slug": "number-of-bit-changes-to-make-two-integers-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3304",
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3314",
+    "title": "Construct the Minimum Bitwise Array I",
+    "slug": "construct-the-minimum-bitwise-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3370",
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3599",
+    "title": "Partition Array to Minimize XOR",
+    "slug": "partition-array-to-minimize-xor",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3615",
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard"
   }
 ]

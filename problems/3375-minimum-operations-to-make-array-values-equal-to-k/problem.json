@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-operations-to-make-array-values-equal-to-k",
   "url": "https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/",
-  "timestamp": "2025-08-07T15:34:49.333595+00:00"
+  "timestamp": "2025-08-07T15:34:49.333595+00:00",
+  "time_complexity": "O(n*m*l)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "find-greatest-common-divisor-of-array",
   "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
-  "timestamp": "2025-08-07T19:48:58.781557+00:00"
+  "timestamp": "2025-08-07T19:48:58.781557+00:00",
+  "time_complexity": "O(log(min(nums)))",
+  "space_complexity": "O(1)"
 }

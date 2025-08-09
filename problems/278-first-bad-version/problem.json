@@ -9,5 +9,7 @@
   ],
   "slug": "first-bad-version",
   "url": "https://leetcode.com/problems/first-bad-version/",
-  "timestamp": "2025-08-09T03:09:32.732573+00:00"
+  "timestamp": "2025-08-09T03:09:32.732573+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

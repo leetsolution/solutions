@@ -11,5 +11,7 @@
   ],
   "slug": "find-the-k-th-character-in-string-game-i",
   "url": "https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/",
-  "timestamp": "2025-08-07T16:14:09.535074+00:00"
+  "timestamp": "2025-08-07T16:14:09.535074+00:00",
+  "time_complexity": "O(2^k)",
+  "space_complexity": "O(2^k)"
 }

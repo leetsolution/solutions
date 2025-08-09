@@ -9,5 +9,7 @@
   ],
   "slug": "latest-time-by-replacing-hidden-digits",
   "url": "https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/",
-  "timestamp": "2025-08-07T20:12:47.601657+00:00"
+  "timestamp": "2025-08-07T20:12:47.601657+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
   "url": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/",
-  "timestamp": "2025-08-07T19:48:38.671857+00:00"
+  "timestamp": "2025-08-07T19:48:38.671857+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "count-the-number-of-incremovable-subarrays-i",
   "url": "https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/",
-  "timestamp": "2025-08-07T17:04:53.788475+00:00"
+  "timestamp": "2025-08-07T17:04:53.788475+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(n)"
 }

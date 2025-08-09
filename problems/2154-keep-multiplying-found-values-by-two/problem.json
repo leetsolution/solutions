@@ -11,5 +11,7 @@
   ],
   "slug": "keep-multiplying-found-values-by-two",
   "url": "https://leetcode.com/problems/keep-multiplying-found-values-by-two/",
-  "timestamp": "2025-08-07T19:38:23.789531+00:00"
+  "timestamp": "2025-08-07T19:38:23.789531+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

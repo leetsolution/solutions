@@ -10,5 +10,7 @@
   ],
   "slug": "shortest-subarray-with-or-at-least-k-i",
   "url": "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/",
-  "timestamp": "2025-08-07T16:55:20.276350+00:00"
+  "timestamp": "2025-08-07T16:55:20.276350+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

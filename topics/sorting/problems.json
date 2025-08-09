@@ -10,5 +10,497 @@
     "title": "Majority Element",
     "slug": "majority-element",
     "difficulty": "Easy"
+  },
+  {
+    "number": "217",
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "242",
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "268",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "349",
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "350",
+    "title": "Intersection of Two Arrays II",
+    "slug": "intersection-of-two-arrays-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "389",
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "414",
+    "title": "Third Maximum Number",
+    "slug": "third-maximum-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "455",
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "506",
+    "title": "Relative Ranks",
+    "slug": "relative-ranks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "561",
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "594",
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "628",
+    "title": "Maximum Product of Three Numbers",
+    "slug": "maximum-product-of-three-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "645",
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "747",
+    "title": "Largest Number At Least Twice of Others",
+    "slug": "largest-number-at-least-twice-of-others",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "888",
+    "title": "Fair Candy Swap",
+    "slug": "fair-candy-swap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "905",
+    "title": "Sort Array By Parity",
+    "slug": "sort-array-by-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "922",
+    "title": "Sort Array By Parity II",
+    "slug": "sort-array-by-parity-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "976",
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "977",
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1005",
+    "title": "Maximize Sum Of Array After K Negations",
+    "slug": "maximize-sum-of-array-after-k-negations",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1030",
+    "title": "Matrix Cells in Distance Order",
+    "slug": "matrix-cells-in-distance-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1051",
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1122",
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1200",
+    "title": "Minimum Absolute Difference",
+    "slug": "minimum-absolute-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1331",
+    "title": "Rank Transform of an Array",
+    "slug": "rank-transform-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1337",
+    "title": "The K Weakest Rows in a Matrix",
+    "slug": "the-k-weakest-rows-in-a-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1346",
+    "title": "Check If N and Its Double Exist",
+    "slug": "check-if-n-and-its-double-exist",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1356",
+    "title": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1365",
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1385",
+    "title": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1403",
+    "title": "Minimum Subsequence in Non-Increasing Order",
+    "slug": "minimum-subsequence-in-non-increasing-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1460",
+    "title": "Make Two Arrays Equal by Reversing Subarrays",
+    "slug": "make-two-arrays-equal-by-reversing-subarrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1464",
+    "title": "Maximum Product of Two Elements in an Array",
+    "slug": "maximum-product-of-two-elements-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1491",
+    "title": "Average Salary Excluding the Minimum and Maximum Salary",
+    "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1502",
+    "title": "Can Make Arithmetic Progression From Sequence",
+    "slug": "can-make-arithmetic-progression-from-sequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1608",
+    "title": "Special Array With X Elements Greater Than or Equal X",
+    "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1619",
+    "title": "Mean of Array After Removing Some Elements",
+    "slug": "mean-of-array-after-removing-some-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1636",
+    "title": "Sort Array by Increasing Frequency",
+    "slug": "sort-array-by-increasing-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1637",
+    "title": "Widest Vertical Area Between Two Points Containing No Points",
+    "slug": "widest-vertical-area-between-two-points-containing-no-points",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1710",
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1859",
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1913",
+    "title": "Maximum Product Difference Between Two Pairs",
+    "slug": "maximum-product-difference-between-two-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1984",
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2037",
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2089",
+    "title": "Find Target Indices After Sorting Array",
+    "slug": "find-target-indices-after-sorting-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2094",
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2099",
+    "title": "Find Subsequence of Length K With the Largest Sum",
+    "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2144",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "slug": "minimum-cost-of-buying-candies-with-discount",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2148",
+    "title": "Count Elements With Strictly Smaller and Greater Elements ",
+    "slug": "count-elements-with-strictly-smaller-and-greater-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2154",
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2160",
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2164",
+    "title": "Sort Even and Odd Indices Independently",
+    "slug": "sort-even-and-odd-indices-independently",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2231",
+    "title": "Largest Number After Digit Swaps by Parity",
+    "slug": "largest-number-after-digit-swaps-by-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2248",
+    "title": "Intersection of Multiple Arrays",
+    "slug": "intersection-of-multiple-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2273",
+    "title": "Find Resultant Array After Removing Anagrams",
+    "slug": "find-resultant-array-after-removing-anagrams",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2335",
+    "title": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2363",
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2389",
+    "title": "Longest Subsequence With Limited Sum",
+    "slug": "longest-subsequence-with-limited-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2418",
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2441",
+    "title": "Largest Positive Integer That Exists With Its Negative",
+    "slug": "largest-positive-integer-that-exists-with-its-negative",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2465",
+    "title": "Number of Distinct Averages",
+    "slug": "number-of-distinct-averages",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2475",
+    "title": "Number of Unequal Triplets in Array",
+    "slug": "number-of-unequal-triplets-in-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2500",
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2578",
+    "title": "Split With Minimum Sum",
+    "slug": "split-with-minimum-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2706",
+    "title": "Buy Two Chocolates",
+    "slug": "buy-two-chocolates",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2733",
+    "title": "Neither Minimum nor Maximum",
+    "slug": "neither-minimum-nor-maximum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2784",
+    "title": "Check if Array is Good",
+    "slug": "check-if-array-is-good",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2824",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2974",
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2996",
+    "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+    "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3010",
+    "title": "Divide an Array Into Subarrays With Minimum Cost I",
+    "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3024",
+    "title": "Type of Triangle",
+    "slug": "type-of-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3074",
+    "title": "Apple Redistribution into Boxes",
+    "slug": "apple-redistribution-into-boxes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3194",
+    "title": "Minimum Average of Smallest and Largest Elements",
+    "slug": "minimum-average-of-smallest-and-largest-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3467",
+    "title": "Transform Array by Parity",
+    "slug": "transform-array-by-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3517",
+    "title": "Smallest Palindromic Rearrangement I",
+    "slug": "smallest-palindromic-rearrangement-i",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3536",
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3545",
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3606",
+    "title": "Coupon Code Validator",
+    "slug": "coupon-code-validator",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3608",
+    "title": "Minimum Time for K Connected Components",
+    "slug": "minimum-time-for-k-connected-components",
+    "difficulty": "Medium"
   }
 ]

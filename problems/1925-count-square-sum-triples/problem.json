@@ -9,5 +9,7 @@
   ],
   "slug": "count-square-sum-triples",
   "url": "https://leetcode.com/problems/count-square-sum-triples/",
-  "timestamp": "2025-08-07T19:52:58.694616+00:00"
+  "timestamp": "2025-08-07T19:52:58.694616+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

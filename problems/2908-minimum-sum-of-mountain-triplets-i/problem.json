@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-sum-of-mountain-triplets-i",
   "url": "https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/",
-  "timestamp": "2025-08-07T17:44:31.400033+00:00"
+  "timestamp": "2025-08-07T17:44:31.400033+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

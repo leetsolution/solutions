@@ -9,5 +9,7 @@
   ],
   "slug": "count-good-triplets",
   "url": "https://leetcode.com/problems/count-good-triplets/",
-  "timestamp": "2025-08-07T20:27:27.178962+00:00"
+  "timestamp": "2025-08-07T20:27:27.178962+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

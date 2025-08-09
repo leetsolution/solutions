@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-bit-flips-to-convert-number",
   "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
-  "timestamp": "2025-08-07T19:21:20.277839+00:00"
+  "timestamp": "2025-08-07T19:21:20.277839+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(1)"
 }

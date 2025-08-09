@@ -8,5 +8,7 @@
   ],
   "slug": "student-attendance-record-i",
   "url": "https://leetcode.com/problems/student-attendance-record-i/",
-  "timestamp": "2025-08-09T02:54:29.720302+00:00"
+  "timestamp": "2025-08-09T02:54:29.720302+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

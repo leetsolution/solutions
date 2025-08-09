@@ -10,5 +10,7 @@
   ],
   "slug": "counting-words-with-a-given-prefix",
   "url": "https://leetcode.com/problems/counting-words-with-a-given-prefix/",
-  "timestamp": "2025-08-07T19:32:25.389267+00:00"
+  "timestamp": "2025-08-07T19:32:25.389267+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

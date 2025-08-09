@@ -10,5 +10,7 @@
   ],
   "slug": "count-negative-numbers-in-a-sorted-matrix",
   "url": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
-  "timestamp": "2025-08-07T21:21:19.356948+00:00"
+  "timestamp": "2025-08-07T21:21:19.356948+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-valid-words-in-a-sentence",
   "url": "https://leetcode.com/problems/number-of-valid-words-in-a-sentence/",
-  "timestamp": "2025-08-07T19:44:16.838096+00:00"
+  "timestamp": "2025-08-07T19:44:16.838096+00:00",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(N)"
 }

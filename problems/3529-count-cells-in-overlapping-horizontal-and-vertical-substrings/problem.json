@@ -13,5 +13,7 @@
   ],
   "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
   "url": "https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/",
-  "timestamp": "2025-08-09T04:58:41.723465+00:00"
+  "timestamp": "2025-08-09T04:58:41.723465+00:00",
+  "time_complexity": "O(m * n * p)",
+  "space_complexity": "O(m * n)"
 }

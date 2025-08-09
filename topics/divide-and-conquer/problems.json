@@ -22,5 +22,11 @@
     "title": "Number of 1 Bits",
     "slug": "number-of-1-bits",
     "difficulty": "Easy"
+  },
+  {
+    "number": "1763",
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy"
   }
 ]

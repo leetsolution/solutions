@@ -12,5 +12,7 @@
   ],
   "slug": "longest-subsequence-with-limited-sum",
   "url": "https://leetcode.com/problems/longest-subsequence-with-limited-sum/",
-  "timestamp": "2025-08-07T18:57:14.847299+00:00"
+  "timestamp": "2025-08-07T18:57:14.847299+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

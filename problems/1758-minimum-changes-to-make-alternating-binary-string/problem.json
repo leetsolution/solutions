@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-changes-to-make-alternating-binary-string",
   "url": "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/",
-  "timestamp": "2025-08-07T20:11:46.263947+00:00"
+  "timestamp": "2025-08-07T20:11:46.263947+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

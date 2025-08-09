@@ -11,5 +11,7 @@
   ],
   "slug": "number-of-arithmetic-triplets",
   "url": "https://leetcode.com/problems/number-of-arithmetic-triplets/",
-  "timestamp": "2025-08-07T18:58:42.732907+00:00"
+  "timestamp": "2025-08-07T18:58:42.732907+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

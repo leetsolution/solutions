@@ -9,5 +9,7 @@
   ],
   "slug": "shortest-distance-to-target-string-in-a-circular-array",
   "url": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/",
-  "timestamp": "2025-08-07T18:49:40.274740+00:00"
+  "timestamp": "2025-08-07T18:49:40.274740+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

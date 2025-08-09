@@ -1,0 +1,32 @@
+[
+  {
+    "number": "572",
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "705",
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "706",
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3042",
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3529",
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium"
+  }
+]

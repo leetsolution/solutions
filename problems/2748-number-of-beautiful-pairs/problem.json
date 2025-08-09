@@ -12,5 +12,7 @@
   ],
   "slug": "number-of-beautiful-pairs",
   "url": "https://leetcode.com/problems/number-of-beautiful-pairs/",
-  "timestamp": "2025-08-07T18:09:21.425028+00:00"
+  "timestamp": "2025-08-07T18:09:21.425028+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

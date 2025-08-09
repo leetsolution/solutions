@@ -9,5 +9,7 @@
   ],
   "slug": "sum-of-variable-length-subarrays",
   "url": "https://leetcode.com/problems/sum-of-variable-length-subarrays/",
-  "timestamp": "2025-08-07T15:22:17.663288+00:00"
+  "timestamp": "2025-08-07T15:22:17.663288+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

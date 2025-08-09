@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-width-of-columns-of-a-grid",
   "url": "https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/",
-  "timestamp": "2025-08-07T18:19:31.468292+00:00"
+  "timestamp": "2025-08-07T18:19:31.468292+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(n)"
 }

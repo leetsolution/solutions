@@ -11,5 +11,7 @@
   ],
   "slug": "minimum-number-of-moves-to-seat-everyone",
   "url": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
-  "timestamp": "2025-08-07T19:45:53.885331+00:00"
+  "timestamp": "2025-08-07T19:45:53.885331+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

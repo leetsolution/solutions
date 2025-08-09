@@ -8,5 +8,7 @@
   ],
   "slug": "cells-in-a-range-on-an-excel-sheet",
   "url": "https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/",
-  "timestamp": "2025-08-07T19:25:11.856484+00:00"
+  "timestamp": "2025-08-07T19:25:11.856484+00:00",
+  "time_complexity": "O((col2 - col1) * (row2 - row1))",
+  "space_complexity": "O((col2 - col1) * (row2 - row1))"
 }

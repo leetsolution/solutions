@@ -11,5 +11,7 @@
   ],
   "slug": "sort-the-people",
   "url": "https://leetcode.com/problems/sort-the-people/",
-  "timestamp": "2025-08-07T18:55:29.133868+00:00"
+  "timestamp": "2025-08-07T18:55:29.133868+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

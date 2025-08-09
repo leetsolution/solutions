@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-the-number-is-fascinating",
   "url": "https://leetcode.com/problems/check-if-the-number-is-fascinating/",
-  "timestamp": "2025-08-07T18:09:51.899636+00:00"
+  "timestamp": "2025-08-07T18:09:51.899636+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

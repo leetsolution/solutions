@@ -9,5 +9,7 @@
   ],
   "slug": "last-stone-weight",
   "url": "https://leetcode.com/problems/last-stone-weight/",
-  "timestamp": "2025-08-07T21:41:42.332299+00:00"
+  "timestamp": "2025-08-07T21:41:42.332299+00:00",
+  "time_complexity": "O(nlogn)",
+  "space_complexity": "O(n)"
 }

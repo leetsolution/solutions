@@ -12,5 +12,7 @@
   ],
   "slug": "x-of-a-kind-in-a-deck-of-cards",
   "url": "https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/",
-  "timestamp": "2025-08-07T21:53:53.316838+00:00"
+  "timestamp": "2025-08-07T21:53:53.316838+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

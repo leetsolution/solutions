@@ -9,5 +9,7 @@
   ],
   "slug": "path-crossing",
   "url": "https://leetcode.com/problems/path-crossing/",
-  "timestamp": "2025-08-07T20:33:48.370034+00:00"
+  "timestamp": "2025-08-07T20:33:48.370034+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

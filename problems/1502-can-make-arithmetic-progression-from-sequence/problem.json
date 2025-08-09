@@ -9,5 +9,7 @@
   ],
   "slug": "can-make-arithmetic-progression-from-sequence",
   "url": "https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/",
-  "timestamp": "2025-08-07T20:32:57.608320+00:00"
+  "timestamp": "2025-08-07T20:32:57.608320+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

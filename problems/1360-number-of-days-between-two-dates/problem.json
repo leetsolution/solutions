@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-days-between-two-dates",
   "url": "https://leetcode.com/problems/number-of-days-between-two-dates/",
-  "timestamp": "2025-08-07T21:34:42.800983+00:00"
+  "timestamp": "2025-08-07T21:34:42.800983+00:00",
+  "time_complexity": "O(Y)",
+  "space_complexity": "O(1)"
 }

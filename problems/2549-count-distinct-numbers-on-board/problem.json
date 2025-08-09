@@ -11,5 +11,7 @@
   ],
   "slug": "count-distinct-numbers-on-board",
   "url": "https://leetcode.com/problems/count-distinct-numbers-on-board/",
-  "timestamp": "2025-08-07T18:18:50.659912+00:00"
+  "timestamp": "2025-08-07T18:18:50.659912+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

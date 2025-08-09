@@ -9,5 +9,7 @@
   ],
   "slug": "reverse-linked-list",
   "url": "https://leetcode.com/problems/reverse-linked-list/",
-  "timestamp": "2025-08-09T04:17:33.553145+00:00"
+  "timestamp": "2025-08-09T04:17:33.553145+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

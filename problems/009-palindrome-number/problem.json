@@ -8,5 +8,7 @@
   ],
   "slug": "palindrome-number",
   "url": "https://leetcode.com/problems/palindrome-number/",
-  "timestamp": "2025-08-09T04:29:02.542887+00:00"
+  "timestamp": "2025-08-09T04:29:02.542887+00:00",
+  "time_complexity": "O(log(x))",
+  "space_complexity": "O(1)"
 }

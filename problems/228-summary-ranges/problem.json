@@ -8,5 +8,7 @@
   ],
   "slug": "summary-ranges",
   "url": "https://leetcode.com/problems/summary-ranges/",
-  "timestamp": "2025-08-09T03:13:34.988850+00:00"
+  "timestamp": "2025-08-09T03:13:34.988850+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

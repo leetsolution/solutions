@@ -11,5 +11,7 @@
   ],
   "slug": "finding-3-digit-even-numbers",
   "url": "https://leetcode.com/problems/finding-3-digit-even-numbers/",
-  "timestamp": "2025-08-07T19:41:41.316497+00:00"
+  "timestamp": "2025-08-07T19:41:41.316497+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

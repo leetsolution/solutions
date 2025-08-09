@@ -10,5 +10,7 @@
   ],
   "slug": "count-elements-with-maximum-frequency",
   "url": "https://leetcode.com/problems/count-elements-with-maximum-frequency/",
-  "timestamp": "2025-08-07T17:06:03.304231+00:00"
+  "timestamp": "2025-08-07T17:06:03.304231+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

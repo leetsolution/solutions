@@ -9,5 +9,7 @@
   ],
   "slug": "distribute-money-to-maximum-children",
   "url": "https://leetcode.com/problems/distribute-money-to-maximum-children/",
-  "timestamp": "2025-08-07T18:20:52.087034+00:00"
+  "timestamp": "2025-08-07T18:20:52.087034+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

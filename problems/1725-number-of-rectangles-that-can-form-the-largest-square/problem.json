@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-rectangles-that-can-form-the-largest-square",
   "url": "https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/",
-  "timestamp": "2025-08-07T20:13:32.204712+00:00"
+  "timestamp": "2025-08-07T20:13:32.204712+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -12,5 +12,7 @@
   ],
   "slug": "count-pairs-of-similar-strings",
   "url": "https://leetcode.com/problems/count-pairs-of-similar-strings/",
-  "timestamp": "2025-08-07T18:49:56.478857+00:00"
+  "timestamp": "2025-08-07T18:49:56.478857+00:00",
+  "time_complexity": "O(n^2*m)",
+  "space_complexity": "O(m)"
 }

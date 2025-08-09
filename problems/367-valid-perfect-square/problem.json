@@ -9,5 +9,7 @@
   ],
   "slug": "valid-perfect-square",
   "url": "https://leetcode.com/problems/valid-perfect-square/",
-  "timestamp": "2025-08-09T03:05:21.145124+00:00"
+  "timestamp": "2025-08-09T03:05:21.145124+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

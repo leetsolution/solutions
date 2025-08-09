@@ -9,5 +9,7 @@
   ],
   "slug": "sorting-the-sentence",
   "url": "https://leetcode.com/problems/sorting-the-sentence/",
-  "timestamp": "2025-08-07T20:02:26.939320+00:00"
+  "timestamp": "2025-08-07T20:02:26.939320+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
   "url": "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/",
-  "timestamp": "2025-08-07T21:25:57.138177+00:00"
+  "timestamp": "2025-08-07T21:25:57.138177+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "determine-if-two-events-have-conflict",
   "url": "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
-  "timestamp": "2025-08-07T18:53:36.054669+00:00"
+  "timestamp": "2025-08-07T18:53:36.054669+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

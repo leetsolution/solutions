@@ -11,5 +11,7 @@
   ],
   "slug": "unique-3-digit-even-numbers",
   "url": "https://leetcode.com/problems/unique-3-digit-even-numbers/",
-  "timestamp": "2025-08-07T15:16:16.792170+00:00"
+  "timestamp": "2025-08-07T15:16:16.792170+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(n^3)"
 }

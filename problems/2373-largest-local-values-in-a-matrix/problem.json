@@ -9,5 +9,7 @@
   ],
   "slug": "largest-local-values-in-a-matrix",
   "url": "https://leetcode.com/problems/largest-local-values-in-a-matrix/",
-  "timestamp": "2025-08-07T18:58:06.280011+00:00"
+  "timestamp": "2025-08-07T18:58:06.280011+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n^2)"
 }

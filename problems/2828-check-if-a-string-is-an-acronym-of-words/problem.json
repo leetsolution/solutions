@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-a-string-is-an-acronym-of-words",
   "url": "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/",
-  "timestamp": "2025-08-07T18:04:56.199615+00:00"
+  "timestamp": "2025-08-07T18:04:56.199615+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

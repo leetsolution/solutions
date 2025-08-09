@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-subsequence-in-non-increasing-order",
   "url": "https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/",
-  "timestamp": "2025-08-07T21:18:29.183053+00:00"
+  "timestamp": "2025-08-07T21:18:29.183053+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

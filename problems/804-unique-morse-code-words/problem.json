@@ -10,5 +10,7 @@
   ],
   "slug": "unique-morse-code-words",
   "url": "https://leetcode.com/problems/unique-morse-code-words/",
-  "timestamp": "2025-08-07T22:10:57.800817+00:00"
+  "timestamp": "2025-08-07T22:10:57.800817+00:00",
+  "time_complexity": "O(N*M)",
+  "space_complexity": "O(N*M)"
 }

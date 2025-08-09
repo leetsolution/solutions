@@ -9,5 +9,7 @@
   ],
   "slug": "matrix-diagonal-sum",
   "url": "https://leetcode.com/problems/matrix-diagonal-sum/",
-  "timestamp": "2025-08-07T20:24:02.064455+00:00"
+  "timestamp": "2025-08-07T20:24:02.064455+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

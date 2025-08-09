@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-two-chessboard-squares-have-the-same-color",
   "url": "https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/",
-  "timestamp": "2025-08-07T16:18:19.900149+00:00"
+  "timestamp": "2025-08-07T16:18:19.900149+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

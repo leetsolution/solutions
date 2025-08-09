@@ -9,5 +9,7 @@
   ],
   "slug": "calculate-digit-sum-of-a-string",
   "url": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
-  "timestamp": "2025-08-07T19:04:45.587115+00:00"
+  "timestamp": "2025-08-07T19:04:45.587115+00:00",
+  "time_complexity": "O(N^2/K)",
+  "space_complexity": "O(N)"
 }

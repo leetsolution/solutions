@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
   "url": "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/",
-  "timestamp": "2025-08-07T15:12:28.621268+00:00"
+  "timestamp": "2025-08-07T15:12:28.621268+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

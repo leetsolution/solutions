@@ -8,5 +8,7 @@
   ],
   "slug": "harshad-number",
   "url": "https://leetcode.com/problems/harshad-number/",
-  "timestamp": "2025-08-07T16:56:30.814815+00:00"
+  "timestamp": "2025-08-07T16:56:30.814815+00:00",
+  "time_complexity": "O(log(x))",
+  "space_complexity": "O(1)"
 }

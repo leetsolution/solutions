@@ -9,5 +9,7 @@
   ],
   "slug": "create-target-array-in-the-given-order",
   "url": "https://leetcode.com/problems/create-target-array-in-the-given-order/",
-  "timestamp": "2025-08-07T21:19:16.260087+00:00"
+  "timestamp": "2025-08-07T21:19:16.260087+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

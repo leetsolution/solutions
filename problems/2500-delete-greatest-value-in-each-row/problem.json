@@ -12,5 +12,7 @@
   ],
   "slug": "delete-greatest-value-in-each-row",
   "url": "https://leetcode.com/problems/delete-greatest-value-in-each-row/",
-  "timestamp": "2025-08-07T18:50:30.336241+00:00"
+  "timestamp": "2025-08-07T18:50:30.336241+00:00",
+  "time_complexity": "O(m*n*log(n))",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-number-of-good-pairs-i",
   "url": "https://leetcode.com/problems/find-the-number-of-good-pairs-i/",
-  "timestamp": "2025-08-07T16:50:13.364386+00:00"
+  "timestamp": "2025-08-07T16:50:13.364386+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

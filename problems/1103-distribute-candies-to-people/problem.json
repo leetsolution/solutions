@@ -9,5 +9,7 @@
   ],
   "slug": "distribute-candies-to-people",
   "url": "https://leetcode.com/problems/distribute-candies-to-people/",
-  "timestamp": "2025-08-07T21:39:16.901385+00:00"
+  "timestamp": "2025-08-07T21:39:16.901385+00:00",
+  "time_complexity": "O(sqrt(candies))",
+  "space_complexity": "O(num_people)"
 }

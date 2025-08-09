@@ -9,5 +9,7 @@
   ],
   "slug": "distribute-elements-into-two-arrays-i",
   "url": "https://leetcode.com/problems/distribute-elements-into-two-arrays-i/",
-  "timestamp": "2025-08-07T16:58:41.744247+00:00"
+  "timestamp": "2025-08-07T16:58:41.744247+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

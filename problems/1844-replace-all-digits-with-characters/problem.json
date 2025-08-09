@@ -8,5 +8,7 @@
   ],
   "slug": "replace-all-digits-with-characters",
   "url": "https://leetcode.com/problems/replace-all-digits-with-characters/",
-  "timestamp": "2025-08-07T20:06:52.329143+00:00"
+  "timestamp": "2025-08-07T20:06:52.329143+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "pascals-triangle-ii",
   "url": "https://leetcode.com/problems/pascals-triangle-ii/",
-  "timestamp": "2025-08-09T04:22:15.495538+00:00"
+  "timestamp": "2025-08-09T04:22:15.495538+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

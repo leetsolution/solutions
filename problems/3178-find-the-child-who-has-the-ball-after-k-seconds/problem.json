@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-child-who-has-the-ball-after-k-seconds",
   "url": "https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/",
-  "timestamp": "2025-08-07T16:49:31.535861+00:00"
+  "timestamp": "2025-08-07T16:49:31.535861+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "climbing-stairs",
   "url": "https://leetcode.com/problems/climbing-stairs/",
-  "timestamp": "2025-08-09T04:25:29.369122+00:00"
+  "timestamp": "2025-08-09T04:25:29.369122+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

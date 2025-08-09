@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-xor-of-numbers-which-appear-twice",
   "url": "https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/",
-  "timestamp": "2025-08-07T16:51:04.477134+00:00"
+  "timestamp": "2025-08-07T16:51:04.477134+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "inverse-coin-change",
   "url": "https://leetcode.com/problems/inverse-coin-change/",
-  "timestamp": "2025-08-09T04:52:04.208231+00:00"
+  "timestamp": "2025-08-09T04:52:04.208231+00:00",
+  "time_complexity": "O(n^3 * m)",
+  "space_complexity": "O(m)"
 }

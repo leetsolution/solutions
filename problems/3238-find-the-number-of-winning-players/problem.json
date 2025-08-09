@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-number-of-winning-players",
   "url": "https://leetcode.com/problems/find-the-number-of-winning-players/",
-  "timestamp": "2025-08-07T16:43:31.624521+00:00"
+  "timestamp": "2025-08-07T16:43:31.624521+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(m)"
 }

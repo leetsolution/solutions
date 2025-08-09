@@ -9,5 +9,7 @@
   ],
   "slug": "move-zeroes",
   "url": "https://leetcode.com/problems/move-zeroes/",
-  "timestamp": "2025-08-09T03:09:11.848266+00:00"
+  "timestamp": "2025-08-09T03:09:11.848266+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

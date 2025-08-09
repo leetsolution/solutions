@@ -8,5 +8,7 @@
   ],
   "slug": "circular-sentence",
   "url": "https://leetcode.com/problems/circular-sentence/",
-  "timestamp": "2025-08-07T18:50:48.139741+00:00"
+  "timestamp": "2025-08-07T18:50:48.139741+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

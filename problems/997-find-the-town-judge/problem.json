@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-town-judge",
   "url": "https://leetcode.com/problems/find-the-town-judge/",
-  "timestamp": "2025-08-07T21:46:28.788347+00:00"
+  "timestamp": "2025-08-07T21:46:28.788347+00:00",
+  "time_complexity": "O(t + n)",
+  "space_complexity": "O(n)"
 }

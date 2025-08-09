@@ -10,5 +10,7 @@
   ],
   "slug": "diameter-of-binary-tree",
   "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
-  "timestamp": "2025-08-09T02:54:48.876394+00:00"
+  "timestamp": "2025-08-09T02:54:48.876394+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
 }

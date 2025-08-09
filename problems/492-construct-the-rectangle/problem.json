@@ -8,5 +8,7 @@
   ],
   "slug": "construct-the-rectangle",
   "url": "https://leetcode.com/problems/construct-the-rectangle/",
-  "timestamp": "2025-08-09T02:58:18.704066+00:00"
+  "timestamp": "2025-08-09T02:58:18.704066+00:00",
+  "time_complexity": "O(sqrt(n))",
+  "space_complexity": "O(1)"
 }

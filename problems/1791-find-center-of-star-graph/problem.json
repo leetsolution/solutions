@@ -8,5 +8,7 @@
   ],
   "slug": "find-center-of-star-graph",
   "url": "https://leetcode.com/problems/find-center-of-star-graph/",
-  "timestamp": "2025-08-07T20:09:19.756115+00:00"
+  "timestamp": "2025-08-07T20:09:19.756115+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

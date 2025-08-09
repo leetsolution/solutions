@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-steps-to-reduce-a-number-to-zero",
   "url": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/",
-  "timestamp": "2025-08-07T21:23:25.321694+00:00"
+  "timestamp": "2025-08-07T21:23:25.321694+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(1)"
 }

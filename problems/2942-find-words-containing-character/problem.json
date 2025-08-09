@@ -9,5 +9,7 @@
   ],
   "slug": "find-words-containing-character",
   "url": "https://leetcode.com/problems/find-words-containing-character/",
-  "timestamp": "2025-08-07T17:40:54.902082+00:00"
+  "timestamp": "2025-08-07T17:40:54.902082+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n)"
 }

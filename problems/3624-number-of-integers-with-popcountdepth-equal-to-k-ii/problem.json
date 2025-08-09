@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
   "url": "https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/",
-  "timestamp": "2025-08-03T17:31:14.349223+00:00"
+  "timestamp": "2025-08-03T17:31:14.349223+00:00",
+  "time_complexity": "O(QNR)",
+  "space_complexity": "O(Q)"
 }

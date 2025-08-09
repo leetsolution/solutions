@@ -8,5 +8,7 @@
   ],
   "slug": "three-consecutive-odds",
   "url": "https://leetcode.com/problems/three-consecutive-odds/",
-  "timestamp": "2025-08-07T21:32:06.727234+00:00"
+  "timestamp": "2025-08-07T21:32:06.727234+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

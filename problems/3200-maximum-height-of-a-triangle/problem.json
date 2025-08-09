@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-height-of-a-triangle",
   "url": "https://leetcode.com/problems/maximum-height-of-a-triangle/",
-  "timestamp": "2025-08-07T16:47:59.596614+00:00"
+  "timestamp": "2025-08-07T16:47:59.596614+00:00",
+  "time_complexity": "O(sqrt(n)*sqrt(n))",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "clear-digits",
   "url": "https://leetcode.com/problems/clear-digits/",
-  "timestamp": "2025-08-07T16:49:48.109612+00:00"
+  "timestamp": "2025-08-07T16:49:48.109612+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

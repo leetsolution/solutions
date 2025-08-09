@@ -8,5 +8,7 @@
   ],
   "slug": "calculate-money-in-leetcode-bank",
   "url": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
-  "timestamp": "2025-08-07T20:15:15.282279+00:00"
+  "timestamp": "2025-08-07T20:15:15.282279+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

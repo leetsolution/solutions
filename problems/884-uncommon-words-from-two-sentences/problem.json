@@ -10,5 +10,7 @@
   ],
   "slug": "uncommon-words-from-two-sentences",
   "url": "https://leetcode.com/problems/uncommon-words-from-two-sentences/",
-  "timestamp": "2025-08-07T21:56:47.268504+00:00"
+  "timestamp": "2025-08-07T21:56:47.268504+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(n + m)"
 }

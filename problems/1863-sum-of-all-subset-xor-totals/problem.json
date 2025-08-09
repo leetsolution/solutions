@@ -13,5 +13,7 @@
   ],
   "slug": "sum-of-all-subset-xor-totals",
   "url": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
-  "timestamp": "2025-08-07T19:59:20.596136+00:00"
+  "timestamp": "2025-08-07T19:59:20.596136+00:00",
+  "time_complexity": "O(n * 2^n)",
+  "space_complexity": "O(1)"
 }

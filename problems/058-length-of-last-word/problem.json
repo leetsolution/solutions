@@ -8,5 +8,7 @@
   ],
   "slug": "length-of-last-word",
   "url": "https://leetcode.com/problems/length-of-last-word/",
-  "timestamp": "2025-08-09T04:26:23.293799+00:00"
+  "timestamp": "2025-08-09T04:26:23.293799+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

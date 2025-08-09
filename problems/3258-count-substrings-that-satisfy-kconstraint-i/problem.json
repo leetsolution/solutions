@@ -9,5 +9,7 @@
   ],
   "slug": "count-substrings-that-satisfy-k-constraint-i",
   "url": "https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/",
-  "timestamp": "2025-08-07T16:41:43.623012+00:00"
+  "timestamp": "2025-08-07T16:41:43.623012+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(n)"
 }

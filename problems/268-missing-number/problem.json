@@ -13,5 +13,7 @@
   ],
   "slug": "missing-number",
   "url": "https://leetcode.com/problems/missing-number/",
-  "timestamp": "2025-08-09T03:09:52.507293+00:00"
+  "timestamp": "2025-08-09T03:09:52.507293+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "word-pattern",
   "url": "https://leetcode.com/problems/word-pattern/",
-  "timestamp": "2025-08-09T03:08:52.010524+00:00"
+  "timestamp": "2025-08-09T03:08:52.010524+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

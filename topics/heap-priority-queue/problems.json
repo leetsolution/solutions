@@ -1,0 +1,104 @@
+[
+  {
+    "number": "506",
+    "title": "Relative Ranks",
+    "slug": "relative-ranks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "703",
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1046",
+    "title": "Last Stone Weight",
+    "slug": "last-stone-weight",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1337",
+    "title": "The K Weakest Rows in a Matrix",
+    "slug": "the-k-weakest-rows-in-a-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1464",
+    "title": "Maximum Product of Two Elements in an Array",
+    "slug": "maximum-product-of-two-elements-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2099",
+    "title": "Find Subsequence of Length K With the Largest Sum",
+    "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2231",
+    "title": "Largest Number After Digit Swaps by Parity",
+    "slug": "largest-number-after-digit-swaps-by-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2335",
+    "title": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2500",
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2558",
+    "title": "Take Gifts From the Richest Pile",
+    "slug": "take-gifts-from-the-richest-pile",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2974",
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3264",
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3318",
+    "title": "Find X-Sum of All K-Long Subarrays I",
+    "slug": "find-x-sum-of-all-k-long-subarrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3604",
+    "title": "Minimum Time to Reach Destination in Directed Graph",
+    "slug": "minimum-time-to-reach-destination-in-directed-graph",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3620",
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard"
+  }
+]

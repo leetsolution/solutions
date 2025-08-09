@@ -9,5 +9,7 @@
   ],
   "slug": "sum-of-values-at-indices-with-k-set-bits",
   "url": "https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/",
-  "timestamp": "2025-08-07T17:56:25.734722+00:00"
+  "timestamp": "2025-08-07T17:56:25.734722+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "is-subsequence",
   "url": "https://leetcode.com/problems/is-subsequence/",
-  "timestamp": "2025-08-09T03:03:57.280043+00:00"
+  "timestamp": "2025-08-09T03:03:57.280043+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

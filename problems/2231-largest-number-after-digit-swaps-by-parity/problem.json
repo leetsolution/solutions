@@ -9,5 +9,7 @@
   ],
   "slug": "largest-number-after-digit-swaps-by-parity",
   "url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/",
-  "timestamp": "2025-08-07T19:20:25.138783+00:00"
+  "timestamp": "2025-08-07T19:20:25.138783+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

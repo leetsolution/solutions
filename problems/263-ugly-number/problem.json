@@ -8,5 +8,7 @@
   ],
   "slug": "ugly-number",
   "url": "https://leetcode.com/problems/ugly-number/",
-  "timestamp": "2025-08-09T03:10:14.419282+00:00"
+  "timestamp": "2025-08-09T03:10:14.419282+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

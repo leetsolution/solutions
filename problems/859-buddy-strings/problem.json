@@ -9,5 +9,7 @@
   ],
   "slug": "buddy-strings",
   "url": "https://leetcode.com/problems/buddy-strings/",
-  "timestamp": "2025-08-07T22:02:02.462350+00:00"
+  "timestamp": "2025-08-07T22:02:02.462350+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "count-tested-devices-after-test-operations",
   "url": "https://leetcode.com/problems/count-tested-devices-after-test-operations/",
-  "timestamp": "2025-08-07T17:37:19.504302+00:00"
+  "timestamp": "2025-08-07T17:37:19.504302+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

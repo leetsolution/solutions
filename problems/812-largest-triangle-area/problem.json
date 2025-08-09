@@ -10,5 +10,7 @@
   ],
   "slug": "largest-triangle-area",
   "url": "https://leetcode.com/problems/largest-triangle-area/",
-  "timestamp": "2025-08-07T22:09:36.219138+00:00"
+  "timestamp": "2025-08-07T22:09:36.219138+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

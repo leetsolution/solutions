@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-number-of-pairs-in-array",
   "url": "https://leetcode.com/problems/maximum-number-of-pairs-in-array/",
-  "timestamp": "2025-08-07T19:00:04.163954+00:00"
+  "timestamp": "2025-08-07T19:00:04.163954+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -6,5 +6,7 @@
   "topics": [],
   "slug": "minimum-time-to-activate-string",
   "url": "https://leetcode.com/problems/minimum-time-to-activate-string/",
-  "timestamp": "2025-08-09T04:44:12.199128+00:00"
+  "timestamp": "2025-08-09T04:44:12.199128+00:00",
+  "time_complexity": "O(n^4)",
+  "space_complexity": "O(n)"
 }

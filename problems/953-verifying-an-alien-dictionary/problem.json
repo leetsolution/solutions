@@ -10,5 +10,7 @@
   ],
   "slug": "verifying-an-alien-dictionary",
   "url": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
-  "timestamp": "2025-08-07T21:49:00.725584+00:00"
+  "timestamp": "2025-08-07T21:49:00.725584+00:00",
+  "time_complexity": "O(N*M)",
+  "space_complexity": "O(1)"
 }

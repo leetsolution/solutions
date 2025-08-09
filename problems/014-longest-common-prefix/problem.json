@@ -10,5 +10,7 @@
   ],
   "slug": "longest-common-prefix",
   "url": "https://leetcode.com/problems/longest-common-prefix/",
-  "timestamp": "2025-08-09T04:28:33.959997+00:00"
+  "timestamp": "2025-08-09T04:28:33.959997+00:00",
+  "time_complexity": "O(S)",
+  "space_complexity": "O(1)"
 }

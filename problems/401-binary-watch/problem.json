@@ -9,5 +9,7 @@
   ],
   "slug": "binary-watch",
   "url": "https://leetcode.com/problems/binary-watch/",
-  "timestamp": "2025-08-09T03:03:31.258141+00:00"
+  "timestamp": "2025-08-09T03:03:31.258141+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

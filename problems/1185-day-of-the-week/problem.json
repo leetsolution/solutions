@@ -8,5 +8,7 @@
   ],
   "slug": "day-of-the-week",
   "url": "https://leetcode.com/problems/day-of-the-week/",
-  "timestamp": "2025-08-07T21:32:25.424216+00:00"
+  "timestamp": "2025-08-07T21:32:25.424216+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

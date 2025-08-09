@@ -1,0 +1,92 @@
+[
+  {
+    "number": "258",
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "914",
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1952",
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1979",
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2413",
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2427",
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2614",
+    "title": "Prime In Diagonal",
+    "slug": "prime-in-diagonal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2748",
+    "title": "Number of Beautiful Pairs",
+    "slug": "number-of-beautiful-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3589",
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3591",
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3605",
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3618",
+    "title": "Split Array by Prime Indices",
+    "slug": "split-array-by-prime-indices",
+    "difficulty": "Medium"
+  }
+]

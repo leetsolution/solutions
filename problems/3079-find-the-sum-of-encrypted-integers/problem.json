@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-sum-of-encrypted-integers",
   "url": "https://leetcode.com/problems/find-the-sum-of-encrypted-integers/",
-  "timestamp": "2025-08-07T16:56:54.434773+00:00"
+  "timestamp": "2025-08-07T16:56:54.434773+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(m)"
 }

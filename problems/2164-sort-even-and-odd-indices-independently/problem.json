@@ -9,5 +9,7 @@
   ],
   "slug": "sort-even-and-odd-indices-independently",
   "url": "https://leetcode.com/problems/sort-even-and-odd-indices-independently/",
-  "timestamp": "2025-08-07T19:37:46.887869+00:00"
+  "timestamp": "2025-08-07T19:37:46.887869+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

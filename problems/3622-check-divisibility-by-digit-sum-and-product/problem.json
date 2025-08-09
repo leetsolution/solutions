@@ -8,5 +8,7 @@
   ],
   "slug": "check-divisibility-by-digit-sum-and-product",
   "url": "https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/",
-  "timestamp": "2025-08-07T15:00:31.436272+00:00"
+  "timestamp": "2025-08-07T15:00:31.436272+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(log n)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "goat-latin",
   "url": "https://leetcode.com/problems/goat-latin/",
-  "timestamp": "2025-08-07T22:07:18.638460+00:00"
+  "timestamp": "2025-08-07T22:07:18.638460+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n*m)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-cuts-to-divide-a-circle",
   "url": "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
-  "timestamp": "2025-08-07T18:51:03.774076+00:00"
+  "timestamp": "2025-08-07T18:51:03.774076+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

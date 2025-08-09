@@ -10,5 +10,7 @@
   ],
   "slug": "final-value-of-variable-after-performing-operations",
   "url": "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
-  "timestamp": "2025-08-07T19:46:31.409694+00:00"
+  "timestamp": "2025-08-07T19:46:31.409694+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

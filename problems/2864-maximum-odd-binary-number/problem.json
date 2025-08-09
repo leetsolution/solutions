@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-odd-binary-number",
   "url": "https://leetcode.com/problems/maximum-odd-binary-number/",
-  "timestamp": "2025-08-07T17:58:13.504835+00:00"
+  "timestamp": "2025-08-07T17:58:13.504835+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "sum-of-good-numbers",
   "url": "https://leetcode.com/problems/sum-of-good-numbers/",
-  "timestamp": "2025-08-07T15:23:00.850403+00:00"
+  "timestamp": "2025-08-07T15:23:00.850403+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

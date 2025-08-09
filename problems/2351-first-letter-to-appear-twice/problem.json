@@ -11,5 +11,7 @@
   ],
   "slug": "first-letter-to-appear-twice",
   "url": "https://leetcode.com/problems/first-letter-to-appear-twice/",
-  "timestamp": "2025-08-07T18:59:42.517010+00:00"
+  "timestamp": "2025-08-07T18:59:42.517010+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

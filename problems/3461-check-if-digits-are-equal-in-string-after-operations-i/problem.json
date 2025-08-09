@@ -12,5 +12,7 @@
   ],
   "slug": "check-if-digits-are-equal-in-string-after-operations-i",
   "url": "https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/",
-  "timestamp": "2025-08-07T15:20:03.499911+00:00"
+  "timestamp": "2025-08-07T15:20:03.499911+00:00",
+  "time_complexity": "O(N^2)",
+  "space_complexity": "O(N)"
 }

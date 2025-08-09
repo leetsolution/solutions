@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-changing-keys",
   "url": "https://leetcode.com/problems/number-of-changing-keys/",
-  "timestamp": "2025-08-07T17:02:09.006624+00:00"
+  "timestamp": "2025-08-07T17:02:09.006624+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

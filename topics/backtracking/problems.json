@@ -1,0 +1,20 @@
+[
+  {
+    "number": "257",
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "401",
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  }
+]

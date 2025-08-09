@@ -9,5 +9,7 @@
   ],
   "slug": "partition-array-into-three-parts-with-equal-sum",
   "url": "https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/",
-  "timestamp": "2025-08-07T21:44:52.455568+00:00"
+  "timestamp": "2025-08-07T21:44:52.455568+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

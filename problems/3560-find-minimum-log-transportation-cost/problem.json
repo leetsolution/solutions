@@ -8,5 +8,7 @@
   ],
   "slug": "find-minimum-log-transportation-cost",
   "url": "https://leetcode.com/problems/find-minimum-log-transportation-cost/",
-  "timestamp": "2025-08-07T15:09:06.957830+00:00"
+  "timestamp": "2025-08-07T15:09:06.957830+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

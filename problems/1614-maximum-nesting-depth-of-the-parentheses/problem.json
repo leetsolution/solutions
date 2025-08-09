@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-nesting-depth-of-the-parentheses",
   "url": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
-  "timestamp": "2025-08-07T20:20:08.662007+00:00"
+  "timestamp": "2025-08-07T20:20:08.662007+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

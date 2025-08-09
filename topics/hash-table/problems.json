@@ -40,5 +40,917 @@
     "title": "Isomorphic Strings",
     "slug": "isomorphic-strings",
     "difficulty": "Easy"
+  },
+  {
+    "number": "217",
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "219",
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "242",
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "268",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "290",
+    "title": "Word Pattern",
+    "slug": "word-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "349",
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "350",
+    "title": "Intersection of Two Arrays II",
+    "slug": "intersection-of-two-arrays-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "383",
+    "title": "Ransom Note",
+    "slug": "ransom-note",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "387",
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "389",
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "409",
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "448",
+    "title": "Find All Numbers Disappeared in an Array",
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "496",
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "500",
+    "title": "Keyboard Row",
+    "slug": "keyboard-row",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "575",
+    "title": "Distribute Candies",
+    "slug": "distribute-candies",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "594",
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "599",
+    "title": "Minimum Index Sum of Two Lists",
+    "slug": "minimum-index-sum-of-two-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "645",
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "653",
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "697",
+    "title": "Degree of an Array",
+    "slug": "degree-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "705",
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "706",
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "748",
+    "title": "Shortest Completing Word",
+    "slug": "shortest-completing-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "771",
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "804",
+    "title": "Unique Morse Code Words",
+    "slug": "unique-morse-code-words",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "819",
+    "title": "Most Common Word",
+    "slug": "most-common-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "859",
+    "title": "Buddy Strings",
+    "slug": "buddy-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "884",
+    "title": "Uncommon Words from Two Sentences",
+    "slug": "uncommon-words-from-two-sentences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "888",
+    "title": "Fair Candy Swap",
+    "slug": "fair-candy-swap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "914",
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "929",
+    "title": "Unique Email Addresses",
+    "slug": "unique-email-addresses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "953",
+    "title": "Verifying an Alien Dictionary",
+    "slug": "verifying-an-alien-dictionary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "961",
+    "title": "N-Repeated Element in Size 2N Array",
+    "slug": "n-repeated-element-in-size-2n-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "997",
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1002",
+    "title": "Find Common Characters",
+    "slug": "find-common-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1122",
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1128",
+    "title": "Number of Equivalent Domino Pairs",
+    "slug": "number-of-equivalent-domino-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1160",
+    "title": "Find Words That Can Be Formed by Characters",
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1189",
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1207",
+    "title": "Unique Number of Occurrences",
+    "slug": "unique-number-of-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1275",
+    "title": "Find Winner on a Tic Tac Toe Game",
+    "slug": "find-winner-on-a-tic-tac-toe-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1331",
+    "title": "Rank Transform of an Array",
+    "slug": "rank-transform-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1346",
+    "title": "Check If N and Its Double Exist",
+    "slug": "check-if-n-and-its-double-exist",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1365",
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1370",
+    "title": "Increasing Decreasing String",
+    "slug": "increasing-decreasing-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1394",
+    "title": "Find Lucky Integer in an Array",
+    "slug": "find-lucky-integer-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1399",
+    "title": "Count Largest Group",
+    "slug": "count-largest-group",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1436",
+    "title": "Destination City",
+    "slug": "destination-city",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1460",
+    "title": "Make Two Arrays Equal by Reversing Subarrays",
+    "slug": "make-two-arrays-equal-by-reversing-subarrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1496",
+    "title": "Path Crossing",
+    "slug": "path-crossing",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1512",
+    "title": "Number of Good Pairs",
+    "slug": "number-of-good-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1624",
+    "title": "Largest Substring Between Two Equal Characters",
+    "slug": "largest-substring-between-two-equal-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1636",
+    "title": "Sort Array by Increasing Frequency",
+    "slug": "sort-array-by-increasing-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1640",
+    "title": "Check Array Formation Through Concatenation",
+    "slug": "check-array-formation-through-concatenation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1656",
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1684",
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1742",
+    "title": "Maximum Number of Balls in a Box",
+    "slug": "maximum-number-of-balls-in-a-box",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1748",
+    "title": "Sum of Unique Elements",
+    "slug": "sum-of-unique-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1763",
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1790",
+    "title": "Check if One String Swap Can Make Strings Equal",
+    "slug": "check-if-one-string-swap-can-make-strings-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1796",
+    "title": "Second Largest Digit in a String",
+    "slug": "second-largest-digit-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1805",
+    "title": "Number of Different Integers in a String",
+    "slug": "number-of-different-integers-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1832",
+    "title": "Check if the Sentence Is Pangram",
+    "slug": "check-if-the-sentence-is-pangram",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1876",
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1893",
+    "title": "Check if All the Integers in a Range Are Covered",
+    "slug": "check-if-all-the-integers-in-a-range-are-covered",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1897",
+    "title": "Redistribute Characters to Make All Strings Equal",
+    "slug": "redistribute-characters-to-make-all-strings-equal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1935",
+    "title": "Maximum Number of Words You Can Type",
+    "slug": "maximum-number-of-words-you-can-type",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1941",
+    "title": "Check if All Characters Have Equal Number of Occurrences",
+    "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1995",
+    "title": "Count Special Quadruplets",
+    "slug": "count-special-quadruplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2006",
+    "title": "Count Number of Pairs With Absolute Difference K",
+    "slug": "count-number-of-pairs-with-absolute-difference-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2032",
+    "title": "Two Out of Three",
+    "slug": "two-out-of-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2053",
+    "title": "Kth Distinct String in an Array",
+    "slug": "kth-distinct-string-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2062",
+    "title": "Count Vowel Substrings of a String",
+    "slug": "count-vowel-substrings-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2068",
+    "title": "Check Whether Two Strings are Almost Equivalent",
+    "slug": "check-whether-two-strings-are-almost-equivalent",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2085",
+    "title": "Count Common Words With One Occurrence",
+    "slug": "count-common-words-with-one-occurrence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2094",
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2099",
+    "title": "Find Subsequence of Length K With the Largest Sum",
+    "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2103",
+    "title": "Rings and Rods",
+    "slug": "rings-and-rods",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2133",
+    "title": "Check if Every Row and Column Contains All Numbers",
+    "slug": "check-if-every-row-and-column-contains-all-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2154",
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2190",
+    "title": "Most Frequent Number Following Key In an Array",
+    "slug": "most-frequent-number-following-key-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2206",
+    "title": "Divide Array Into Equal Pairs",
+    "slug": "divide-array-into-equal-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2215",
+    "title": "Find the Difference of Two Arrays",
+    "slug": "find-the-difference-of-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2248",
+    "title": "Intersection of Multiple Arrays",
+    "slug": "intersection-of-multiple-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2273",
+    "title": "Find Resultant Array After Removing Anagrams",
+    "slug": "find-resultant-array-after-removing-anagrams",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2283",
+    "title": "Check if Number Has Equal Digit Count and Digit Value",
+    "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2287",
+    "title": "Rearrange Characters to Make Target String",
+    "slug": "rearrange-characters-to-make-target-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2309",
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2325",
+    "title": "Decode the Message",
+    "slug": "decode-the-message",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2341",
+    "title": "Maximum Number of Pairs in Array",
+    "slug": "maximum-number-of-pairs-in-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2347",
+    "title": "Best Poker Hand",
+    "slug": "best-poker-hand",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2351",
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2363",
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2367",
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2395",
+    "title": "Find Subarrays With Equal Sum",
+    "slug": "find-subarrays-with-equal-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2399",
+    "title": "Check Distances Between Same Letters",
+    "slug": "check-distances-between-same-letters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2404",
+    "title": "Most Frequent Even Element",
+    "slug": "most-frequent-even-element",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2418",
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2423",
+    "title": "Remove Letter To Equalize Frequency",
+    "slug": "remove-letter-to-equalize-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2441",
+    "title": "Largest Positive Integer That Exists With Its Negative",
+    "slug": "largest-positive-integer-that-exists-with-its-negative",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2451",
+    "title": "Odd String Difference",
+    "slug": "odd-string-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2465",
+    "title": "Number of Distinct Averages",
+    "slug": "number-of-distinct-averages",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2475",
+    "title": "Number of Unequal Triplets in Array",
+    "slug": "number-of-unequal-triplets-in-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2506",
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2540",
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2549",
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2570",
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "slug": "merge-two-2d-arrays-by-summing-values",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2605",
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "slug": "form-smallest-number-from-two-digit-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2670",
+    "title": "Find the Distinct Difference Array",
+    "slug": "find-the-distinct-difference-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2682",
+    "title": "Find the Losers of the Circular Game",
+    "slug": "find-the-losers-of-the-circular-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2716",
+    "title": "Minimize String Length",
+    "slug": "minimize-string-length",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2729",
+    "title": "Check if The Number is Fascinating",
+    "slug": "check-if-the-number-is-fascinating",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2744",
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2748",
+    "title": "Number of Beautiful Pairs",
+    "slug": "number-of-beautiful-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2784",
+    "title": "Check if Array is Good",
+    "slug": "check-if-array-is-good",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2815",
+    "title": "Max Pair Sum in an Array",
+    "slug": "max-pair-sum-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2848",
+    "title": "Points That Intersect With Cars",
+    "slug": "points-that-intersect-with-cars",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2869",
+    "title": "Minimum Operations to Collect Elements",
+    "slug": "minimum-operations-to-collect-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2913",
+    "title": "Subarrays Distinct Element Sum of Squares I",
+    "slug": "subarrays-distinct-element-sum-of-squares-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2932",
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2956",
+    "title": "Find Common Elements Between Two Arrays",
+    "slug": "find-common-elements-between-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2965",
+    "title": "Find Missing and Repeated Values",
+    "slug": "find-missing-and-repeated-values",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2996",
+    "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+    "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3005",
+    "title": "Count Elements With Maximum Frequency",
+    "slug": "count-elements-with-maximum-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3046",
+    "title": "Split the Array",
+    "slug": "split-the-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3083",
+    "title": "Existence of a Substring in a String and Its Reverse",
+    "slug": "existence-of-a-substring-in-a-string-and-its-reverse",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3090",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3120",
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3146",
+    "title": "Permutation Difference between Two Strings",
+    "slug": "permutation-difference-between-two-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3158",
+    "title": "Find the XOR of Numbers Which Appear Twice",
+    "slug": "find-the-xor-of-numbers-which-appear-twice",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3162",
+    "title": "Find the Number of Good Pairs I",
+    "slug": "find-the-number-of-good-pairs-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3184",
+    "title": "Count Pairs That Form a Complete Day I",
+    "slug": "count-pairs-that-form-a-complete-day-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3238",
+    "title": "Find the Number of Winning Players",
+    "slug": "find-the-number-of-winning-players",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3242",
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3289",
+    "title": "The Two Sneaky Numbers of Digitville",
+    "slug": "the-two-sneaky-numbers-of-digitville",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3318",
+    "title": "Find X-Sum of All K-Long Subarrays I",
+    "slug": "find-x-sum-of-all-k-long-subarrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3375",
+    "title": "Minimum Operations to Make Array Values Equal to K",
+    "slug": "minimum-operations-to-make-array-values-equal-to-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3396",
+    "title": "Minimum Number of Operations to Make Elements in Array Distinct",
+    "slug": "minimum-number-of-operations-to-make-elements-in-array-distinct",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3438",
+    "title": "Find Valid Pair of Adjacent Digits in String",
+    "slug": "find-valid-pair-of-adjacent-digits-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3442",
+    "title": "Maximum Difference Between Even and Odd Frequency I",
+    "slug": "maximum-difference-between-even-and-odd-frequency-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3471",
+    "title": "Find the Largest Almost Missing Integer",
+    "slug": "find-the-largest-almost-missing-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3483",
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3487",
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "slug": "maximum-unique-subarray-sum-after-deletion",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3541",
+    "title": "Find Most Frequent Vowel and Consonant",
+    "slug": "find-most-frequent-vowel-and-consonant",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3545",
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3557",
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "slug": "find-maximum-number-of-non-intersecting-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3591",
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3597",
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3606",
+    "title": "Coupon Code Validator",
+    "slug": "coupon-code-validator",
+    "difficulty": "Easy"
   }
 ]

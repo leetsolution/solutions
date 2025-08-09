@@ -10,5 +10,7 @@
   ],
   "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
   "url": "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/",
-  "timestamp": "2025-08-07T17:04:23.021053+00:00"
+  "timestamp": "2025-08-07T17:04:23.021053+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "count-operations-to-obtain-zero",
   "url": "https://leetcode.com/problems/count-operations-to-obtain-zero/",
-  "timestamp": "2025-08-07T19:37:31.237210+00:00"
+  "timestamp": "2025-08-07T19:37:31.237210+00:00",
+  "time_complexity": "O(max(num1, num2))",
+  "space_complexity": "O(1)"
 }

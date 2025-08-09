@@ -9,5 +9,7 @@
   ],
   "slug": "check-array-formation-through-concatenation",
   "url": "https://leetcode.com/problems/check-array-formation-through-concatenation/",
-  "timestamp": "2025-08-07T20:18:27.067165+00:00"
+  "timestamp": "2025-08-07T20:18:27.067165+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

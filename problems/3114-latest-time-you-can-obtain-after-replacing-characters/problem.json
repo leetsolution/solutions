@@ -9,5 +9,7 @@
   ],
   "slug": "latest-time-you-can-obtain-after-replacing-characters",
   "url": "https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/",
-  "timestamp": "2025-08-07T16:57:22.295219+00:00"
+  "timestamp": "2025-08-07T16:57:22.295219+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

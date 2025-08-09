@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-grid-satisfies-conditions",
   "url": "https://leetcode.com/problems/check-if-grid-satisfies-conditions/",
-  "timestamp": "2025-08-07T16:52:18.126529+00:00"
+  "timestamp": "2025-08-07T16:52:18.126529+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

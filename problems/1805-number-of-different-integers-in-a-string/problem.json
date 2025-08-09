@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-different-integers-in-a-string",
   "url": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
-  "timestamp": "2025-08-07T20:08:13.041172+00:00"
+  "timestamp": "2025-08-07T20:08:13.041172+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

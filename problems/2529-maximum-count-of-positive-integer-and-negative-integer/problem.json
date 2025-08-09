@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-count-of-positive-integer-and-negative-integer",
   "url": "https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/",
-  "timestamp": "2025-08-07T18:42:18.757492+00:00"
+  "timestamp": "2025-08-07T18:42:18.757492+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

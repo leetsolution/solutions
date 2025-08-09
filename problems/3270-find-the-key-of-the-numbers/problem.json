@@ -8,5 +8,7 @@
   ],
   "slug": "find-the-key-of-the-numbers",
   "url": "https://leetcode.com/problems/find-the-key-of-the-numbers/",
-  "timestamp": "2025-08-07T16:16:06.315302+00:00"
+  "timestamp": "2025-08-07T16:16:06.315302+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

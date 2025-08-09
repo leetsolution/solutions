@@ -9,5 +9,7 @@
   ],
   "slug": "delete-columns-to-make-sorted",
   "url": "https://leetcode.com/problems/delete-columns-to-make-sorted/",
-  "timestamp": "2025-08-07T21:49:29.248410+00:00"
+  "timestamp": "2025-08-07T21:49:29.248410+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "projection-area-of-3d-shapes",
   "url": "https://leetcode.com/problems/projection-area-of-3d-shapes/",
-  "timestamp": "2025-08-07T21:57:09.069692+00:00"
+  "timestamp": "2025-08-07T21:57:09.069692+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

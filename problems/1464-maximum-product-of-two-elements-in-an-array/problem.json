@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-product-of-two-elements-in-an-array",
   "url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
-  "timestamp": "2025-08-07T20:56:18.592075+00:00"
+  "timestamp": "2025-08-07T20:56:18.592075+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

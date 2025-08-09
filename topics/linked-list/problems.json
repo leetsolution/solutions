@@ -34,5 +34,41 @@
     "title": "Reverse Linked List",
     "slug": "reverse-linked-list",
     "difficulty": "Easy"
+  },
+  {
+    "number": "234",
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "705",
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "706",
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "876",
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1290",
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "slug": "convert-binary-number-in-a-linked-list-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy"
   }
 ]

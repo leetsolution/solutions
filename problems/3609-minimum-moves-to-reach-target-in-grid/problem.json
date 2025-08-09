@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-moves-to-reach-target-in-grid",
   "url": "https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/",
-  "timestamp": "2025-08-03T17:46:17.924814+00:00"
+  "timestamp": "2025-08-03T17:46:17.924814+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n^2)"
 }

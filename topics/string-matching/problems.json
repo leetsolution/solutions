@@ -4,5 +4,65 @@
     "title": "Find the Index of the First Occurrence in a String",
     "slug": "find-the-index-of-the-first-occurrence-in-a-string",
     "difficulty": "Easy"
+  },
+  {
+    "number": "459",
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "572",
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "796",
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1408",
+    "title": "String Matching in an Array",
+    "slug": "string-matching-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1455",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1668",
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2185",
+    "title": "Counting Words With a Given Prefix",
+    "slug": "counting-words-with-a-given-prefix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3042",
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3407",
+    "title": "Substring Matching Pattern",
+    "slug": "substring-matching-pattern",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3529",
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium"
   }
 ]

@@ -9,5 +9,7 @@
   ],
   "slug": "count-symmetric-integers",
   "url": "https://leetcode.com/problems/count-symmetric-integers/",
-  "timestamp": "2025-08-07T18:03:46.911369+00:00"
+  "timestamp": "2025-08-07T18:03:46.911369+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(m)"
 }

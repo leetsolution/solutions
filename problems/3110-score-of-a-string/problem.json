@@ -8,5 +8,7 @@
   ],
   "slug": "score-of-a-string",
   "url": "https://leetcode.com/problems/score-of-a-string/",
-  "timestamp": "2025-08-07T16:55:41.106401+00:00"
+  "timestamp": "2025-08-07T16:55:41.106401+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

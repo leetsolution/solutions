@@ -9,5 +9,7 @@
   ],
   "slug": "find-pivot-index",
   "url": "https://leetcode.com/problems/find-pivot-index/",
-  "timestamp": "2025-08-09T02:45:55.513021+00:00"
+  "timestamp": "2025-08-09T02:45:55.513021+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

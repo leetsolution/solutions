@@ -9,5 +9,7 @@
   ],
   "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
   "url": "https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/",
-  "timestamp": "2025-08-07T16:47:11.277167+00:00"
+  "timestamp": "2025-08-07T16:47:11.277167+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

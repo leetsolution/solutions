@@ -8,5 +8,7 @@
   ],
   "slug": "special-array-i",
   "url": "https://leetcode.com/problems/special-array-i/",
-  "timestamp": "2025-08-07T16:50:44.676045+00:00"
+  "timestamp": "2025-08-07T16:50:44.676045+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

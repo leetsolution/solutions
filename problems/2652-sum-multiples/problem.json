@@ -8,5 +8,7 @@
   ],
   "slug": "sum-multiples",
   "url": "https://leetcode.com/problems/sum-multiples/",
-  "timestamp": "2025-08-07T18:12:57.229383+00:00"
+  "timestamp": "2025-08-07T18:12:57.229383+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

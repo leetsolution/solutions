@@ -9,5 +9,7 @@
   ],
   "slug": "determine-color-of-a-chessboard-square",
   "url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
-  "timestamp": "2025-08-07T20:09:01.310798+00:00"
+  "timestamp": "2025-08-07T20:09:01.310798+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

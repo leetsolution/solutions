@@ -10,5 +10,7 @@
   ],
   "slug": "type-of-triangle",
   "url": "https://leetcode.com/problems/type-of-triangle/",
-  "timestamp": "2025-08-07T17:01:13.497818+00:00"
+  "timestamp": "2025-08-07T17:01:13.497818+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

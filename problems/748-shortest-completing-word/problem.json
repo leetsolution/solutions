@@ -10,5 +10,7 @@
   ],
   "slug": "shortest-completing-word",
   "url": "https://leetcode.com/problems/shortest-completing-word/",
-  "timestamp": "2025-08-09T02:43:50.075416+00:00"
+  "timestamp": "2025-08-09T02:43:50.075416+00:00",
+  "time_complexity": "O(N * M)",
+  "space_complexity": "O(1)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "find-maximum-number-of-non-intersecting-substrings",
   "url": "https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/",
-  "timestamp": "2025-08-09T04:57:43.654336+00:00"
+  "timestamp": "2025-08-09T04:57:43.654336+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

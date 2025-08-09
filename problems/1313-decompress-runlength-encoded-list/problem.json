@@ -8,5 +8,7 @@
   ],
   "slug": "decompress-run-length-encoded-list",
   "url": "https://leetcode.com/problems/decompress-run-length-encoded-list/",
-  "timestamp": "2025-08-07T21:36:24.422841+00:00"
+  "timestamp": "2025-08-07T21:36:24.422841+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

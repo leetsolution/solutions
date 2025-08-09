@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-valid-clock-times",
   "url": "https://leetcode.com/problems/number-of-valid-clock-times/",
-  "timestamp": "2025-08-07T18:54:11.868054+00:00"
+  "timestamp": "2025-08-07T18:54:11.868054+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "remove-letter-to-equalize-frequency",
   "url": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
-  "timestamp": "2025-08-07T18:53:50.590275+00:00"
+  "timestamp": "2025-08-07T18:53:50.590275+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

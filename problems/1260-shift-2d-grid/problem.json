@@ -10,5 +10,7 @@
   ],
   "slug": "shift-2d-grid",
   "url": "https://leetcode.com/problems/shift-2d-grid/",
-  "timestamp": "2025-08-07T21:27:40.967552+00:00"
+  "timestamp": "2025-08-07T21:27:40.967552+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m*n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "make-a-square-with-the-same-color",
   "url": "https://leetcode.com/problems/make-a-square-with-the-same-color/",
-  "timestamp": "2025-08-07T16:53:41.925912+00:00"
+  "timestamp": "2025-08-07T16:53:41.925912+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

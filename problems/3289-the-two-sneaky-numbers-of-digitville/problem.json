@@ -10,5 +10,7 @@
   ],
   "slug": "the-two-sneaky-numbers-of-digitville",
   "url": "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/",
-  "timestamp": "2025-08-07T16:15:23.446719+00:00"
+  "timestamp": "2025-08-07T16:15:23.446719+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

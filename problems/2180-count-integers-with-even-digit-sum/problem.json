@@ -9,5 +9,7 @@
   ],
   "slug": "count-integers-with-even-digit-sum",
   "url": "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
-  "timestamp": "2025-08-07T19:25:58.734003+00:00"
+  "timestamp": "2025-08-07T19:25:58.734003+00:00",
+  "time_complexity": "O(n*log(n))",
+  "space_complexity": "O(1)"
 }

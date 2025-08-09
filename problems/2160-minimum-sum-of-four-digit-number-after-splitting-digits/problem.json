@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
   "url": "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
-  "timestamp": "2025-08-07T19:38:56.180364+00:00"
+  "timestamp": "2025-08-07T19:38:56.180364+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

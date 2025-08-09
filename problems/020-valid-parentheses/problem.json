@@ -9,5 +9,7 @@
   ],
   "slug": "valid-parentheses",
   "url": "https://leetcode.com/problems/valid-parentheses/",
-  "timestamp": "2025-08-09T04:28:11.379631+00:00"
+  "timestamp": "2025-08-09T04:28:11.379631+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

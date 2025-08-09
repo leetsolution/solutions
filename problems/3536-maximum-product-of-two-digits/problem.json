@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-product-of-two-digits",
   "url": "https://leetcode.com/problems/maximum-product-of-two-digits/",
-  "timestamp": "2025-08-07T15:11:49.557235+00:00"
+  "timestamp": "2025-08-07T15:11:49.557235+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

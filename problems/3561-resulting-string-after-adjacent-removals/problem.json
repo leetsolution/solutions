@@ -10,5 +10,7 @@
   ],
   "slug": "resulting-string-after-adjacent-removals",
   "url": "https://leetcode.com/problems/resulting-string-after-adjacent-removals/",
-  "timestamp": "2025-08-09T04:57:20.564749+00:00"
+  "timestamp": "2025-08-09T04:57:20.564749+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

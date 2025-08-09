@@ -8,5 +8,7 @@
   ],
   "slug": "maximum-difference-between-increasing-elements",
   "url": "https://leetcode.com/problems/maximum-difference-between-increasing-elements/",
-  "timestamp": "2025-08-07T19:46:10.302820+00:00"
+  "timestamp": "2025-08-07T19:46:10.302820+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "adjacent-increasing-subarrays-detection-i",
   "url": "https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/",
-  "timestamp": "2025-08-07T15:36:47.317663+00:00"
+  "timestamp": "2025-08-07T15:36:47.317663+00:00",
+  "time_complexity": "O(nk)",
+  "space_complexity": "O(k)"
 }

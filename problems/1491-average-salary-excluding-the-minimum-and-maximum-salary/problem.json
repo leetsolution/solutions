@@ -9,5 +9,7 @@
   ],
   "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
   "url": "https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/",
-  "timestamp": "2025-08-07T20:50:44.554352+00:00"
+  "timestamp": "2025-08-07T20:50:44.554352+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

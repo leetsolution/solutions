@@ -10,5 +10,7 @@
   ],
   "slug": "implement-stack-using-queues",
   "url": "https://leetcode.com/problems/implement-stack-using-queues/",
-  "timestamp": "2025-08-09T03:14:33.897124+00:00"
+  "timestamp": "2025-08-09T03:14:33.897124+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

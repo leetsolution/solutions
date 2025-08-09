@@ -10,5 +10,7 @@
   ],
   "slug": "add-strings",
   "url": "https://leetcode.com/problems/add-strings/",
-  "timestamp": "2025-08-09T03:01:53.434208+00:00"
+  "timestamp": "2025-08-09T03:01:53.434208+00:00",
+  "time_complexity": "O(max(n, m))",
+  "space_complexity": "O(max(n, m))"
 }

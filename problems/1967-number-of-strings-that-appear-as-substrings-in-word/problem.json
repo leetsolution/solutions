@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-strings-that-appear-as-substrings-in-word",
   "url": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
-  "timestamp": "2025-08-07T19:49:40.010059+00:00"
+  "timestamp": "2025-08-07T19:49:40.010059+00:00",
+  "time_complexity": "O(n*m*k)",
+  "space_complexity": "O(1)"
 }

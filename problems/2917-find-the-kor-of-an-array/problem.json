@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-k-or-of-an-array",
   "url": "https://leetcode.com/problems/find-the-k-or-of-an-array/",
-  "timestamp": "2025-08-07T17:43:10.419596+00:00"
+  "timestamp": "2025-08-07T17:43:10.419596+00:00",
+  "time_complexity": "O(32n)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "convert-1d-array-into-2d-array",
   "url": "https://leetcode.com/problems/convert-1d-array-into-2d-array/",
-  "timestamp": "2025-08-07T19:46:53.725252+00:00"
+  "timestamp": "2025-08-07T19:46:53.725252+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m*n)"
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "number": "3477",
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3605",
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3624",
+    "title": "Number of Integers With Popcount-Depth Equal to K II",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+    "difficulty": "Hard"
+  }
+]

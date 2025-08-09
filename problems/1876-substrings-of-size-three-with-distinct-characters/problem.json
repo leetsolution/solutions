@@ -11,5 +11,7 @@
   ],
   "slug": "substrings-of-size-three-with-distinct-characters",
   "url": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
-  "timestamp": "2025-08-07T20:00:03.779423+00:00"
+  "timestamp": "2025-08-07T20:00:03.779423+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

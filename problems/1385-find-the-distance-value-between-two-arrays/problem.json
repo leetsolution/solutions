@@ -11,5 +11,7 @@
   ],
   "slug": "find-the-distance-value-between-two-arrays",
   "url": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
-  "timestamp": "2025-08-07T21:20:42.549247+00:00"
+  "timestamp": "2025-08-07T21:20:42.549247+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

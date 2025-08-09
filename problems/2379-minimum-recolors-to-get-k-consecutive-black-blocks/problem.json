@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
   "url": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
-  "timestamp": "2025-08-07T18:57:30.586346+00:00"
+  "timestamp": "2025-08-07T18:57:30.586346+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(1)"
 }

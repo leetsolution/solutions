@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-cost-to-move-chips-to-the-same-position",
   "url": "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/",
-  "timestamp": "2025-08-07T21:30:27.537947+00:00"
+  "timestamp": "2025-08-07T21:30:27.537947+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -4,5 +4,53 @@
     "title": "Convert Sorted Array to Binary Search Tree",
     "slug": "convert-sorted-array-to-binary-search-tree",
     "difficulty": "Easy"
+  },
+  {
+    "number": "501",
+    "title": "Find Mode in Binary Search Tree",
+    "slug": "find-mode-in-binary-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "530",
+    "title": "Minimum Absolute Difference in BST",
+    "slug": "minimum-absolute-difference-in-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "653",
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "700",
+    "title": "Search in a Binary Search Tree",
+    "slug": "search-in-a-binary-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "703",
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "783",
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "897",
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "938",
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "difficulty": "Easy"
   }
 ]

@@ -8,5 +8,7 @@
   ],
   "slug": "percentage-of-letter-in-string",
   "url": "https://leetcode.com/problems/percentage-of-letter-in-string/",
-  "timestamp": "2025-08-07T19:04:07.385315+00:00"
+  "timestamp": "2025-08-07T19:04:07.385315+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

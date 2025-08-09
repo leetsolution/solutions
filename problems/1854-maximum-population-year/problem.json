@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-population-year",
   "url": "https://leetcode.com/problems/maximum-population-year/",
-  "timestamp": "2025-08-07T20:00:45.463536+00:00"
+  "timestamp": "2025-08-07T20:00:45.463536+00:00",
+  "time_complexity": "O(n*w)",
+  "space_complexity": "O(w)"
 }

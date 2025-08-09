@@ -11,5 +11,7 @@
   ],
   "slug": "first-unique-character-in-a-string",
   "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
-  "timestamp": "2025-08-09T03:04:26.085013+00:00"
+  "timestamp": "2025-08-09T03:04:26.085013+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

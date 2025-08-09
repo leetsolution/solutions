@@ -8,5 +8,7 @@
   ],
   "slug": "count-subarrays-of-length-three-with-a-condition",
   "url": "https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/",
-  "timestamp": "2025-08-07T15:28:10.392056+00:00"
+  "timestamp": "2025-08-07T15:28:10.392056+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

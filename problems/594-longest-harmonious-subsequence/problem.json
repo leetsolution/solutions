@@ -12,5 +12,7 @@
   ],
   "slug": "longest-harmonious-subsequence",
   "url": "https://leetcode.com/problems/longest-harmonious-subsequence/",
-  "timestamp": "2025-08-09T02:52:26.427038+00:00"
+  "timestamp": "2025-08-09T02:52:26.427038+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

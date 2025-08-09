@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-string-is-a-prefix-of-array",
   "url": "https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/",
-  "timestamp": "2025-08-07T19:49:59.509285+00:00"
+  "timestamp": "2025-08-07T19:49:59.509285+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n*m)"
 }

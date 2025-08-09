@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-positive-sum-subarray",
   "url": "https://leetcode.com/problems/minimum-positive-sum-subarray/",
-  "timestamp": "2025-08-07T15:31:36.685582+00:00"
+  "timestamp": "2025-08-07T15:31:36.685582+00:00",
+  "time_complexity": "O(n*r)",
+  "space_complexity": "O(r)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "alternating-groups-i",
   "url": "https://leetcode.com/problems/alternating-groups-i/",
-  "timestamp": "2025-08-07T16:48:53.188013+00:00"
+  "timestamp": "2025-08-07T16:48:53.188013+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

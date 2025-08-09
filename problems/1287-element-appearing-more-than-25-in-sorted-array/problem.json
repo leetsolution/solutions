@@ -8,5 +8,7 @@
   ],
   "slug": "element-appearing-more-than-25-in-sorted-array",
   "url": "https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/",
-  "timestamp": "2025-08-07T21:37:46.203748+00:00"
+  "timestamp": "2025-08-07T21:37:46.203748+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

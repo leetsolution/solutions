@@ -11,5 +11,7 @@
   ],
   "slug": "add-binary",
   "url": "https://leetcode.com/problems/add-binary/",
-  "timestamp": "2025-08-09T04:25:52.285083+00:00"
+  "timestamp": "2025-08-09T04:25:52.285083+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

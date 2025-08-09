@@ -10,5 +10,7 @@
   ],
   "slug": "largest-odd-number-in-string",
   "url": "https://leetcode.com/problems/largest-odd-number-in-string/",
-  "timestamp": "2025-08-07T19:53:51.118172+00:00"
+  "timestamp": "2025-08-07T19:53:51.118172+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

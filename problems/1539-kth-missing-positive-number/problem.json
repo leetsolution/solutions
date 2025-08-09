@@ -9,5 +9,7 @@
   ],
   "slug": "kth-missing-positive-number",
   "url": "https://leetcode.com/problems/kth-missing-positive-number/",
-  "timestamp": "2025-08-07T20:29:23.934938+00:00"
+  "timestamp": "2025-08-07T20:29:23.934938+00:00",
+  "time_complexity": "O(n + k)",
+  "space_complexity": "O(1)"
 }

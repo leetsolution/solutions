@@ -12,5 +12,7 @@
   ],
   "slug": "design-neighbor-sum-service",
   "url": "https://leetcode.com/problems/design-neighbor-sum-service/",
-  "timestamp": "2025-08-07T16:44:13.703966+00:00"
+  "timestamp": "2025-08-07T16:44:13.703966+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n^2)"
 }

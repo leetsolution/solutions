@@ -9,5 +9,7 @@
   ],
   "slug": "reverse-words-in-a-string-iii",
   "url": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
-  "timestamp": "2025-08-09T02:54:10.439693+00:00"
+  "timestamp": "2025-08-09T02:54:10.439693+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

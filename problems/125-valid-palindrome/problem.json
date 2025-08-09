@@ -9,5 +9,7 @@
   ],
   "slug": "valid-palindrome",
   "url": "https://leetcode.com/problems/valid-palindrome/",
-  "timestamp": "2025-08-09T04:21:47.483300+00:00"
+  "timestamp": "2025-08-09T04:21:47.483300+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

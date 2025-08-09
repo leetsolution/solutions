@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-largest-almost-missing-integer",
   "url": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/",
-  "timestamp": "2025-08-07T15:25:20.100521+00:00"
+  "timestamp": "2025-08-07T15:25:20.100521+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(n*k)"
 }

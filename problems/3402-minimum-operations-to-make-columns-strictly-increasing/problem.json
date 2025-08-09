@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-operations-to-make-columns-strictly-increasing",
   "url": "https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/",
-  "timestamp": "2025-08-07T15:27:26.135329+00:00"
+  "timestamp": "2025-08-07T15:27:26.135329+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

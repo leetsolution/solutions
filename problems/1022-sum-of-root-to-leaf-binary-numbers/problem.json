@@ -10,5 +10,7 @@
   ],
   "slug": "sum-of-root-to-leaf-binary-numbers",
   "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/",
-  "timestamp": "2025-08-07T21:43:49.171274+00:00"
+  "timestamp": "2025-08-07T21:43:49.171274+00:00",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(H)"
 }

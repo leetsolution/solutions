@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-sum-with-exactly-k-elements",
   "url": "https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/",
-  "timestamp": "2025-08-07T18:12:22.366611+00:00"
+  "timestamp": "2025-08-07T18:12:22.366611+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -1,0 +1,158 @@
+[
+  {
+    "number": "1534",
+    "title": "Count Good Triplets",
+    "slug": "count-good-triplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1566",
+    "title": "Detect Pattern of Length M Repeated K or More Times",
+    "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1925",
+    "title": "Count Square Sum Triples",
+    "slug": "count-square-sum-triples",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1952",
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1995",
+    "title": "Count Special Quadruplets",
+    "slug": "count-special-quadruplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2094",
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2259",
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2309",
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2367",
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2427",
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2437",
+    "title": "Number of Valid Clock Times",
+    "slug": "number-of-valid-clock-times",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2605",
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "slug": "form-smallest-number-from-two-digit-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2765",
+    "title": "Longest Alternating Subarray",
+    "slug": "longest-alternating-subarray",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2778",
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2843",
+    "title": "  Count Symmetric Integers",
+    "slug": "count-symmetric-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2928",
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2951",
+    "title": "Find the Peaks",
+    "slug": "find-the-peaks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2970",
+    "title": "Count the Number of Incremovable Subarrays I",
+    "slug": "count-the-number-of-incremovable-subarrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3010",
+    "title": "Divide an Array Into Subarrays With Minimum Cost I",
+    "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3114",
+    "title": "Latest Time You Can Obtain After Replacing Characters",
+    "slug": "latest-time-you-can-obtain-after-replacing-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3127",
+    "title": "Make a Square with the Same Color",
+    "slug": "make-a-square-with-the-same-color",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3200",
+    "title": "Maximum Height of a Triangle",
+    "slug": "maximum-height-of-a-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3345",
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3483",
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "difficulty": "Easy"
+  }
+]

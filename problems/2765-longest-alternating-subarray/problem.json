@@ -9,5 +9,7 @@
   ],
   "slug": "longest-alternating-subarray",
   "url": "https://leetcode.com/problems/longest-alternating-subarray/",
-  "timestamp": "2025-08-07T18:07:19.298151+00:00"
+  "timestamp": "2025-08-07T18:07:19.298151+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

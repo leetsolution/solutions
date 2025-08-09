@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-array-concatenation-value",
   "url": "https://leetcode.com/problems/find-the-array-concatenation-value/",
-  "timestamp": "2025-08-07T18:16:08.562102+00:00"
+  "timestamp": "2025-08-07T18:16:08.562102+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

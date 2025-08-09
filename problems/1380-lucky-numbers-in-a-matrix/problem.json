@@ -9,5 +9,7 @@
   ],
   "slug": "lucky-numbers-in-a-matrix",
   "url": "https://leetcode.com/problems/lucky-numbers-in-a-matrix/",
-  "timestamp": "2025-08-07T21:20:01.582689+00:00"
+  "timestamp": "2025-08-07T21:20:01.582689+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m+n)"
 }

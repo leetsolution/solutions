@@ -11,5 +11,7 @@
   ],
   "slug": "minimum-depth-of-binary-tree",
   "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-  "timestamp": "2025-08-09T04:23:00.359142+00:00"
+  "timestamp": "2025-08-09T04:23:00.359142+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
 }

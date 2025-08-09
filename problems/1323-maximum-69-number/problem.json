@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-69-number",
   "url": "https://leetcode.com/problems/maximum-69-number/",
-  "timestamp": "2025-08-07T21:23:07.445733+00:00"
+  "timestamp": "2025-08-07T21:23:07.445733+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "most-frequent-number-following-key-in-an-array",
   "url": "https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/",
-  "timestamp": "2025-08-07T19:23:35.800249+00:00"
+  "timestamp": "2025-08-07T19:23:35.800249+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

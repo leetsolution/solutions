@@ -11,5 +11,7 @@
   ],
   "slug": "count-common-words-with-one-occurrence",
   "url": "https://leetcode.com/problems/count-common-words-with-one-occurrence/",
-  "timestamp": "2025-08-07T19:43:09.862661+00:00"
+  "timestamp": "2025-08-07T19:43:09.862661+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(n + m)"
 }

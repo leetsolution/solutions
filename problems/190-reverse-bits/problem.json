@@ -9,5 +9,7 @@
   ],
   "slug": "reverse-bits",
   "url": "https://leetcode.com/problems/reverse-bits/",
-  "timestamp": "2025-08-09T04:19:00.350053+00:00"
+  "timestamp": "2025-08-09T04:19:00.350053+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

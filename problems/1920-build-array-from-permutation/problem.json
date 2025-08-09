@@ -9,5 +9,7 @@
   ],
   "slug": "build-array-from-permutation",
   "url": "https://leetcode.com/problems/build-array-from-permutation/",
-  "timestamp": "2025-08-07T19:52:01.609155+00:00"
+  "timestamp": "2025-08-07T19:52:01.609155+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

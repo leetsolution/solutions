@@ -8,5 +8,7 @@
   ],
   "slug": "remove-one-element-to-make-the-array-strictly-increasing",
   "url": "https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/",
-  "timestamp": "2025-08-07T19:55:37.206728+00:00"
+  "timestamp": "2025-08-07T19:55:37.206728+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

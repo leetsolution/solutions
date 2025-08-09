@@ -11,5 +11,7 @@
   ],
   "slug": "same-tree",
   "url": "https://leetcode.com/problems/same-tree/",
-  "timestamp": "2025-08-09T04:24:14.946627+00:00"
+  "timestamp": "2025-08-09T04:24:14.946627+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(log n)"
 }

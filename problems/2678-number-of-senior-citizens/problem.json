@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-senior-citizens",
   "url": "https://leetcode.com/problems/number-of-senior-citizens/",
-  "timestamp": "2025-08-07T18:13:51.385515+00:00"
+  "timestamp": "2025-08-07T18:13:51.385515+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

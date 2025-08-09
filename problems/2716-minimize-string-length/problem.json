@@ -9,5 +9,7 @@
   ],
   "slug": "minimize-string-length",
   "url": "https://leetcode.com/problems/minimize-string-length/",
-  "timestamp": "2025-08-07T18:09:38.048393+00:00"
+  "timestamp": "2025-08-07T18:09:38.048393+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

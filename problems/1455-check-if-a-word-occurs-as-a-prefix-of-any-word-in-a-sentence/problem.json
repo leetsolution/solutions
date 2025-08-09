@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
   "url": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/",
-  "timestamp": "2025-08-07T21:00:18.882218+00:00"
+  "timestamp": "2025-08-07T21:00:18.882218+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n)"
 }

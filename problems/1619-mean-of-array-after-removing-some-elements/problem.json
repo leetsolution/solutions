@@ -9,5 +9,7 @@
   ],
   "slug": "mean-of-array-after-removing-some-elements",
   "url": "https://leetcode.com/problems/mean-of-array-after-removing-some-elements/",
-  "timestamp": "2025-08-07T21:38:29.706368+00:00"
+  "timestamp": "2025-08-07T21:38:29.706368+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

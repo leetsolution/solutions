@@ -11,5 +11,7 @@
   ],
   "slug": "sort-integers-by-the-number-of-1-bits",
   "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
-  "timestamp": "2025-08-07T21:22:28.885740+00:00"
+  "timestamp": "2025-08-07T21:22:28.885740+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-cost-to-reach-every-position",
   "url": "https://leetcode.com/problems/minimum-cost-to-reach-every-position/",
-  "timestamp": "2025-08-07T15:13:15.238631+00:00"
+  "timestamp": "2025-08-07T15:13:15.238631+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "transpose-matrix",
   "url": "https://leetcode.com/problems/transpose-matrix/",
-  "timestamp": "2025-08-07T22:00:42.595818+00:00"
+  "timestamp": "2025-08-07T22:00:42.595818+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m*n)"
 }

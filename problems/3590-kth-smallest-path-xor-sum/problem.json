@@ -11,5 +11,7 @@
   ],
   "slug": "kth-smallest-path-xor-sum",
   "url": "https://leetcode.com/problems/kth-smallest-path-xor-sum/",
-  "timestamp": "2025-08-03T18:01:54.747063+00:00"
+  "timestamp": "2025-08-03T18:01:54.747063+00:00",
+  "time_complexity": "O(N*M*log(K))",
+  "space_complexity": "O(N*M)"
 }

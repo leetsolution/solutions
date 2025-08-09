@@ -9,5 +9,7 @@
   ],
   "slug": "greatest-common-divisor-of-strings",
   "url": "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
-  "timestamp": "2025-08-07T21:40:38.113257+00:00"
+  "timestamp": "2025-08-07T21:40:38.113257+00:00",
+  "time_complexity": "O(log(min(n, m)))",
+  "space_complexity": "O(1)"
 }

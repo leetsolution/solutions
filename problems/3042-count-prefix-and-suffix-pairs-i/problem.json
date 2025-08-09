@@ -13,5 +13,7 @@
   ],
   "slug": "count-prefix-and-suffix-pairs-i",
   "url": "https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/",
-  "timestamp": "2025-08-07T17:02:56.395544+00:00"
+  "timestamp": "2025-08-07T17:02:56.395544+00:00",
+  "time_complexity": "O(n^2 * m)",
+  "space_complexity": "O(1)"
 }

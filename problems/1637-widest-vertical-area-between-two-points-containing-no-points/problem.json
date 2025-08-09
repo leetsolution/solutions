@@ -9,5 +9,7 @@
   ],
   "slug": "widest-vertical-area-between-two-points-containing-no-points",
   "url": "https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/",
-  "timestamp": "2025-08-07T20:19:33.704711+00:00"
+  "timestamp": "2025-08-07T20:19:33.704711+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

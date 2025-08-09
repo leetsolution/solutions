@@ -9,5 +9,7 @@
   ],
   "slug": "count-of-matches-in-tournament",
   "url": "https://leetcode.com/problems/count-of-matches-in-tournament/",
-  "timestamp": "2025-08-07T20:15:53.572231+00:00"
+  "timestamp": "2025-08-07T20:15:53.572231+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

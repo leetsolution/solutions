@@ -11,5 +11,7 @@
   ],
   "slug": "find-mode-in-binary-search-tree",
   "url": "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
-  "timestamp": "2025-08-09T02:57:15.640541+00:00"
+  "timestamp": "2025-08-09T02:57:15.640541+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

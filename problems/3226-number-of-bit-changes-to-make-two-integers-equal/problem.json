@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-bit-changes-to-make-two-integers-equal",
   "url": "https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/",
-  "timestamp": "2025-08-07T16:45:50.433276+00:00"
+  "timestamp": "2025-08-07T16:45:50.433276+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(log(n))"
 }

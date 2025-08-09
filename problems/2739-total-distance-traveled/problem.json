@@ -9,5 +9,7 @@
   ],
   "slug": "total-distance-traveled",
   "url": "https://leetcode.com/problems/total-distance-traveled/",
-  "timestamp": "2025-08-07T18:08:04.571209+00:00"
+  "timestamp": "2025-08-07T18:08:04.571209+00:00",
+  "time_complexity": "O(m)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "divisible-and-non-divisible-sums-difference",
   "url": "https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/",
-  "timestamp": "2025-08-07T17:46:11.826245+00:00"
+  "timestamp": "2025-08-07T17:46:11.826245+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

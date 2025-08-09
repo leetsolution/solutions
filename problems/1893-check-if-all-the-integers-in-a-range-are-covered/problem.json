@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-all-the-integers-in-a-range-are-covered",
   "url": "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/",
-  "timestamp": "2025-08-07T19:57:20.130243+00:00"
+  "timestamp": "2025-08-07T19:57:20.130243+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

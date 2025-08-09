@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-segments-in-a-string",
   "url": "https://leetcode.com/problems/number-of-segments-in-a-string/",
-  "timestamp": "2025-08-09T03:01:26.108464+00:00"
+  "timestamp": "2025-08-09T03:01:26.108464+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "contains-duplicate-ii",
   "url": "https://leetcode.com/problems/contains-duplicate-ii/",
-  "timestamp": "2025-08-09T03:32:49.818392+00:00"
+  "timestamp": "2025-08-09T03:32:49.818392+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

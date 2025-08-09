@@ -9,5 +9,7 @@
   ],
   "slug": "find-smallest-letter-greater-than-target",
   "url": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
-  "timestamp": "2025-08-09T02:44:44.067072+00:00"
+  "timestamp": "2025-08-09T02:44:44.067072+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

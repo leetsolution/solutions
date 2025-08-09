@@ -10,5 +10,7 @@
   ],
   "slug": "distribute-candies-among-children-i",
   "url": "https://leetcode.com/problems/distribute-candies-among-children-i/",
-  "timestamp": "2025-08-07T17:40:13.767772+00:00"
+  "timestamp": "2025-08-07T17:40:13.767772+00:00",
+  "time_complexity": "O(limit^2)",
+  "space_complexity": "O(1)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "next-greater-element-i",
   "url": "https://leetcode.com/problems/next-greater-element-i/",
-  "timestamp": "2025-08-09T02:57:49.834336+00:00"
+  "timestamp": "2025-08-09T02:57:49.834336+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m)"
 }

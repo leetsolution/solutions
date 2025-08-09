@@ -10,5 +10,7 @@
   ],
   "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
   "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/",
-  "timestamp": "2025-08-07T17:06:32.773366+00:00"
+  "timestamp": "2025-08-07T17:06:32.773366+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "find-words-that-can-be-formed-by-characters",
   "url": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/",
-  "timestamp": "2025-08-07T21:42:30.938615+00:00"
+  "timestamp": "2025-08-07T21:42:30.938615+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(1)"
 }

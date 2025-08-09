@@ -8,5 +8,7 @@
   ],
   "slug": "number-of-even-and-odd-bits",
   "url": "https://leetcode.com/problems/number-of-even-and-odd-bits/",
-  "timestamp": "2025-08-07T18:21:41.013320+00:00"
+  "timestamp": "2025-08-07T18:21:41.013320+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(log n)"
 }

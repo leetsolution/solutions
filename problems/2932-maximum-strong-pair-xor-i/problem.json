@@ -12,5 +12,7 @@
   ],
   "slug": "maximum-strong-pair-xor-i",
   "url": "https://leetcode.com/problems/maximum-strong-pair-xor-i/",
-  "timestamp": "2025-08-07T17:41:39.216528+00:00"
+  "timestamp": "2025-08-07T17:41:39.216528+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

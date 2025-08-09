@@ -9,5 +9,7 @@
   ],
   "slug": "construct-the-minimum-bitwise-array-i",
   "url": "https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/",
-  "timestamp": "2025-08-07T16:13:27.267665+00:00"
+  "timestamp": "2025-08-07T16:13:27.267665+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

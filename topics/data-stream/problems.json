@@ -1,0 +1,20 @@
+[
+  {
+    "number": "703",
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "933",
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1656",
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "difficulty": "Easy"
+  }
+]

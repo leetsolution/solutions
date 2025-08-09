@@ -10,5 +10,7 @@
   ],
   "slug": "crawler-log-folder",
   "url": "https://leetcode.com/problems/crawler-log-folder/",
-  "timestamp": "2025-08-07T20:20:48.377387+00:00"
+  "timestamp": "2025-08-07T20:20:48.377387+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

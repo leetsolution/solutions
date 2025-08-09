@@ -10,5 +10,7 @@
   ],
   "slug": "redistribute-characters-to-make-all-strings-equal",
   "url": "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/",
-  "timestamp": "2025-08-07T19:54:44.816385+00:00"
+  "timestamp": "2025-08-07T19:54:44.816385+00:00",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
 }

@@ -12,5 +12,7 @@
   ],
   "slug": "minimum-absolute-difference-in-bst",
   "url": "https://leetcode.com/problems/minimum-absolute-difference-in-bst/",
-  "timestamp": "2025-08-09T02:55:24.483895+00:00"
+  "timestamp": "2025-08-09T02:55:24.483895+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
 }

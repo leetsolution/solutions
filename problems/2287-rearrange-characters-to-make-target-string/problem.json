@@ -10,5 +10,7 @@
   ],
   "slug": "rearrange-characters-to-make-target-string",
   "url": "https://leetcode.com/problems/rearrange-characters-to-make-target-string/",
-  "timestamp": "2025-08-07T19:03:45.211791+00:00"
+  "timestamp": "2025-08-07T19:03:45.211791+00:00",
+  "time_complexity": "O(n + m)",
+  "space_complexity": "O(1)"
 }

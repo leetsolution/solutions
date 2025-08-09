@@ -12,5 +12,7 @@
   ],
   "slug": "increasing-order-search-tree",
   "url": "https://leetcode.com/problems/increasing-order-search-tree/",
-  "timestamp": "2025-08-07T21:55:22.978514+00:00"
+  "timestamp": "2025-08-07T21:55:22.978514+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

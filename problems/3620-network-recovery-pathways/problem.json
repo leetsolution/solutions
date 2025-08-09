@@ -14,5 +14,7 @@
   ],
   "slug": "network-recovery-pathways",
   "url": "https://leetcode.com/problems/network-recovery-pathways/",
-  "timestamp": "2025-08-03T17:49:00.865474+00:00"
+  "timestamp": "2025-08-03T17:49:00.865474+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

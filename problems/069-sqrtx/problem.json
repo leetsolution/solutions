@@ -9,5 +9,7 @@
   ],
   "slug": "sqrtx",
   "url": "https://leetcode.com/problems/sqrtx/",
-  "timestamp": "2025-08-09T04:25:39.893924+00:00"
+  "timestamp": "2025-08-09T04:25:39.893924+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

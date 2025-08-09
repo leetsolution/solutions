@@ -9,5 +9,7 @@
   ],
   "slug": "excel-sheet-column-number",
   "url": "https://leetcode.com/problems/excel-sheet-column-number/",
-  "timestamp": "2025-08-09T04:19:27.132139+00:00"
+  "timestamp": "2025-08-09T04:19:27.132139+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

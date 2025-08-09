@@ -9,5 +9,7 @@
   ],
   "slug": "guess-number-higher-or-lower",
   "url": "https://leetcode.com/problems/guess-number-higher-or-lower/",
-  "timestamp": "2025-08-09T03:05:02.168746+00:00"
+  "timestamp": "2025-08-09T03:05:02.168746+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

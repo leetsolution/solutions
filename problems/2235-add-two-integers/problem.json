@@ -8,5 +8,7 @@
   ],
   "slug": "add-two-integers",
   "url": "https://leetcode.com/problems/add-two-integers/",
-  "timestamp": "2025-08-07T19:03:08.553583+00:00"
+  "timestamp": "2025-08-07T19:03:08.553583+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

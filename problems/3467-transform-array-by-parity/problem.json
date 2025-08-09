@@ -10,5 +10,7 @@
   ],
   "slug": "transform-array-by-parity",
   "url": "https://leetcode.com/problems/transform-array-by-parity/",
-  "timestamp": "2025-08-07T15:18:47.213744+00:00"
+  "timestamp": "2025-08-07T15:18:47.213744+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

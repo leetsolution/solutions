@@ -8,5 +8,7 @@
   ],
   "slug": "license-key-formatting",
   "url": "https://leetcode.com/problems/license-key-formatting/",
-  "timestamp": "2025-08-09T02:58:50.670430+00:00"
+  "timestamp": "2025-08-09T02:58:50.670430+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

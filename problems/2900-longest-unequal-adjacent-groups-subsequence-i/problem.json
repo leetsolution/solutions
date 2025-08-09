@@ -11,5 +11,7 @@
   ],
   "slug": "longest-unequal-adjacent-groups-subsequence-i",
   "url": "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/",
-  "timestamp": "2025-08-07T17:54:37.429025+00:00"
+  "timestamp": "2025-08-07T17:54:37.429025+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

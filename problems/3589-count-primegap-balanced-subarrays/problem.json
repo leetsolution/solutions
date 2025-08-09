@@ -13,5 +13,7 @@
   ],
   "slug": "count-prime-gap-balanced-subarrays",
   "url": "https://leetcode.com/problems/count-prime-gap-balanced-subarrays/",
-  "timestamp": "2025-08-09T04:46:54.762402+00:00"
+  "timestamp": "2025-08-09T04:46:54.762402+00:00",
+  "time_complexity": "O(n^3 * sqrt(m))",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "split-strings-by-separator",
   "url": "https://leetcode.com/problems/split-strings-by-separator/",
-  "timestamp": "2025-08-07T18:06:46.681327+00:00"
+  "timestamp": "2025-08-07T18:06:46.681327+00:00",
+  "time_complexity": "O(N*M)",
+  "space_complexity": "O(N*M)"
 }

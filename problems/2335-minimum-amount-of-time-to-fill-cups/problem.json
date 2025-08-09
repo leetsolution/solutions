@@ -11,5 +11,7 @@
   ],
   "slug": "minimum-amount-of-time-to-fill-cups",
   "url": "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
-  "timestamp": "2025-08-07T19:00:45.726958+00:00"
+  "timestamp": "2025-08-07T19:00:45.726958+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

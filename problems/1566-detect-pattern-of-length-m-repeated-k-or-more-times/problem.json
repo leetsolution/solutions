@@ -9,5 +9,7 @@
   ],
   "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
   "url": "https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/",
-  "timestamp": "2025-08-07T20:22:46.299155+00:00"
+  "timestamp": "2025-08-07T20:22:46.299155+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(m)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-number-of-words-found-in-sentences",
   "url": "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/",
-  "timestamp": "2025-08-07T19:41:25.790112+00:00"
+  "timestamp": "2025-08-07T19:41:25.790112+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(m)"
 }

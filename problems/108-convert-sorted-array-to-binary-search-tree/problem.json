@@ -12,5 +12,7 @@
   ],
   "slug": "convert-sorted-array-to-binary-search-tree",
   "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
-  "timestamp": "2025-08-09T04:23:23.673310+00:00"
+  "timestamp": "2025-08-09T04:23:23.673310+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(log n)"
 }

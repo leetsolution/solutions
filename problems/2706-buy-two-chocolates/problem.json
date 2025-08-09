@@ -10,5 +10,7 @@
   ],
   "slug": "buy-two-chocolates",
   "url": "https://leetcode.com/problems/buy-two-chocolates/",
-  "timestamp": "2025-08-07T18:12:41.206475+00:00"
+  "timestamp": "2025-08-07T18:12:41.206475+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

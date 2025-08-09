@@ -9,5 +9,7 @@
   ],
   "slug": "row-with-maximum-ones",
   "url": "https://leetcode.com/problems/row-with-maximum-ones/",
-  "timestamp": "2025-08-07T18:13:29.540735+00:00"
+  "timestamp": "2025-08-07T18:13:29.540735+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

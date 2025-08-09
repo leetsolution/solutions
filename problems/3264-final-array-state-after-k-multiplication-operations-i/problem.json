@@ -11,5 +11,7 @@
   ],
   "slug": "final-array-state-after-k-multiplication-operations-i",
   "url": "https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/",
-  "timestamp": "2025-08-07T16:17:32.455476+00:00"
+  "timestamp": "2025-08-07T16:17:32.455476+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(1)"
 }

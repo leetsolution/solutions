@@ -10,5 +10,7 @@
   ],
   "slug": "points-that-intersect-with-cars",
   "url": "https://leetcode.com/problems/points-that-intersect-with-cars/",
-  "timestamp": "2025-08-07T18:02:36.617260+00:00"
+  "timestamp": "2025-08-07T18:02:36.617260+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n*m)"
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "number": "292",
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1025",
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3222",
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "difficulty": "Easy"
+  }
+]

@@ -8,5 +8,7 @@
   ],
   "slug": "find-indices-of-stable-mountains",
   "url": "https://leetcode.com/problems/find-indices-of-stable-mountains/",
-  "timestamp": "2025-08-07T16:14:55.234443+00:00"
+  "timestamp": "2025-08-07T16:14:55.234443+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(k)"
 }

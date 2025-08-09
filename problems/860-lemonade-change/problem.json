@@ -9,5 +9,7 @@
   ],
   "slug": "lemonade-change",
   "url": "https://leetcode.com/problems/lemonade-change/",
-  "timestamp": "2025-08-07T22:01:22.533278+00:00"
+  "timestamp": "2025-08-07T22:01:22.533278+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

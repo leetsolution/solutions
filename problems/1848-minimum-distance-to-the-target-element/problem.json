@@ -8,5 +8,7 @@
   ],
   "slug": "minimum-distance-to-the-target-element",
   "url": "https://leetcode.com/problems/minimum-distance-to-the-target-element/",
-  "timestamp": "2025-08-07T20:01:38.077072+00:00"
+  "timestamp": "2025-08-07T20:01:38.077072+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

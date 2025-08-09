@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-cost-of-buying-candies-with-discount",
   "url": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
-  "timestamp": "2025-08-07T19:39:49.271081+00:00"
+  "timestamp": "2025-08-07T19:39:49.271081+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

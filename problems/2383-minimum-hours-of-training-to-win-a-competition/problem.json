@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-hours-of-training-to-win-a-competition",
   "url": "https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/",
-  "timestamp": "2025-08-07T18:57:47.047488+00:00"
+  "timestamp": "2025-08-07T18:57:47.047488+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

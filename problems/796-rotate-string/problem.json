@@ -9,5 +9,7 @@
   ],
   "slug": "rotate-string",
   "url": "https://leetcode.com/problems/rotate-string/",
-  "timestamp": "2025-08-09T02:39:26.770982+00:00"
+  "timestamp": "2025-08-09T02:39:26.770982+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

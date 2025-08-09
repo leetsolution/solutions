@@ -10,5 +10,7 @@
   ],
   "slug": "happy-number",
   "url": "https://leetcode.com/problems/happy-number/",
-  "timestamp": "2025-08-09T04:18:24.616607+00:00"
+  "timestamp": "2025-08-09T04:18:24.616607+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(log n)"
 }

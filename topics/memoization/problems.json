@@ -4,5 +4,17 @@
     "title": "Climbing Stairs",
     "slug": "climbing-stairs",
     "difficulty": "Easy"
+  },
+  {
+    "number": "509",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1137",
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "difficulty": "Easy"
   }
 ]

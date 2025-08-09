@@ -9,5 +9,7 @@
   ],
   "slug": "left-and-right-sum-differences",
   "url": "https://leetcode.com/problems/left-and-right-sum-differences/",
-  "timestamp": "2025-08-07T18:14:53.411347+00:00"
+  "timestamp": "2025-08-07T18:14:53.411347+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

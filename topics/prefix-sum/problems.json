@@ -1,0 +1,122 @@
+[
+  {
+    "number": "303",
+    "title": "Range Sum Query - Immutable",
+    "slug": "range-sum-query-immutable",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "724",
+    "title": "Find Pivot Index",
+    "slug": "find-pivot-index",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1413",
+    "title": "Minimum Value to Get Positive Step by Step Sum",
+    "slug": "minimum-value-to-get-positive-step-by-step-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1422",
+    "title": "Maximum Score After Splitting a String",
+    "slug": "maximum-score-after-splitting-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1480",
+    "title": "Running Sum of 1d Array",
+    "slug": "running-sum-of-1d-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1588",
+    "title": "Sum of All Odd Length Subarrays",
+    "slug": "sum-of-all-odd-length-subarrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1732",
+    "title": "Find the Highest Altitude",
+    "slug": "find-the-highest-altitude",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1854",
+    "title": "Maximum Population Year",
+    "slug": "maximum-population-year",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1893",
+    "title": "Check if All the Integers in a Range Are Covered",
+    "slug": "check-if-all-the-integers-in-a-range-are-covered",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1991",
+    "title": "Find the Middle Index in Array",
+    "slug": "find-the-middle-index-in-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2389",
+    "title": "Longest Subsequence With Limited Sum",
+    "slug": "longest-subsequence-with-limited-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2485",
+    "title": "Find the Pivot Integer",
+    "slug": "find-the-pivot-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2574",
+    "title": "Left and Right Sum Differences",
+    "slug": "left-and-right-sum-differences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2848",
+    "title": "Points That Intersect With Cars",
+    "slug": "points-that-intersect-with-cars",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3028",
+    "title": "Ant on the Boundary",
+    "slug": "ant-on-the-boundary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3354",
+    "title": "Make Array Elements Equal to Zero",
+    "slug": "make-array-elements-equal-to-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3364",
+    "title": "Minimum Positive Sum Subarray ",
+    "slug": "minimum-positive-sum-subarray",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3427",
+    "title": "Sum of Variable Length Subarrays",
+    "slug": "sum-of-variable-length-subarrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3432",
+    "title": "Count Partitions with Even Sum Difference",
+    "slug": "count-partitions-with-even-sum-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3599",
+    "title": "Partition Array to Minimize XOR",
+    "slug": "partition-array-to-minimize-xor",
+    "difficulty": "Medium"
+  }
+]

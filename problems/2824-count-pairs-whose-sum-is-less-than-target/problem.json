@@ -11,5 +11,7 @@
   ],
   "slug": "count-pairs-whose-sum-is-less-than-target",
   "url": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/",
-  "timestamp": "2025-08-07T18:05:28.125978+00:00"
+  "timestamp": "2025-08-07T18:05:28.125978+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

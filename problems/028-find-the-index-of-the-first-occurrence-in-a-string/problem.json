@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-index-of-the-first-occurrence-in-a-string",
   "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
-  "timestamp": "2025-08-09T04:27:19.783852+00:00"
+  "timestamp": "2025-08-09T04:27:19.783852+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(1)"
 }

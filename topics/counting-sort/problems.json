@@ -1,0 +1,38 @@
+[
+  {
+    "number": "561",
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1051",
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1122",
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1365",
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2037",
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3517",
+    "title": "Smallest Palindromic Rearrangement I",
+    "slug": "smallest-palindromic-rearrangement-i",
+    "difficulty": "Medium"
+  }
+]

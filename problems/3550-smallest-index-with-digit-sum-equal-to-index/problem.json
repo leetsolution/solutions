@@ -9,5 +9,7 @@
   ],
   "slug": "smallest-index-with-digit-sum-equal-to-index",
   "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/",
-  "timestamp": "2025-08-07T15:11:11.666960+00:00"
+  "timestamp": "2025-08-07T15:11:11.666960+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(1)"
 }

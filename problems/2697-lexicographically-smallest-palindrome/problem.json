@@ -10,5 +10,7 @@
   ],
   "slug": "lexicographically-smallest-palindrome",
   "url": "https://leetcode.com/problems/lexicographically-smallest-palindrome/",
-  "timestamp": "2025-08-07T18:10:21.703795+00:00"
+  "timestamp": "2025-08-07T18:10:21.703795+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

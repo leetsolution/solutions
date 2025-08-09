@@ -8,5 +8,7 @@
   ],
   "slug": "check-balanced-string",
   "url": "https://leetcode.com/problems/check-balanced-string/",
-  "timestamp": "2025-08-07T15:32:05.107106+00:00"
+  "timestamp": "2025-08-07T15:32:05.107106+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

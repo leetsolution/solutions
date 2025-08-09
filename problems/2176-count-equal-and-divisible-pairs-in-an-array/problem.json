@@ -8,5 +8,7 @@
   ],
   "slug": "count-equal-and-divisible-pairs-in-an-array",
   "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/",
-  "timestamp": "2025-08-07T19:38:09.207094+00:00"
+  "timestamp": "2025-08-07T19:38:09.207094+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

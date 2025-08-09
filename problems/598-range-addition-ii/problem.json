@@ -9,5 +9,7 @@
   ],
   "slug": "range-addition-ii",
   "url": "https://leetcode.com/problems/range-addition-ii/",
-  "timestamp": "2025-08-09T02:52:13.493750+00:00"
+  "timestamp": "2025-08-09T02:52:13.493750+00:00",
+  "time_complexity": "O(k)",
+  "space_complexity": "O(1)"
 }

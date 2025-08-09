@@ -8,5 +8,7 @@
   ],
   "slug": "a-number-after-a-double-reversal",
   "url": "https://leetcode.com/problems/a-number-after-a-double-reversal/",
-  "timestamp": "2025-08-07T19:40:18.427655+00:00"
+  "timestamp": "2025-08-07T19:40:18.427655+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

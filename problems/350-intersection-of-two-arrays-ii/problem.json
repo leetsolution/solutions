@@ -12,5 +12,7 @@
   ],
   "slug": "intersection-of-two-arrays-ii",
   "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
-  "timestamp": "2025-08-09T03:05:48.167103+00:00"
+  "timestamp": "2025-08-09T03:05:48.167103+00:00",
+  "time_complexity": "O(m+n)",
+  "space_complexity": "O(min(m,n))"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "longer-contiguous-segments-of-ones-than-zeros",
   "url": "https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/",
-  "timestamp": "2025-08-07T19:58:18.557517+00:00"
+  "timestamp": "2025-08-07T19:58:18.557517+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

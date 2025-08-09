@@ -12,5 +12,7 @@
   ],
   "slug": "fruits-into-baskets-ii",
   "url": "https://leetcode.com/problems/fruits-into-baskets-ii/",
-  "timestamp": "2025-08-07T15:17:09.829397+00:00"
+  "timestamp": "2025-08-07T15:17:09.829397+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

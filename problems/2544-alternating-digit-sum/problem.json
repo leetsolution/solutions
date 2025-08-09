@@ -8,5 +8,7 @@
   ],
   "slug": "alternating-digit-sum",
   "url": "https://leetcode.com/problems/alternating-digit-sum/",
-  "timestamp": "2025-08-07T18:29:43.966663+00:00"
+  "timestamp": "2025-08-07T18:29:43.966663+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(log(n))"
 }

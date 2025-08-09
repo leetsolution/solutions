@@ -11,5 +11,7 @@
   ],
   "slug": "minimum-increments-to-equalize-leaf-paths",
   "url": "https://leetcode.com/problems/minimum-increments-to-equalize-leaf-paths/",
-  "timestamp": "2025-08-09T04:46:14.406376+00:00"
+  "timestamp": "2025-08-09T04:46:14.406376+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "relative-ranks",
   "url": "https://leetcode.com/problems/relative-ranks/",
-  "timestamp": "2025-08-09T02:56:41.671528+00:00"
+  "timestamp": "2025-08-09T02:56:41.671528+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

@@ -1,0 +1,290 @@
+[
+  {
+    "number": "409",
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "455",
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "561",
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "605",
+    "title": "Can Place Flowers",
+    "slug": "can-place-flowers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "680",
+    "title": "Valid Palindrome II",
+    "slug": "valid-palindrome-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "860",
+    "title": "Lemonade Change",
+    "slug": "lemonade-change",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "942",
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "976",
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1005",
+    "title": "Maximize Sum Of Array After K Negations",
+    "slug": "maximize-sum-of-array-after-k-negations",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1013",
+    "title": "Partition Array Into Three Parts With Equal Sum",
+    "slug": "partition-array-into-three-parts-with-equal-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1217",
+    "title": "Minimum Cost to Move Chips to The Same Position",
+    "slug": "minimum-cost-to-move-chips-to-the-same-position",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1221",
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1323",
+    "title": "Maximum 69 Number",
+    "slug": "maximum-69-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1403",
+    "title": "Minimum Subsequence in Non-Increasing Order",
+    "slug": "minimum-subsequence-in-non-increasing-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1710",
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1736",
+    "title": "Latest Time by Replacing Hidden Digits",
+    "slug": "latest-time-by-replacing-hidden-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1827",
+    "title": "Minimum Operations to Make the Array Increasing",
+    "slug": "minimum-operations-to-make-the-array-increasing",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1903",
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1974",
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "slug": "minimum-time-to-type-word-using-special-typewriter",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2027",
+    "title": "Minimum Moves to Convert String",
+    "slug": "minimum-moves-to-convert-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2037",
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2078",
+    "title": "Two Furthest Houses With Different Colors",
+    "slug": "two-furthest-houses-with-different-colors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2144",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "slug": "minimum-cost-of-buying-candies-with-discount",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2160",
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2224",
+    "title": "Minimum Number of Operations to Convert Time",
+    "slug": "minimum-number-of-operations-to-convert-time",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2259",
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2335",
+    "title": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2383",
+    "title": "Minimum Hours of Training to Win a Competition",
+    "slug": "minimum-hours-of-training-to-win-a-competition",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2389",
+    "title": "Longest Subsequence With Limited Sum",
+    "slug": "longest-subsequence-with-limited-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2566",
+    "title": "Maximum Difference by Remapping a Digit",
+    "slug": "maximum-difference-by-remapping-a-digit",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2578",
+    "title": "Split With Minimum Sum",
+    "slug": "split-with-minimum-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2591",
+    "title": "Distribute Money to Maximum Children",
+    "slug": "distribute-money-to-maximum-children",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2600",
+    "title": "K Items With the Maximum Sum",
+    "slug": "k-items-with-the-maximum-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2656",
+    "title": "Maximum Sum With Exactly K Elements ",
+    "slug": "maximum-sum-with-exactly-k-elements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2697",
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2706",
+    "title": "Buy Two Chocolates",
+    "slug": "buy-two-chocolates",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2864",
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2900",
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "slug": "longest-unequal-adjacent-groups-subsequence-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3014",
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3074",
+    "title": "Apple Redistribution into Boxes",
+    "slug": "apple-redistribution-into-boxes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3216",
+    "title": "Lexicographically Smallest String After a Swap",
+    "slug": "lexicographically-smallest-string-after-a-swap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3402",
+    "title": "Minimum Operations to Make Columns Strictly Increasing",
+    "slug": "minimum-operations-to-make-columns-strictly-increasing",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3487",
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "slug": "maximum-unique-subarray-sum-after-deletion",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3545",
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3557",
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "slug": "find-maximum-number-of-non-intersecting-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3587",
+    "title": "Minimum Adjacent Swaps to Alternate Parity",
+    "slug": "minimum-adjacent-swaps-to-alternate-parity",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3605",
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard"
+  }
+]

@@ -9,5 +9,7 @@
   ],
   "slug": "max-pair-sum-in-an-array",
   "url": "https://leetcode.com/problems/max-pair-sum-in-an-array/",
-  "timestamp": "2025-08-07T18:05:50.379903+00:00"
+  "timestamp": "2025-08-07T18:05:50.379903+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

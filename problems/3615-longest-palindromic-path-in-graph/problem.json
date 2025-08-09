@@ -12,5 +12,7 @@
   ],
   "slug": "longest-palindromic-path-in-graph",
   "url": "https://leetcode.com/problems/longest-palindromic-path-in-graph/",
-  "timestamp": "2025-08-03T17:42:23.437035+00:00"
+  "timestamp": "2025-08-03T17:42:23.437035+00:00",
+  "time_complexity": "O(V^2)",
+  "space_complexity": "O(V^2)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "count-odd-numbers-in-an-interval-range",
   "url": "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/",
-  "timestamp": "2025-08-07T20:32:05.528232+00:00"
+  "timestamp": "2025-08-07T20:32:05.528232+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

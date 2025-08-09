@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-pivot-integer",
   "url": "https://leetcode.com/problems/find-the-pivot-integer/",
-  "timestamp": "2025-08-07T18:51:17.758622+00:00"
+  "timestamp": "2025-08-07T18:51:17.758622+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

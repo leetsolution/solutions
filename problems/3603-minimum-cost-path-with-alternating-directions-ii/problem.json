@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-cost-path-with-alternating-directions-ii",
   "url": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/",
-  "timestamp": "2025-08-09T04:45:17.350051+00:00"
+  "timestamp": "2025-08-09T04:45:17.350051+00:00",
+  "time_complexity": "O(m*n*log(m*n))",
+  "space_complexity": "O(m*n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "base-7",
   "url": "https://leetcode.com/problems/base-7/",
-  "timestamp": "2025-08-09T02:57:00.623405+00:00"
+  "timestamp": "2025-08-09T02:57:00.623405+00:00",
+  "time_complexity": "O(log_7(n))",
+  "space_complexity": "O(log_7(n))"
 }

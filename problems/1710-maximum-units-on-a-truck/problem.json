@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-units-on-a-truck",
   "url": "https://leetcode.com/problems/maximum-units-on-a-truck/",
-  "timestamp": "2025-08-07T20:14:33.623273+00:00"
+  "timestamp": "2025-08-07T20:14:33.623273+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

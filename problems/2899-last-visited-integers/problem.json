@@ -9,5 +9,7 @@
   ],
   "slug": "last-visited-integers",
   "url": "https://leetcode.com/problems/last-visited-integers/",
-  "timestamp": "2025-08-07T17:49:51.674664+00:00"
+  "timestamp": "2025-08-07T17:49:51.674664+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

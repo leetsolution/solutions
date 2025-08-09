@@ -11,5 +11,7 @@
   ],
   "slug": "largest-perimeter-triangle",
   "url": "https://leetcode.com/problems/largest-perimeter-triangle/",
-  "timestamp": "2025-08-07T21:47:48.604831+00:00"
+  "timestamp": "2025-08-07T21:47:48.604831+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

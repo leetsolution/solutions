@@ -10,5 +10,7 @@
   ],
   "slug": "count-elements-with-strictly-smaller-and-greater-elements",
   "url": "https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/",
-  "timestamp": "2025-08-07T19:38:40.034223+00:00"
+  "timestamp": "2025-08-07T19:38:40.034223+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

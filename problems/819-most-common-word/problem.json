@@ -11,5 +11,7 @@
   ],
   "slug": "most-common-word",
   "url": "https://leetcode.com/problems/most-common-word/",
-  "timestamp": "2025-08-07T22:09:06.564216+00:00"
+  "timestamp": "2025-08-07T22:09:06.564216+00:00",
+  "time_complexity": "O(n+b)",
+  "space_complexity": "O(n+b)"
 }

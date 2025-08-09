@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-k-beauty-of-a-number",
   "url": "https://leetcode.com/problems/find-the-k-beauty-of-a-number/",
-  "timestamp": "2025-08-07T21:24:27.390661+00:00"
+  "timestamp": "2025-08-07T21:24:27.390661+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "the-employee-that-worked-on-the-longest-task",
   "url": "https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/",
-  "timestamp": "2025-08-07T18:54:53.175496+00:00"
+  "timestamp": "2025-08-07T18:54:53.175496+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

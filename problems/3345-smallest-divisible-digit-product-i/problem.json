@@ -9,5 +9,7 @@
   ],
   "slug": "smallest-divisible-digit-product-i",
   "url": "https://leetcode.com/problems/smallest-divisible-digit-product-i/",
-  "timestamp": "2025-08-07T15:33:17.256740+00:00"
+  "timestamp": "2025-08-07T15:33:17.256740+00:00",
+  "time_complexity": "O(inf)",
+  "space_complexity": "O(1)"
 }

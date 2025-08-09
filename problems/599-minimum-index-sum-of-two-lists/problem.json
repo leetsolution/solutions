@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-index-sum-of-two-lists",
   "url": "https://leetcode.com/problems/minimum-index-sum-of-two-lists/",
-  "timestamp": "2025-08-09T02:51:51.295671+00:00"
+  "timestamp": "2025-08-09T02:51:51.295671+00:00",
+  "time_complexity": "O(n+m)",
+  "space_complexity": "O(n)"
 }

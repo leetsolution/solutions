@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-score-after-splitting-a-string",
   "url": "https://leetcode.com/problems/maximum-score-after-splitting-a-string/",
-  "timestamp": "2025-08-07T21:16:58.145592+00:00"
+  "timestamp": "2025-08-07T21:16:58.145592+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

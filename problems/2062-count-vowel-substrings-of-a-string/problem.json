@@ -9,5 +9,7 @@
   ],
   "slug": "count-vowel-substrings-of-a-string",
   "url": "https://leetcode.com/problems/count-vowel-substrings-of-a-string/",
-  "timestamp": "2025-08-07T19:43:26.724997+00:00"
+  "timestamp": "2025-08-07T19:43:26.724997+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

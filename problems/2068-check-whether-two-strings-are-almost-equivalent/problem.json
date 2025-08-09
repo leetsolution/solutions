@@ -10,5 +10,7 @@
   ],
   "slug": "check-whether-two-strings-are-almost-equivalent",
   "url": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
-  "timestamp": "2025-08-07T19:43:59.302287+00:00"
+  "timestamp": "2025-08-07T19:43:59.302287+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

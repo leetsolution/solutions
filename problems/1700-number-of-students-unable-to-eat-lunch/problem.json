@@ -11,5 +11,7 @@
   ],
   "slug": "number-of-students-unable-to-eat-lunch",
   "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
-  "timestamp": "2025-08-07T20:16:09.976149+00:00"
+  "timestamp": "2025-08-07T20:16:09.976149+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

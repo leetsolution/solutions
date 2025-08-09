@@ -9,5 +9,7 @@
   ],
   "slug": "count-items-matching-a-rule",
   "url": "https://leetcode.com/problems/count-items-matching-a-rule/",
-  "timestamp": "2025-08-07T20:10:46.811868+00:00"
+  "timestamp": "2025-08-07T20:10:46.811868+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

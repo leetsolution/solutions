@@ -10,5 +10,7 @@
   ],
   "slug": "cells-with-odd-values-in-a-matrix",
   "url": "https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/",
-  "timestamp": "2025-08-07T21:28:26.176036+00:00"
+  "timestamp": "2025-08-07T21:28:26.176036+00:00",
+  "time_complexity": "O(m*n+len(indices))",
+  "space_complexity": "O(m+n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "ant-on-the-boundary",
   "url": "https://leetcode.com/problems/ant-on-the-boundary/",
-  "timestamp": "2025-08-07T17:02:28.961251+00:00"
+  "timestamp": "2025-08-07T17:02:28.961251+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

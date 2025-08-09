@@ -6,5 +6,7 @@
   "topics": [],
   "slug": "maximum-balanced-shipments",
   "url": "https://leetcode.com/problems/maximum-balanced-shipments/",
-  "timestamp": "2025-08-09T04:43:31.753982+00:00"
+  "timestamp": "2025-08-09T04:43:31.753982+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

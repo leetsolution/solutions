@@ -1,0 +1,26 @@
+[
+  {
+    "number": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2928",
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3621",
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+    "difficulty": "Hard"
+  }
+]

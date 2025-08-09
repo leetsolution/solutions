@@ -8,5 +8,7 @@
   ],
   "slug": "convert-the-temperature",
   "url": "https://leetcode.com/problems/convert-the-temperature/",
-  "timestamp": "2025-08-07T18:52:10.917900+00:00"
+  "timestamp": "2025-08-07T18:52:10.917900+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "split-array-by-prime-indices",
   "url": "https://leetcode.com/problems/split-array-by-prime-indices/",
-  "timestamp": "2025-08-09T04:44:29.291774+00:00"
+  "timestamp": "2025-08-09T04:44:29.291774+00:00",
+  "time_complexity": "O(n * sqrt(n))",
+  "space_complexity": "O(n)"
 }

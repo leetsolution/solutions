@@ -8,5 +8,7 @@
   ],
   "slug": "check-if-all-as-appears-before-all-bs",
   "url": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
-  "timestamp": "2025-08-07T19:40:04.993361+00:00"
+  "timestamp": "2025-08-07T19:40:04.993361+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

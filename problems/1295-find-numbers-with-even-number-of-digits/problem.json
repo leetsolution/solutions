@@ -9,5 +9,7 @@
   ],
   "slug": "find-numbers-with-even-number-of-digits",
   "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/",
-  "timestamp": "2025-08-07T21:25:12.110107+00:00"
+  "timestamp": "2025-08-07T21:25:12.110107+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

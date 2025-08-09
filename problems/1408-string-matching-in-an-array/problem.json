@@ -10,5 +10,7 @@
   ],
   "slug": "string-matching-in-an-array",
   "url": "https://leetcode.com/problems/string-matching-in-an-array/",
-  "timestamp": "2025-08-07T21:18:13.283156+00:00"
+  "timestamp": "2025-08-07T21:18:13.283156+00:00",
+  "time_complexity": "O(n^2 * m)",
+  "space_complexity": "O(n)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "largest-positive-integer-that-exists-with-its-negative",
   "url": "https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/",
-  "timestamp": "2025-08-07T18:54:37.252871+00:00"
+  "timestamp": "2025-08-07T18:54:37.252871+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

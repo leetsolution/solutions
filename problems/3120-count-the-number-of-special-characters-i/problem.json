@@ -9,5 +9,7 @@
   ],
   "slug": "count-the-number-of-special-characters-i",
   "url": "https://leetcode.com/problems/count-the-number-of-special-characters-i/",
-  "timestamp": "2025-08-07T16:53:09.402754+00:00"
+  "timestamp": "2025-08-07T16:53:09.402754+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

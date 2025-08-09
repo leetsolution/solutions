@@ -8,5 +8,7 @@
   ],
   "slug": "find-special-substring-of-length-k",
   "url": "https://leetcode.com/problems/find-special-substring-of-length-k/",
-  "timestamp": "2025-08-07T15:23:55.099130+00:00"
+  "timestamp": "2025-08-07T15:23:55.099130+00:00",
+  "time_complexity": "O(nk)",
+  "space_complexity": "O(k)"
 }

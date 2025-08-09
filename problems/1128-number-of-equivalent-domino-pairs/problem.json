@@ -10,5 +10,7 @@
   ],
   "slug": "number-of-equivalent-domino-pairs",
   "url": "https://leetcode.com/problems/number-of-equivalent-domino-pairs/",
-  "timestamp": "2025-08-07T21:37:23.284755+00:00"
+  "timestamp": "2025-08-07T21:37:23.284755+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

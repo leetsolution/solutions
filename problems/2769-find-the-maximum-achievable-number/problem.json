@@ -8,5 +8,7 @@
   ],
   "slug": "find-the-maximum-achievable-number",
   "url": "https://leetcode.com/problems/find-the-maximum-achievable-number/",
-  "timestamp": "2025-08-07T18:10:36.603084+00:00"
+  "timestamp": "2025-08-07T18:10:36.603084+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -11,5 +11,7 @@
   ],
   "slug": "average-of-levels-in-binary-tree",
   "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
-  "timestamp": "2025-08-09T02:50:24.448078+00:00"
+  "timestamp": "2025-08-09T02:50:24.448078+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(w)"
 }

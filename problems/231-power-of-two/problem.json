@@ -10,5 +10,7 @@
   ],
   "slug": "power-of-two",
   "url": "https://leetcode.com/problems/power-of-two/",
-  "timestamp": "2025-08-09T03:13:09.099671+00:00"
+  "timestamp": "2025-08-09T03:13:09.099671+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

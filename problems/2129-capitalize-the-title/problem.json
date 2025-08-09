@@ -8,5 +8,7 @@
   ],
   "slug": "capitalize-the-title",
   "url": "https://leetcode.com/problems/capitalize-the-title/",
-  "timestamp": "2025-08-07T19:40:31.244319+00:00"
+  "timestamp": "2025-08-07T19:40:31.244319+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "arranging-coins",
   "url": "https://leetcode.com/problems/arranging-coins/",
-  "timestamp": "2025-08-09T03:01:04.798032+00:00"
+  "timestamp": "2025-08-09T03:01:04.798032+00:00",
+  "time_complexity": "O(sqrt(n))",
+  "space_complexity": "O(1)"
 }

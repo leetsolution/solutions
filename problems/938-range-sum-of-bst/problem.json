@@ -11,5 +11,7 @@
   ],
   "slug": "range-sum-of-bst",
   "url": "https://leetcode.com/problems/range-sum-of-bst/",
-  "timestamp": "2025-08-07T21:50:24.214142+00:00"
+  "timestamp": "2025-08-07T21:50:24.214142+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "number-of-lines-to-write-string",
   "url": "https://leetcode.com/problems/number-of-lines-to-write-string/",
-  "timestamp": "2025-08-07T22:10:04.160187+00:00"
+  "timestamp": "2025-08-07T22:10:04.160187+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

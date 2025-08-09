@@ -11,5 +11,7 @@
   ],
   "slug": "prime-in-diagonal",
   "url": "https://leetcode.com/problems/prime-in-diagonal/",
-  "timestamp": "2025-08-07T18:14:19.825288+00:00"
+  "timestamp": "2025-08-07T18:14:19.825288+00:00",
+  "time_complexity": "O(n * sqrt(n))",
+  "space_complexity": "O(n)"
 }

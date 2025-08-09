@@ -10,5 +10,7 @@
   ],
   "slug": "merge-sorted-array",
   "url": "https://leetcode.com/problems/merge-sorted-array/",
-  "timestamp": "2025-08-09T04:24:50.270232+00:00"
+  "timestamp": "2025-08-09T04:24:50.270232+00:00",
+  "time_complexity": "O(m+n)",
+  "space_complexity": "O(1)"
 }

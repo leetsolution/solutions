@@ -10,5 +10,7 @@
   ],
   "slug": "find-the-losers-of-the-circular-game",
   "url": "https://leetcode.com/problems/find-the-losers-of-the-circular-game/",
-  "timestamp": "2025-08-07T18:11:27.564371+00:00"
+  "timestamp": "2025-08-07T18:11:27.564371+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

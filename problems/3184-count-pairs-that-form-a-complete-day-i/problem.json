@@ -10,5 +10,7 @@
   ],
   "slug": "count-pairs-that-form-a-complete-day-i",
   "url": "https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/",
-  "timestamp": "2025-08-07T16:51:56.041452+00:00"
+  "timestamp": "2025-08-07T16:51:56.041452+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

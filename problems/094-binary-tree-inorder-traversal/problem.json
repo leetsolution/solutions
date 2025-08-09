@@ -11,5 +11,7 @@
   ],
   "slug": "binary-tree-inorder-traversal",
   "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-  "timestamp": "2025-08-09T04:24:31.276311+00:00"
+  "timestamp": "2025-08-09T04:24:31.276311+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

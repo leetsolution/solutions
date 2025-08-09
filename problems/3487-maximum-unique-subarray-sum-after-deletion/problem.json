@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-unique-subarray-sum-after-deletion",
   "url": "https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/",
-  "timestamp": "2025-08-07T15:17:57.552122+00:00"
+  "timestamp": "2025-08-07T15:17:57.552122+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

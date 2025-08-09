@@ -11,5 +11,7 @@
   ],
   "slug": "intersection-of-multiple-arrays",
   "url": "https://leetcode.com/problems/intersection-of-multiple-arrays/",
-  "timestamp": "2025-08-07T19:19:24.274088+00:00"
+  "timestamp": "2025-08-07T19:19:24.274088+00:00",
+  "time_complexity": "O(n*m + klogk)",
+  "space_complexity": "O(n*m + k)"
 }

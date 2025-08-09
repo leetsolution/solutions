@@ -10,5 +10,7 @@
   ],
   "slug": "final-prices-with-a-special-discount-in-a-shop",
   "url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
-  "timestamp": "2025-08-07T20:59:25.331272+00:00"
+  "timestamp": "2025-08-07T20:59:25.331272+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

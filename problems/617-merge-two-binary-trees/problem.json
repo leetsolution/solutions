@@ -11,5 +11,7 @@
   ],
   "slug": "merge-two-binary-trees",
   "url": "https://leetcode.com/problems/merge-two-binary-trees/",
-  "timestamp": "2025-08-09T02:51:10.158661+00:00"
+  "timestamp": "2025-08-09T02:51:10.158661+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

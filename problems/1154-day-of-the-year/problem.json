@@ -9,5 +9,7 @@
   ],
   "slug": "day-of-the-year",
   "url": "https://leetcode.com/problems/day-of-the-year/",
-  "timestamp": "2025-08-07T21:35:29.807929+00:00"
+  "timestamp": "2025-08-07T21:35:29.807929+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

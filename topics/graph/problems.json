@@ -1,0 +1,44 @@
+[
+  {
+    "number": "997",
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1791",
+    "title": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1971",
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3604",
+    "title": "Minimum Time to Reach Destination in Directed Graph",
+    "slug": "minimum-time-to-reach-destination-in-directed-graph",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3608",
+    "title": "Minimum Time for K Connected Components",
+    "slug": "minimum-time-for-k-connected-components",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3615",
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3620",
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard"
+  }
+]

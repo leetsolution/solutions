@@ -9,5 +9,7 @@
   ],
   "slug": "rectangle-overlap",
   "url": "https://leetcode.com/problems/rectangle-overlap/",
-  "timestamp": "2025-08-07T22:03:50.720018+00:00"
+  "timestamp": "2025-08-07T22:03:50.720018+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

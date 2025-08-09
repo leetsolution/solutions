@@ -10,5 +10,7 @@
   ],
   "slug": "find-common-characters",
   "url": "https://leetcode.com/problems/find-common-characters/",
-  "timestamp": "2025-08-07T21:45:51.934472+00:00"
+  "timestamp": "2025-08-07T21:45:51.934472+00:00",
+  "time_complexity": "O(n*m*k)",
+  "space_complexity": "O(1)"
 }

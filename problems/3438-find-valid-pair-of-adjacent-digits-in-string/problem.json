@@ -10,5 +10,7 @@
   ],
   "slug": "find-valid-pair-of-adjacent-digits-in-string",
   "url": "https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/",
-  "timestamp": "2025-08-07T15:21:50.857023+00:00"
+  "timestamp": "2025-08-07T15:21:50.857023+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

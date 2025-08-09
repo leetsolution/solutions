@@ -8,5 +8,7 @@
   ],
   "slug": "maximum-difference-between-adjacent-elements-in-a-circular-array",
   "url": "https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/",
-  "timestamp": "2025-08-07T15:21:08.384044+00:00"
+  "timestamp": "2025-08-07T15:21:08.384044+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

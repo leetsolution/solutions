@@ -9,5 +9,7 @@
   ],
   "slug": "minimum-number-of-chairs-in-a-waiting-room",
   "url": "https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/",
-  "timestamp": "2025-08-07T16:51:23.694879+00:00"
+  "timestamp": "2025-08-07T16:51:23.694879+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

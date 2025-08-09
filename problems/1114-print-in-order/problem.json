@@ -8,5 +8,7 @@
   ],
   "slug": "print-in-order",
   "url": "https://leetcode.com/problems/print-in-order/",
-  "timestamp": "2025-08-07T21:38:57.043362+00:00"
+  "timestamp": "2025-08-07T21:38:57.043362+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

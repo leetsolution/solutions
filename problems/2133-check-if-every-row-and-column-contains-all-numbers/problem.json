@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-every-row-and-column-contains-all-numbers",
   "url": "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/",
-  "timestamp": "2025-08-07T19:39:31.240551+00:00"
+  "timestamp": "2025-08-07T19:39:31.240551+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

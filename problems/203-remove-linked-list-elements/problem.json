@@ -9,5 +9,7 @@
   ],
   "slug": "remove-linked-list-elements",
   "url": "https://leetcode.com/problems/remove-linked-list-elements/",
-  "timestamp": "2025-08-09T04:18:09.102539+00:00"
+  "timestamp": "2025-08-09T04:18:09.102539+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

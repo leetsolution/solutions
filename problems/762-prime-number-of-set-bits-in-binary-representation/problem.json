@@ -9,5 +9,7 @@
   ],
   "slug": "prime-number-of-set-bits-in-binary-representation",
   "url": "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/",
-  "timestamp": "2025-08-09T02:43:15.266183+00:00"
+  "timestamp": "2025-08-09T02:43:15.266183+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

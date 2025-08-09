@@ -46,5 +46,281 @@
     "title": "Happy Number",
     "slug": "happy-number",
     "difficulty": "Easy"
+  },
+  {
+    "number": "234",
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "283",
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "344",
+    "title": "Reverse String",
+    "slug": "reverse-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "345",
+    "title": "Reverse Vowels of a String",
+    "slug": "reverse-vowels-of-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "349",
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "350",
+    "title": "Intersection of Two Arrays II",
+    "slug": "intersection-of-two-arrays-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "392",
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "455",
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "541",
+    "title": "Reverse String II",
+    "slug": "reverse-string-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "557",
+    "title": "Reverse Words in a String III",
+    "slug": "reverse-words-in-a-string-iii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "653",
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "680",
+    "title": "Valid Palindrome II",
+    "slug": "valid-palindrome-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "696",
+    "title": "Count Binary Substrings",
+    "slug": "count-binary-substrings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "821",
+    "title": "Shortest Distance to a Character",
+    "slug": "shortest-distance-to-a-character",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "832",
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "844",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "876",
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "905",
+    "title": "Sort Array By Parity",
+    "slug": "sort-array-by-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "917",
+    "title": "Reverse Only Letters",
+    "slug": "reverse-only-letters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "922",
+    "title": "Sort Array By Parity II",
+    "slug": "sort-array-by-parity-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "925",
+    "title": "Long Pressed Name",
+    "slug": "long-pressed-name",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "942",
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "977",
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1089",
+    "title": "Duplicate Zeros",
+    "slug": "duplicate-zeros",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1332",
+    "title": "Remove Palindromic Subsequences",
+    "slug": "remove-palindromic-subsequences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1346",
+    "title": "Check If N and Its Double Exist",
+    "slug": "check-if-n-and-its-double-exist",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1385",
+    "title": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1455",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1768",
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1961",
+    "title": "Check If String Is a Prefix of Array",
+    "slug": "check-if-string-is-a-prefix-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2000",
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2108",
+    "title": "Find First Palindromic String in the Array",
+    "slug": "find-first-palindromic-string-in-the-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2200",
+    "title": "Find All K-Distant Indices in an Array",
+    "slug": "find-all-k-distant-indices-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2367",
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2441",
+    "title": "Largest Positive Integer That Exists With Its Negative",
+    "slug": "largest-positive-integer-that-exists-with-its-negative",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2460",
+    "title": "Apply Operations to an Array",
+    "slug": "apply-operations-to-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2465",
+    "title": "Number of Distinct Averages",
+    "slug": "number-of-distinct-averages",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2511",
+    "title": "Maximum Enemy Forts That Can Be Captured",
+    "slug": "maximum-enemy-forts-that-can-be-captured",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2540",
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2562",
+    "title": "Find the Array Concatenation Value",
+    "slug": "find-the-array-concatenation-value",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2570",
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "slug": "merge-two-2d-arrays-by-summing-values",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2697",
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2824",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2903",
+    "title": "Find Indices With Index and Value Difference I",
+    "slug": "find-indices-with-index-and-value-difference-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2970",
+    "title": "Count the Number of Incremovable Subarrays I",
+    "slug": "count-the-number-of-incremovable-subarrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3194",
+    "title": "Minimum Average of Smallest and Largest Elements",
+    "slug": "minimum-average-of-smallest-and-largest-elements",
+    "difficulty": "Easy"
   }
 ]

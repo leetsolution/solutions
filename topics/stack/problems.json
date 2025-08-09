@@ -22,5 +22,125 @@
     "title": "Binary Tree Postorder Traversal",
     "slug": "binary-tree-postorder-traversal",
     "difficulty": "Easy"
+  },
+  {
+    "number": "225",
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "232",
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "234",
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "496",
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "589",
+    "title": "N-ary Tree Preorder Traversal",
+    "slug": "n-ary-tree-preorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "590",
+    "title": "N-ary Tree Postorder Traversal",
+    "slug": "n-ary-tree-postorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "682",
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "844",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "897",
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1021",
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1047",
+    "title": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1475",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1544",
+    "title": "Make The String Great",
+    "slug": "make-the-string-great",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1598",
+    "title": "Crawler Log Folder",
+    "slug": "crawler-log-folder",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1614",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1700",
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2000",
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2696",
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3174",
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3561",
+    "title": "Resulting String After Adjacent Removals",
+    "slug": "resulting-string-after-adjacent-removals",
+    "difficulty": "Medium"
   }
 ]

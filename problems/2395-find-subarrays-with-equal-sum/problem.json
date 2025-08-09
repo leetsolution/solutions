@@ -9,5 +9,7 @@
   ],
   "slug": "find-subarrays-with-equal-sum",
   "url": "https://leetcode.com/problems/find-subarrays-with-equal-sum/",
-  "timestamp": "2025-08-07T18:56:38.669498+00:00"
+  "timestamp": "2025-08-07T18:56:38.669498+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

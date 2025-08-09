@@ -8,5 +8,7 @@
   ],
   "slug": "consecutive-characters",
   "url": "https://leetcode.com/problems/consecutive-characters/",
-  "timestamp": "2025-08-07T21:16:36.499922+00:00"
+  "timestamp": "2025-08-07T21:16:36.499922+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

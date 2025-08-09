@@ -9,5 +9,7 @@
   ],
   "slug": "permutation-difference-between-two-strings",
   "url": "https://leetcode.com/problems/permutation-difference-between-two-strings/",
-  "timestamp": "2025-08-07T16:52:42.962929+00:00"
+  "timestamp": "2025-08-07T16:52:42.962929+00:00",
+  "time_complexity": "O(mn)",
+  "space_complexity": "O(1)"
 }

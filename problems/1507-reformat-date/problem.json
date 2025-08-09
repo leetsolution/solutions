@@ -8,5 +8,7 @@
   ],
   "slug": "reformat-date",
   "url": "https://leetcode.com/problems/reformat-date/",
-  "timestamp": "2025-08-07T21:33:07.528293+00:00"
+  "timestamp": "2025-08-07T21:33:07.528293+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

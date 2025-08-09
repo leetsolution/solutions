@@ -9,5 +9,7 @@
   ],
   "slug": "separate-the-digits-in-an-array",
   "url": "https://leetcode.com/problems/separate-the-digits-in-an-array/",
-  "timestamp": "2025-08-07T18:24:48.677243+00:00"
+  "timestamp": "2025-08-07T18:24:48.677243+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(n*m)"
 }

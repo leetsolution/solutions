@@ -8,5 +8,7 @@
   ],
   "slug": "self-dividing-numbers",
   "url": "https://leetcode.com/problems/self-dividing-numbers/",
-  "timestamp": "2025-08-09T02:45:38.594211+00:00"
+  "timestamp": "2025-08-09T02:45:38.594211+00:00",
+  "time_complexity": "O(n*k)",
+  "space_complexity": "O(n)"
 }

@@ -12,5 +12,7 @@
   ],
   "slug": "minimum-deletions-for-at-most-k-distinct-characters",
   "url": "https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/",
-  "timestamp": "2025-08-07T15:10:33.569991+00:00"
+  "timestamp": "2025-08-07T15:10:33.569991+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

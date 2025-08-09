@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-length-substring-with-two-occurrences",
   "url": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
-  "timestamp": "2025-08-07T16:58:20.881487+00:00"
+  "timestamp": "2025-08-07T16:58:20.881487+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(n)"
 }

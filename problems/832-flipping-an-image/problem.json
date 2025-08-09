@@ -12,5 +12,7 @@
   ],
   "slug": "flipping-an-image",
   "url": "https://leetcode.com/problems/flipping-an-image/",
-  "timestamp": "2025-08-07T22:05:37.429804+00:00"
+  "timestamp": "2025-08-07T22:05:37.429804+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

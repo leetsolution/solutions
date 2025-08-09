@@ -9,5 +9,7 @@
   ],
   "slug": "hexadecimal-and-hexatrigesimal-conversion",
   "url": "https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/",
-  "timestamp": "2025-08-07T15:04:57.185164+00:00"
+  "timestamp": "2025-08-07T15:04:57.185164+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(log(n))"
 }

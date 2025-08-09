@@ -9,5 +9,7 @@
   ],
   "slug": "reverse-string-ii",
   "url": "https://leetcode.com/problems/reverse-string-ii/",
-  "timestamp": "2025-08-09T02:55:02.688250+00:00"
+  "timestamp": "2025-08-09T02:55:02.688250+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

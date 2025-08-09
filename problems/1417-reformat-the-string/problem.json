@@ -8,5 +8,7 @@
   ],
   "slug": "reformat-the-string",
   "url": "https://leetcode.com/problems/reformat-the-string/",
-  "timestamp": "2025-08-07T21:17:22.264819+00:00"
+  "timestamp": "2025-08-07T21:17:22.264819+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "zigzag-grid-traversal-with-skip",
   "url": "https://leetcode.com/problems/zigzag-grid-traversal-with-skip/",
-  "timestamp": "2025-08-07T15:24:33.610885+00:00"
+  "timestamp": "2025-08-07T15:24:33.610885+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m*n)"
 }

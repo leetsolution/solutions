@@ -10,5 +10,7 @@
   ],
   "slug": "number-of-recent-calls",
   "url": "https://leetcode.com/problems/number-of-recent-calls/",
-  "timestamp": "2025-08-07T21:50:46.686474+00:00"
+  "timestamp": "2025-08-07T21:50:46.686474+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

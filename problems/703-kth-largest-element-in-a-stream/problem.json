@@ -13,5 +13,7 @@
   ],
   "slug": "kth-largest-element-in-a-stream",
   "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-  "timestamp": "2025-08-09T02:40:49.321019+00:00"
+  "timestamp": "2025-08-09T02:40:49.321019+00:00",
+  "time_complexity": "O(nlogk)",
+  "space_complexity": "O(k)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "pass-the-pillow",
   "url": "https://leetcode.com/problems/pass-the-pillow/",
-  "timestamp": "2025-08-07T18:24:07.023485+00:00"
+  "timestamp": "2025-08-07T18:24:07.023485+00:00",
+  "time_complexity": "O(t)",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "water-bottles",
   "url": "https://leetcode.com/problems/water-bottles/",
-  "timestamp": "2025-08-07T20:30:05.613921+00:00"
+  "timestamp": "2025-08-07T20:30:05.613921+00:00",
+  "time_complexity": "O(log(n))",
+  "space_complexity": "O(1)"
 }

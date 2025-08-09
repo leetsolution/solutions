@@ -10,5 +10,7 @@
   ],
   "slug": "count-the-number-of-vowel-strings-in-range",
   "url": "https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/",
-  "timestamp": "2025-08-07T18:22:30.078124+00:00"
+  "timestamp": "2025-08-07T18:22:30.078124+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

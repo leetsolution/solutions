@@ -9,5 +9,7 @@
   ],
   "slug": "sum-of-squares-of-special-elements",
   "url": "https://leetcode.com/problems/sum-of-squares-of-special-elements/",
-  "timestamp": "2025-08-07T18:08:44.789094+00:00"
+  "timestamp": "2025-08-07T18:08:44.789094+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

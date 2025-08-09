@@ -8,5 +8,7 @@
   ],
   "slug": "defanging-an-ip-address",
   "url": "https://leetcode.com/problems/defanging-an-ip-address/",
-  "timestamp": "2025-08-07T21:38:44.871691+00:00"
+  "timestamp": "2025-08-07T21:38:44.871691+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

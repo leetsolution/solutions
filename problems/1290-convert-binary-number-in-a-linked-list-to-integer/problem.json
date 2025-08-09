@@ -9,5 +9,7 @@
   ],
   "slug": "convert-binary-number-in-a-linked-list-to-integer",
   "url": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
-  "timestamp": "2025-08-07T21:25:36.241798+00:00"
+  "timestamp": "2025-08-07T21:25:36.241798+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

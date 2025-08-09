@@ -9,5 +9,7 @@
   ],
   "slug": "semi-ordered-permutation",
   "url": "https://leetcode.com/problems/semi-ordered-permutation/",
-  "timestamp": "2025-08-07T18:11:47.187325+00:00"
+  "timestamp": "2025-08-07T18:11:47.187325+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

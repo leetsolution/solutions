@@ -9,5 +9,7 @@
   ],
   "slug": "image-smoother",
   "url": "https://leetcode.com/problems/image-smoother/",
-  "timestamp": "2025-08-09T02:48:50.106824+00:00"
+  "timestamp": "2025-08-09T02:48:50.106824+00:00",
+  "time_complexity": "O(m*n)",
+  "space_complexity": "O(m*n)"
 }

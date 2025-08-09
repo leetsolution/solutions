@@ -10,5 +10,7 @@
   ],
   "slug": "n-ary-tree-postorder-traversal",
   "url": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
-  "timestamp": "2025-08-09T02:42:15.651549+00:00"
+  "timestamp": "2025-08-09T02:42:15.651549+00:00",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(N)"
 }

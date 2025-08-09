@@ -10,5 +10,7 @@
   ],
   "slug": "find-first-palindromic-string-in-the-array",
   "url": "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
-  "timestamp": "2025-08-07T19:40:49.483614+00:00"
+  "timestamp": "2025-08-07T19:40:49.483614+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

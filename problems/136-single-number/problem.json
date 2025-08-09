@@ -9,5 +9,7 @@
   ],
   "slug": "single-number",
   "url": "https://leetcode.com/problems/single-number/",
-  "timestamp": "2025-08-09T04:21:19.483878+00:00"
+  "timestamp": "2025-08-09T04:21:19.483878+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

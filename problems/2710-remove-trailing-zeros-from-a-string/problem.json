@@ -8,5 +8,7 @@
   ],
   "slug": "remove-trailing-zeros-from-a-string",
   "url": "https://leetcode.com/problems/remove-trailing-zeros-from-a-string/",
-  "timestamp": "2025-08-07T18:10:07.764127+00:00"
+  "timestamp": "2025-08-07T18:10:07.764127+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

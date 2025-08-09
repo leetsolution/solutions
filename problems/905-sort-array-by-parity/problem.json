@@ -10,5 +10,7 @@
   ],
   "slug": "sort-array-by-parity",
   "url": "https://leetcode.com/problems/sort-array-by-parity/",
-  "timestamp": "2025-08-07T21:55:00.590685+00:00"
+  "timestamp": "2025-08-07T21:55:00.590685+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

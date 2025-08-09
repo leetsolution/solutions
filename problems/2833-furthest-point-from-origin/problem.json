@@ -9,5 +9,7 @@
   ],
   "slug": "furthest-point-from-origin",
   "url": "https://leetcode.com/problems/furthest-point-from-origin/",
-  "timestamp": "2025-08-07T18:03:00.024703+00:00"
+  "timestamp": "2025-08-07T18:03:00.024703+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

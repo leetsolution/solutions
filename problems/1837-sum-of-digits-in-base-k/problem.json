@@ -8,5 +8,7 @@
   ],
   "slug": "sum-of-digits-in-base-k",
   "url": "https://leetcode.com/problems/sum-of-digits-in-base-k/",
-  "timestamp": "2025-08-07T20:03:58.269416+00:00"
+  "timestamp": "2025-08-07T20:03:58.269416+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

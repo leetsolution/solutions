@@ -9,5 +9,7 @@
   ],
   "slug": "distribute-candies",
   "url": "https://leetcode.com/problems/distribute-candies/",
-  "timestamp": "2025-08-09T02:52:52.193210+00:00"
+  "timestamp": "2025-08-09T02:52:52.193210+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

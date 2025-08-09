@@ -52,5 +52,839 @@
     "title": "Happy Number",
     "slug": "happy-number",
     "difficulty": "Easy"
+  },
+  {
+    "number": "231",
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "258",
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "263",
+    "title": "Ugly Number",
+    "slug": "ugly-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "268",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "292",
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "326",
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "342",
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "367",
+    "title": "Valid Perfect Square",
+    "slug": "valid-perfect-square",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "405",
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "412",
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "415",
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "441",
+    "title": "Arranging Coins",
+    "slug": "arranging-coins",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "492",
+    "title": "Construct the Rectangle",
+    "slug": "construct-the-rectangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "504",
+    "title": "Base 7",
+    "slug": "base-7",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "507",
+    "title": "Perfect Number",
+    "slug": "perfect-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "509",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "598",
+    "title": "Range Addition II",
+    "slug": "range-addition-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "628",
+    "title": "Maximum Product of Three Numbers",
+    "slug": "maximum-product-of-three-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "728",
+    "title": "Self Dividing Numbers",
+    "slug": "self-dividing-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "762",
+    "title": "Prime Number of Set Bits in Binary Representation",
+    "slug": "prime-number-of-set-bits-in-binary-representation",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "812",
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "836",
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "883",
+    "title": "Projection Area of 3D Shapes",
+    "slug": "projection-area-of-3d-shapes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "892",
+    "title": "Surface Area of 3D Shapes",
+    "slug": "surface-area-of-3d-shapes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "908",
+    "title": "Smallest Range I",
+    "slug": "smallest-range-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "914",
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "976",
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "989",
+    "title": "Add to Array-Form of Integer",
+    "slug": "add-to-array-form-of-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1025",
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1030",
+    "title": "Matrix Cells in Distance Order",
+    "slug": "matrix-cells-in-distance-order",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1037",
+    "title": "Valid Boomerang",
+    "slug": "valid-boomerang",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1071",
+    "title": "Greatest Common Divisor of Strings",
+    "slug": "greatest-common-divisor-of-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1103",
+    "title": "Distribute Candies to People",
+    "slug": "distribute-candies-to-people",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1137",
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1154",
+    "title": "Day of the Year",
+    "slug": "day-of-the-year",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1175",
+    "title": "Prime Arrangements",
+    "slug": "prime-arrangements",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1185",
+    "title": "Day of the Week",
+    "slug": "day-of-the-week",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1217",
+    "title": "Minimum Cost to Move Chips to The Same Position",
+    "slug": "minimum-cost-to-move-chips-to-the-same-position",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1232",
+    "title": "Check If It Is a Straight Line",
+    "slug": "check-if-it-is-a-straight-line",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1252",
+    "title": "Cells with Odd Values in a Matrix",
+    "slug": "cells-with-odd-values-in-a-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1266",
+    "title": "Minimum Time Visiting All Points",
+    "slug": "minimum-time-visiting-all-points",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1281",
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1290",
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "slug": "convert-binary-number-in-a-linked-list-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1295",
+    "title": "Find Numbers with Even Number of Digits",
+    "slug": "find-numbers-with-even-number-of-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1304",
+    "title": "Find N Unique Integers Sum up to Zero",
+    "slug": "find-n-unique-integers-sum-up-to-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1317",
+    "title": "Convert Integer to the Sum of Two No-Zero Integers",
+    "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1323",
+    "title": "Maximum 69 Number",
+    "slug": "maximum-69-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1342",
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1360",
+    "title": "Number of Days Between Two Dates",
+    "slug": "number-of-days-between-two-dates",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1399",
+    "title": "Count Largest Group",
+    "slug": "count-largest-group",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1486",
+    "title": "XOR Operation in an Array",
+    "slug": "xor-operation-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1512",
+    "title": "Number of Good Pairs",
+    "slug": "number-of-good-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1518",
+    "title": "Water Bottles",
+    "slug": "water-bottles",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1523",
+    "title": "Count Odd Numbers in an Interval Range",
+    "slug": "count-odd-numbers-in-an-interval-range",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1588",
+    "title": "Sum of All Odd Length Subarrays",
+    "slug": "sum-of-all-odd-length-subarrays",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1688",
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1716",
+    "title": "Calculate Money in Leetcode Bank",
+    "slug": "calculate-money-in-leetcode-bank",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1742",
+    "title": "Maximum Number of Balls in a Box",
+    "slug": "maximum-number-of-balls-in-a-box",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1812",
+    "title": "Determine Color of a Chessboard Square",
+    "slug": "determine-color-of-a-chessboard-square",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1822",
+    "title": "Sign of the Product of an Array",
+    "slug": "sign-of-the-product-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1837",
+    "title": "Sum of Digits in Base K",
+    "slug": "sum-of-digits-in-base-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1903",
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1925",
+    "title": "Count Square Sum Triples",
+    "slug": "count-square-sum-triples",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1952",
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1979",
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2119",
+    "title": "A Number After a Double Reversal",
+    "slug": "a-number-after-a-double-reversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2160",
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2169",
+    "title": "Count Operations to Obtain Zero",
+    "slug": "count-operations-to-obtain-zero",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2180",
+    "title": "Count Integers With Even Digit Sum",
+    "slug": "count-integers-with-even-digit-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2235",
+    "title": "Add Two Integers",
+    "slug": "add-two-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2269",
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2409",
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2413",
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2427",
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2455",
+    "title": "Average Value of Even Numbers That Are Divisible by Three",
+    "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2469",
+    "title": "Convert the Temperature",
+    "slug": "convert-the-temperature",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2481",
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2485",
+    "title": "Find the Pivot Integer",
+    "slug": "find-the-pivot-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2520",
+    "title": "Count the Digits That Divide a Number",
+    "slug": "count-the-digits-that-divide-a-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2525",
+    "title": "Categorize Box According to Criteria",
+    "slug": "categorize-box-according-to-criteria",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2535",
+    "title": "Difference Between Element Sum and Digit Sum of an Array",
+    "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2544",
+    "title": "Alternating Digit Sum",
+    "slug": "alternating-digit-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2549",
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2566",
+    "title": "Maximum Difference by Remapping a Digit",
+    "slug": "maximum-difference-by-remapping-a-digit",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2578",
+    "title": "Split With Minimum Sum",
+    "slug": "split-with-minimum-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2582",
+    "title": "Pass the Pillow",
+    "slug": "pass-the-pillow",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2591",
+    "title": "Distribute Money to Maximum Children",
+    "slug": "distribute-money-to-maximum-children",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2600",
+    "title": "K Items With the Maximum Sum",
+    "slug": "k-items-with-the-maximum-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2614",
+    "title": "Prime In Diagonal",
+    "slug": "prime-in-diagonal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2651",
+    "title": "Calculate Delayed Arrival Time",
+    "slug": "calculate-delayed-arrival-time",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2652",
+    "title": "Sum Multiples",
+    "slug": "sum-multiples",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2729",
+    "title": "Check if The Number is Fascinating",
+    "slug": "check-if-the-number-is-fascinating",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2739",
+    "title": "Total Distance Traveled",
+    "slug": "total-distance-traveled",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2748",
+    "title": "Number of Beautiful Pairs",
+    "slug": "number-of-beautiful-pairs",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2769",
+    "title": "Find the Maximum Achievable Number",
+    "slug": "find-the-maximum-achievable-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2806",
+    "title": "Account Balance After Rounded Purchase",
+    "slug": "account-balance-after-rounded-purchase",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2843",
+    "title": "  Count Symmetric Integers",
+    "slug": "count-symmetric-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2864",
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2894",
+    "title": "Divisible and Non-divisible Sums Difference",
+    "slug": "divisible-and-non-divisible-sums-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2928",
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2946",
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "slug": "matrix-similarity-after-cyclic-shifts",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2965",
+    "title": "Find Missing and Repeated Values",
+    "slug": "find-missing-and-repeated-values",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3014",
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3024",
+    "title": "Type of Triangle",
+    "slug": "type-of-triangle",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3079",
+    "title": "Find the Sum of Encrypted Integers",
+    "slug": "find-the-sum-of-encrypted-integers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3099",
+    "title": "Harshad Number",
+    "slug": "harshad-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3178",
+    "title": "Find the Child Who Has the Ball After K Seconds",
+    "slug": "find-the-child-who-has-the-ball-after-k-seconds",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3190",
+    "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+    "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3222",
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3232",
+    "title": "Find if Digit Game Can Be Won",
+    "slug": "find-if-digit-game-can-be-won",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3264",
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3270",
+    "title": "Find the Key of the Numbers",
+    "slug": "find-the-key-of-the-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3274",
+    "title": "Check if Two Chessboard Squares Have the Same Color",
+    "slug": "check-if-two-chessboard-squares-have-the-same-color",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3280",
+    "title": "Convert Date to Binary",
+    "slug": "convert-date-to-binary",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3289",
+    "title": "The Two Sneaky Numbers of Digitville",
+    "slug": "the-two-sneaky-numbers-of-digitville",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3300",
+    "title": "Minimum Element After Replacement With Digit Sum",
+    "slug": "minimum-element-after-replacement-with-digit-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3304",
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3345",
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3360",
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3370",
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3432",
+    "title": "Count Partitions with Even Sum Difference",
+    "slug": "count-partitions-with-even-sum-difference",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3492",
+    "title": "Maximum Containers on a Ship",
+    "slug": "maximum-containers-on-a-ship",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3512",
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3516",
+    "title": "Find Closest Person",
+    "slug": "find-closest-person",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3536",
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3550",
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "slug": "smallest-index-with-digit-sum-equal-to-index",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3560",
+    "title": "Find Minimum Log Transportation Cost",
+    "slug": "find-minimum-log-transportation-cost",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3589",
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3591",
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3602",
+    "title": "Hexadecimal and Hexatrigesimal Conversion",
+    "slug": "hexadecimal-and-hexatrigesimal-conversion",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3605",
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3609",
+    "title": "Minimum Moves to Reach Target in Grid",
+    "slug": "minimum-moves-to-reach-target-in-grid",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3618",
+    "title": "Split Array by Prime Indices",
+    "slug": "split-array-by-prime-indices",
+    "difficulty": "Medium"
+  },
+  {
+    "number": "3621",
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "difficulty": "Easy"
   }
 ]

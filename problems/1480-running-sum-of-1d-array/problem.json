@@ -9,5 +9,7 @@
   ],
   "slug": "running-sum-of-1d-array",
   "url": "https://leetcode.com/problems/running-sum-of-1d-array/",
-  "timestamp": "2025-08-07T20:41:51.298715+00:00"
+  "timestamp": "2025-08-07T20:41:51.298715+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

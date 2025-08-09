@@ -12,5 +12,7 @@
   ],
   "slug": "count-the-number-of-consistent-strings",
   "url": "https://leetcode.com/problems/count-the-number-of-consistent-strings/",
-  "timestamp": "2025-08-07T20:17:01.816367+00:00"
+  "timestamp": "2025-08-07T20:17:01.816367+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

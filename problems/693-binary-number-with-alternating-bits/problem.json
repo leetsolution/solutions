@@ -8,5 +8,7 @@
   ],
   "slug": "binary-number-with-alternating-bits",
   "url": "https://leetcode.com/problems/binary-number-with-alternating-bits/",
-  "timestamp": "2025-08-09T02:47:04.526188+00:00"
+  "timestamp": "2025-08-09T02:47:04.526188+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(log n)"
 }

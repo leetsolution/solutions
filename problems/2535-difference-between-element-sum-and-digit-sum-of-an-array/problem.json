@@ -9,5 +9,7 @@
   ],
   "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
   "url": "https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/",
-  "timestamp": "2025-08-07T18:35:16.883007+00:00"
+  "timestamp": "2025-08-07T18:35:16.883007+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

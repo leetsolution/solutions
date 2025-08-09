@@ -8,5 +8,7 @@
   ],
   "slug": "categorize-box-according-to-criteria",
   "url": "https://leetcode.com/problems/categorize-box-according-to-criteria/",
-  "timestamp": "2025-08-07T18:41:40.514060+00:00"
+  "timestamp": "2025-08-07T18:41:40.514060+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "check-if-strings-can-be-made-equal-with-operations-i",
   "url": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/",
-  "timestamp": "2025-08-07T18:03:24.504535+00:00"
+  "timestamp": "2025-08-07T18:03:24.504535+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

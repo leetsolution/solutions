@@ -1,0 +1,62 @@
+[
+  {
+    "number": "225",
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "232",
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "303",
+    "title": "Range Sum Query - Immutable",
+    "slug": "range-sum-query-immutable",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "703",
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "705",
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "706",
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "933",
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1603",
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1656",
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3242",
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "difficulty": "Easy"
+  }
+]

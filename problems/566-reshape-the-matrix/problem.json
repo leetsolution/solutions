@@ -10,5 +10,7 @@
   ],
   "slug": "reshape-the-matrix",
   "url": "https://leetcode.com/problems/reshape-the-matrix/",
-  "timestamp": "2025-08-09T02:53:25.531210+00:00"
+  "timestamp": "2025-08-09T02:53:25.531210+00:00",
+  "time_complexity": "O(r*c)",
+  "space_complexity": "O(r*c)"
 }

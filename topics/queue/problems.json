@@ -1,0 +1,44 @@
+[
+  {
+    "number": "225",
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "232",
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "387",
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "933",
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1700",
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2073",
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3589",
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium"
+  }
+]

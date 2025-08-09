@@ -10,5 +10,7 @@
   ],
   "slug": "second-minimum-node-in-a-binary-tree",
   "url": "https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/",
-  "timestamp": "2025-08-09T02:48:25.302351+00:00"
+  "timestamp": "2025-08-09T02:48:25.302351+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "longest-uncommon-subsequence-i",
   "url": "https://leetcode.com/problems/longest-uncommon-subsequence-i/",
-  "timestamp": "2025-08-09T02:55:47.821736+00:00"
+  "timestamp": "2025-08-09T02:55:47.821736+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

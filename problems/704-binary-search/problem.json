@@ -9,5 +9,7 @@
   ],
   "slug": "binary-search",
   "url": "https://leetcode.com/problems/binary-search/",
-  "timestamp": "2025-08-09T02:40:27.449967+00:00"
+  "timestamp": "2025-08-09T02:40:27.449967+00:00",
+  "time_complexity": "O(log n)",
+  "space_complexity": "O(1)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "find-common-elements-between-two-arrays",
   "url": "https://leetcode.com/problems/find-common-elements-between-two-arrays/",
-  "timestamp": "2025-08-07T17:39:26.306816+00:00"
+  "timestamp": "2025-08-07T17:39:26.306816+00:00",
+  "time_complexity": "O(m+n)",
+  "space_complexity": "O(m+n)"
 }

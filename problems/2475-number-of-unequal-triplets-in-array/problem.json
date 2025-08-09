@@ -10,5 +10,7 @@
   ],
   "slug": "number-of-unequal-triplets-in-array",
   "url": "https://leetcode.com/problems/number-of-unequal-triplets-in-array/",
-  "timestamp": "2025-08-07T18:51:33.547865+00:00"
+  "timestamp": "2025-08-07T18:51:33.547865+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

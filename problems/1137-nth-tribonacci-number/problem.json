@@ -10,5 +10,7 @@
   ],
   "slug": "n-th-tribonacci-number",
   "url": "https://leetcode.com/problems/n-th-tribonacci-number/",
-  "timestamp": "2025-08-07T21:36:43.806448+00:00"
+  "timestamp": "2025-08-07T21:36:43.806448+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

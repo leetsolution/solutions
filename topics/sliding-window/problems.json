@@ -1,0 +1,116 @@
+[
+  {
+    "number": "219",
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "594",
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "643",
+    "title": "Maximum Average Subarray I",
+    "slug": "maximum-average-subarray-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1652",
+    "title": "Defuse the Bomb",
+    "slug": "defuse-the-bomb",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1763",
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1876",
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1984",
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2269",
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2379",
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2760",
+    "title": "Longest Even Odd Subarray With Threshold",
+    "slug": "longest-even-odd-subarray-with-threshold",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2932",
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3090",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3095",
+    "title": "Shortest Subarray With OR at Least K I",
+    "slug": "shortest-subarray-with-or-at-least-k-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3206",
+    "title": "Alternating Groups I",
+    "slug": "alternating-groups-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3258",
+    "title": "Count Substrings That Satisfy K-Constraint I",
+    "slug": "count-substrings-that-satisfy-k-constraint-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3318",
+    "title": "Find X-Sum of All K-Long Subarrays I",
+    "slug": "find-x-sum-of-all-k-long-subarrays-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3364",
+    "title": "Minimum Positive Sum Subarray ",
+    "slug": "minimum-positive-sum-subarray",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3589",
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium"
+  }
+]

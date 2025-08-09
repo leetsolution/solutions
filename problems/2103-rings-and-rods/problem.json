@@ -9,5 +9,7 @@
   ],
   "slug": "rings-and-rods",
   "url": "https://leetcode.com/problems/rings-and-rods/",
-  "timestamp": "2025-08-07T19:41:07.179337+00:00"
+  "timestamp": "2025-08-07T19:41:07.179337+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

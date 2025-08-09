@@ -10,5 +10,7 @@
   ],
   "slug": "maximize-sum-of-array-after-k-negations",
   "url": "https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/",
-  "timestamp": "2025-08-07T21:45:36.570117+00:00"
+  "timestamp": "2025-08-07T21:45:36.570117+00:00",
+  "time_complexity": "O(nlogn)",
+  "space_complexity": "O(1)"
 }

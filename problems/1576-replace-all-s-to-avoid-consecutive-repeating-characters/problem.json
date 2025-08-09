@@ -8,5 +8,7 @@
   ],
   "slug": "replace-all-s-to-avoid-consecutive-repeating-characters",
   "url": "https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/",
-  "timestamp": "2025-08-07T20:22:08.694906+00:00"
+  "timestamp": "2025-08-07T20:22:08.694906+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

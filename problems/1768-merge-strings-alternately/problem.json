@@ -9,5 +9,7 @@
   ],
   "slug": "merge-strings-alternately",
   "url": "https://leetcode.com/problems/merge-strings-alternately/",
-  "timestamp": "2025-08-07T20:11:05.479497+00:00"
+  "timestamp": "2025-08-07T20:11:05.479497+00:00",
+  "time_complexity": "O(m+n)",
+  "space_complexity": "O(m+n)"
 }

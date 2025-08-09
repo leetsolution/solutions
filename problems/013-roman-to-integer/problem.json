@@ -10,5 +10,7 @@
   ],
   "slug": "roman-to-integer",
   "url": "https://leetcode.com/problems/roman-to-integer/",
-  "timestamp": "2025-08-09T04:28:45.460963+00:00"
+  "timestamp": "2025-08-09T04:28:45.460963+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

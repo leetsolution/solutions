@@ -11,5 +11,7 @@
   ],
   "slug": "find-resultant-array-after-removing-anagrams",
   "url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
-  "timestamp": "2025-08-07T21:29:18.364325+00:00"
+  "timestamp": "2025-08-07T21:29:18.364325+00:00",
+  "time_complexity": "O(n*k*log(k))",
+  "space_complexity": "O(n*k)"
 }

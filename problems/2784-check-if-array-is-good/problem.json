@@ -10,5 +10,7 @@
   ],
   "slug": "check-if-array-is-good",
   "url": "https://leetcode.com/problems/check-if-array-is-good/",
-  "timestamp": "2025-08-07T18:06:08.749274+00:00"
+  "timestamp": "2025-08-07T18:06:08.749274+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "maximum-value-of-an-ordered-triplet-i",
   "url": "https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/",
-  "timestamp": "2025-08-07T17:53:01.524115+00:00"
+  "timestamp": "2025-08-07T17:53:01.524115+00:00",
+  "time_complexity": "O(n^3)",
+  "space_complexity": "O(1)"
 }

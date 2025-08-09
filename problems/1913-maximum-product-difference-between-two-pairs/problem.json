@@ -9,5 +9,7 @@
   ],
   "slug": "maximum-product-difference-between-two-pairs",
   "url": "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/",
-  "timestamp": "2025-08-07T19:52:19.144893+00:00"
+  "timestamp": "2025-08-07T19:52:19.144893+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

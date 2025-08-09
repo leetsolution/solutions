@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-average-of-smallest-and-largest-elements",
   "url": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/",
-  "timestamp": "2025-08-07T16:47:35.115946+00:00"
+  "timestamp": "2025-08-07T16:47:35.115946+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

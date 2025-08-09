@@ -9,5 +9,7 @@
   ],
   "slug": "largest-number-at-least-twice-of-others",
   "url": "https://leetcode.com/problems/largest-number-at-least-twice-of-others/",
-  "timestamp": "2025-08-09T02:44:15.731498+00:00"
+  "timestamp": "2025-08-09T02:44:15.731498+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "smallest-palindromic-rearrangement-i",
   "url": "https://leetcode.com/problems/smallest-palindromic-rearrangement-i/",
-  "timestamp": "2025-08-09T04:59:29.761223+00:00"
+  "timestamp": "2025-08-09T04:59:29.761223+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

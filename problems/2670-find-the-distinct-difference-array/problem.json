@@ -9,5 +9,7 @@
   ],
   "slug": "find-the-distinct-difference-array",
   "url": "https://leetcode.com/problems/find-the-distinct-difference-array/",
-  "timestamp": "2025-08-07T18:12:03.636584+00:00"
+  "timestamp": "2025-08-07T18:12:03.636584+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "maximum-difference-between-even-and-odd-frequency-i",
   "url": "https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/",
-  "timestamp": "2025-08-07T15:20:39.965832+00:00"
+  "timestamp": "2025-08-07T15:20:39.965832+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(1)"
 }

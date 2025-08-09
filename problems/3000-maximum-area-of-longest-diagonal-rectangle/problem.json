@@ -8,5 +8,7 @@
   ],
   "slug": "maximum-area-of-longest-diagonal-rectangle",
   "url": "https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/",
-  "timestamp": "2025-08-07T17:05:14.146665+00:00"
+  "timestamp": "2025-08-07T17:05:14.146665+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

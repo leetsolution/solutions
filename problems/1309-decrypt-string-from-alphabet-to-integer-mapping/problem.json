@@ -8,5 +8,7 @@
   ],
   "slug": "decrypt-string-from-alphabet-to-integer-mapping",
   "url": "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/",
-  "timestamp": "2025-08-07T21:24:05.508437+00:00"
+  "timestamp": "2025-08-07T21:24:05.508437+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "remove-element",
   "url": "https://leetcode.com/problems/remove-element/",
-  "timestamp": "2025-08-09T04:27:30.135545+00:00"
+  "timestamp": "2025-08-09T04:27:30.135545+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

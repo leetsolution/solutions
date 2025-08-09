@@ -11,5 +11,7 @@
   ],
   "slug": "assign-cookies",
   "url": "https://leetcode.com/problems/assign-cookies/",
-  "timestamp": "2025-08-09T03:00:25.553489+00:00"
+  "timestamp": "2025-08-09T03:00:25.553489+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

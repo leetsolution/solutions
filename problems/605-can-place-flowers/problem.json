@@ -9,5 +9,7 @@
   ],
   "slug": "can-place-flowers",
   "url": "https://leetcode.com/problems/can-place-flowers/",
-  "timestamp": "2025-08-09T02:51:33.443798+00:00"
+  "timestamp": "2025-08-09T02:51:33.443798+00:00",
+  "time_complexity": "O(m)",
+  "space_complexity": "O(m)"
 }

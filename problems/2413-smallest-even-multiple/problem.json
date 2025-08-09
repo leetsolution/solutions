@@ -9,5 +9,7 @@
   ],
   "slug": "smallest-even-multiple",
   "url": "https://leetcode.com/problems/smallest-even-multiple/",
-  "timestamp": "2025-08-07T18:56:06.113542+00:00"
+  "timestamp": "2025-08-07T18:56:06.113542+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

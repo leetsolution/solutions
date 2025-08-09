@@ -10,5 +10,7 @@
   ],
   "slug": "squares-of-a-sorted-array",
   "url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
-  "timestamp": "2025-08-07T21:47:37.661257+00:00"
+  "timestamp": "2025-08-07T21:47:37.661257+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

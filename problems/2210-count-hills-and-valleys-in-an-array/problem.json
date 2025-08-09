@@ -8,5 +8,7 @@
   ],
   "slug": "count-hills-and-valleys-in-an-array",
   "url": "https://leetcode.com/problems/count-hills-and-valleys-in-an-array/",
-  "timestamp": "2025-08-07T19:22:56.351017+00:00"
+  "timestamp": "2025-08-07T19:22:56.351017+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

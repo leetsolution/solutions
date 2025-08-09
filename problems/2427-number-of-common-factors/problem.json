@@ -10,5 +10,7 @@
   ],
   "slug": "number-of-common-factors",
   "url": "https://leetcode.com/problems/number-of-common-factors/",
-  "timestamp": "2025-08-07T18:55:14.807036+00:00"
+  "timestamp": "2025-08-07T18:55:14.807036+00:00",
+  "time_complexity": "O(min(a, b))",
+  "space_complexity": "O(1)"
 }

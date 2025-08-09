@@ -10,5 +10,7 @@
   ],
   "slug": "height-checker",
   "url": "https://leetcode.com/problems/height-checker/",
-  "timestamp": "2025-08-07T21:41:02.942748+00:00"
+  "timestamp": "2025-08-07T21:41:02.942748+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(n)"
 }

@@ -10,5 +10,7 @@
   ],
   "slug": "minimum-time-to-reach-destination-in-directed-graph",
   "url": "https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph/",
-  "timestamp": "2025-08-09T04:45:42.656990+00:00"
+  "timestamp": "2025-08-09T04:45:42.656990+00:00",
+  "time_complexity": "O(ElogV)",
+  "space_complexity": "O(V+E)"
 }

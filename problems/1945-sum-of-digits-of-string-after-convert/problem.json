@@ -9,5 +9,7 @@
   ],
   "slug": "sum-of-digits-of-string-after-convert",
   "url": "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
-  "timestamp": "2025-08-07T19:51:00.266512+00:00"
+  "timestamp": "2025-08-07T19:51:00.266512+00:00",
+  "time_complexity": "O(k * n)",
+  "space_complexity": "O(n)"
 }

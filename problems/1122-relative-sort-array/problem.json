@@ -11,5 +11,7 @@
   ],
   "slug": "relative-sort-array",
   "url": "https://leetcode.com/problems/relative-sort-array/",
-  "timestamp": "2025-08-07T21:38:03.883870+00:00"
+  "timestamp": "2025-08-07T21:38:03.883870+00:00",
+  "time_complexity": "O(n + m + klogk)",
+  "space_complexity": "O(n)"
 }

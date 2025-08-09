@@ -9,5 +9,7 @@
   ],
   "slug": "substring-matching-pattern",
   "url": "https://leetcode.com/problems/substring-matching-pattern/",
-  "timestamp": "2025-08-07T15:28:50.590817+00:00"
+  "timestamp": "2025-08-07T15:28:50.590817+00:00",
+  "time_complexity": "O(n*m)",
+  "space_complexity": "O(m)"
 }

@@ -9,5 +9,7 @@
   ],
   "slug": "faulty-keyboard",
   "url": "https://leetcode.com/problems/faulty-keyboard/",
-  "timestamp": "2025-08-07T18:06:29.428104+00:00"
+  "timestamp": "2025-08-07T18:06:29.428104+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

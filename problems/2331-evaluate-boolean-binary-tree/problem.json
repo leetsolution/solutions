@@ -10,5 +10,7 @@
   ],
   "slug": "evaluate-boolean-binary-tree",
   "url": "https://leetcode.com/problems/evaluate-boolean-binary-tree/",
-  "timestamp": "2025-08-07T19:00:22.745166+00:00"
+  "timestamp": "2025-08-07T19:00:22.745166+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(h)"
 }

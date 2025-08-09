@@ -52,5 +52,179 @@
     "title": "Binary Tree Postorder Traversal",
     "slug": "binary-tree-postorder-traversal",
     "difficulty": "Easy"
+  },
+  {
+    "number": "226",
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "257",
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "404",
+    "title": "Sum of Left Leaves",
+    "slug": "sum-of-left-leaves",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "463",
+    "title": "Island Perimeter",
+    "slug": "island-perimeter",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "501",
+    "title": "Find Mode in Binary Search Tree",
+    "slug": "find-mode-in-binary-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "530",
+    "title": "Minimum Absolute Difference in BST",
+    "slug": "minimum-absolute-difference-in-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "543",
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "559",
+    "title": "Maximum Depth of N-ary Tree",
+    "slug": "maximum-depth-of-n-ary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "563",
+    "title": "Binary Tree Tilt",
+    "slug": "binary-tree-tilt",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "572",
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "589",
+    "title": "N-ary Tree Preorder Traversal",
+    "slug": "n-ary-tree-preorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "590",
+    "title": "N-ary Tree Postorder Traversal",
+    "slug": "n-ary-tree-postorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "617",
+    "title": "Merge Two Binary Trees",
+    "slug": "merge-two-binary-trees",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "637",
+    "title": "Average of Levels in Binary Tree",
+    "slug": "average-of-levels-in-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "653",
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "671",
+    "title": "Second Minimum Node In a Binary Tree",
+    "slug": "second-minimum-node-in-a-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "733",
+    "title": "Flood Fill",
+    "slug": "flood-fill",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "783",
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "872",
+    "title": "Leaf-Similar Trees",
+    "slug": "leaf-similar-trees",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "897",
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "938",
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "965",
+    "title": "Univalued Binary Tree",
+    "slug": "univalued-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "993",
+    "title": "Cousins in Binary Tree",
+    "slug": "cousins-in-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1022",
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "slug": "sum-of-root-to-leaf-binary-numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1379",
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "1971",
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "2331",
+    "title": "Evaluate Boolean Binary Tree",
+    "slug": "evaluate-boolean-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3590",
+    "title": "Kth Smallest Path XOR Sum",
+    "slug": "kth-smallest-path-xor-sum",
+    "difficulty": "Hard"
+  },
+  {
+    "number": "3593",
+    "title": "Minimum Increments to Equalize Leaf Paths",
+    "slug": "minimum-increments-to-equalize-leaf-paths",
+    "difficulty": "Medium"
   }
 ]

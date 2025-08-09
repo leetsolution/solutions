@@ -1,0 +1,26 @@
+[
+  {
+    "number": "2363",
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3477",
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "number": "3590",
+    "title": "Kth Smallest Path XOR Sum",
+    "slug": "kth-smallest-path-xor-sum",
+    "difficulty": "Hard"
+  }
+]

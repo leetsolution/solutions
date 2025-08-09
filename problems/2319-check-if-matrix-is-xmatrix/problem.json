@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-matrix-is-x-matrix",
   "url": "https://leetcode.com/problems/check-if-matrix-is-x-matrix/",
-  "timestamp": "2025-08-07T19:01:45.965899+00:00"
+  "timestamp": "2025-08-07T19:01:45.965899+00:00",
+  "time_complexity": "O(n^2)",
+  "space_complexity": "O(1)"
 }

@@ -8,5 +8,7 @@
   ],
   "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
   "url": "https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/",
-  "timestamp": "2025-08-07T20:10:00.820090+00:00"
+  "timestamp": "2025-08-07T20:10:00.820090+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

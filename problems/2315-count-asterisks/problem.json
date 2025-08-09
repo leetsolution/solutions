@@ -8,5 +8,7 @@
   ],
   "slug": "count-asterisks",
   "url": "https://leetcode.com/problems/count-asterisks/",
-  "timestamp": "2025-08-07T19:01:28.696585+00:00"
+  "timestamp": "2025-08-07T19:01:28.696585+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

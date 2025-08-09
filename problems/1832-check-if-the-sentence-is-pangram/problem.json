@@ -9,5 +9,7 @@
   ],
   "slug": "check-if-the-sentence-is-pangram",
   "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/",
-  "timestamp": "2025-08-07T20:05:32.156756+00:00"
+  "timestamp": "2025-08-07T20:05:32.156756+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

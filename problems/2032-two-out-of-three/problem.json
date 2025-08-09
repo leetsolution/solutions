@@ -10,5 +10,7 @@
   ],
   "slug": "two-out-of-three",
   "url": "https://leetcode.com/problems/two-out-of-three/",
-  "timestamp": "2025-08-07T19:45:16.610820+00:00"
+  "timestamp": "2025-08-07T19:45:16.610820+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }

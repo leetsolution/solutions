@@ -6,5 +6,7 @@
   "topics": [],
   "slug": "minimum-removals-to-balance-array",
   "url": "https://leetcode.com/problems/minimum-removals-to-balance-array/",
-  "timestamp": "2025-08-09T04:43:19.427612+00:00"
+  "timestamp": "2025-08-09T04:43:19.427612+00:00",
+  "time_complexity": "O(n log n)",
+  "space_complexity": "O(1)"
 }

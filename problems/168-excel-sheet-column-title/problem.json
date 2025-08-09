@@ -9,5 +9,7 @@
   ],
   "slug": "excel-sheet-column-title",
   "url": "https://leetcode.com/problems/excel-sheet-column-title/",
-  "timestamp": "2025-08-09T04:19:49.791476+00:00"
+  "timestamp": "2025-08-09T04:19:49.791476+00:00",
+  "time_complexity": "O(logN)",
+  "space_complexity": "O(logN)"
 }

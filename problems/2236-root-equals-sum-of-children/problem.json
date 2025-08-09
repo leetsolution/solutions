@@ -9,5 +9,7 @@
   ],
   "slug": "root-equals-sum-of-children",
   "url": "https://leetcode.com/problems/root-equals-sum-of-children/",
-  "timestamp": "2025-08-07T19:02:51.891084+00:00"
+  "timestamp": "2025-08-07T19:02:51.891084+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

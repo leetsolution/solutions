@@ -9,5 +9,7 @@
   ],
   "slug": "teemo-attacking",
   "url": "https://leetcode.com/problems/teemo-attacking/",
-  "timestamp": "2025-08-09T02:58:04.167662+00:00"
+  "timestamp": "2025-08-09T02:58:04.167662+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(1)"
 }

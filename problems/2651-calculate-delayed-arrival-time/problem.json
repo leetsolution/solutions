@@ -8,5 +8,7 @@
   ],
   "slug": "calculate-delayed-arrival-time",
   "url": "https://leetcode.com/problems/calculate-delayed-arrival-time/",
-  "timestamp": "2025-08-07T18:13:10.922275+00:00"
+  "timestamp": "2025-08-07T18:13:10.922275+00:00",
+  "time_complexity": "O(1)",
+  "space_complexity": "O(1)"
 }

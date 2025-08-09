@@ -9,5 +9,7 @@
   ],
   "slug": "find-n-unique-integers-sum-up-to-zero",
   "url": "https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/",
-  "timestamp": "2025-08-07T21:24:49.331650+00:00"
+  "timestamp": "2025-08-07T21:24:49.331650+00:00",
+  "time_complexity": "O(n)",
+  "space_complexity": "O(n)"
 }
